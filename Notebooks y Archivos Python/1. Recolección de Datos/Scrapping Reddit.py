@@ -1,5 +1,6 @@
 import praw
 import pandas as pd
+from tabulate import tabulate
 
 # Reemplaza con tus credenciales
 reddit = praw.Reddit(client_id='NoDVu9joldZigcTMYKkFCw',
@@ -16,4 +17,5 @@ for post in subreddit.hot(limit=10):  # Cambia limit
 
 # Crear DataFrame
 df = pd.DataFrame(posts, columns=['title', 'score', 'id', 'subreddit', 'url', 'num_comments', 'body', 'created'])
-print(df.head())
+print(tabulate(df, headers='keys', tablefmt='grid', showindex=False))
+
