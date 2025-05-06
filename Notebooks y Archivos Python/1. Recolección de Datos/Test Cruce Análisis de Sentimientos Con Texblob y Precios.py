@@ -14,7 +14,7 @@ newsapi = NewsApiClient(api_key='ed547c9f043048248b5b851a6451a2a5')
 from datetime import timedelta, date
 
 noticias = []
-fecha_final = date(2025, 4, 14)
+fecha_final = date(2025, 5, 3)
 dias = 30  # puedes aumentar
 
 for i in range(dias):
