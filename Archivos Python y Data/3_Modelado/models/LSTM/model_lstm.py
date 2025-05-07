@@ -9,7 +9,7 @@ from torch.utils.data import DataLoader, TensorDataset
 from sklearn.metrics import mean_squared_error, mean_absolute_error
 
 # === CONFIGURACIÓN GENERAL ===
-ticker = "TSLA"
+ticker = "MSFT"
 window_size = 30
 epochs = 50
 batch_size = 32
@@ -18,8 +18,8 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 # === RUTAS ===
 SCALED_DIR = "../../data/scaled"
 SPLIT_DIR = "../../data/train_test_split"
-SAVE_DIR = "../../results/predictions"
-GRAPH_DIR = "../../results/plots"
+SAVE_DIR = "../../results/predictions/lstm"
+GRAPH_DIR = "../../results/plots/lstm"
 os.makedirs(SAVE_DIR, exist_ok=True)
 os.makedirs(GRAPH_DIR, exist_ok=True)
 

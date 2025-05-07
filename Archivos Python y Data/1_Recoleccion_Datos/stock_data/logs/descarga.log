@@ -94,3 +94,12 @@
 2025-05-06 22:05:14,904 - ERROR - 
 1 Failed download:
 2025-05-06 22:05:14,904 - ERROR - ['NVDA']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-07 00:01:15,502 - INFO - AAPL ya estaba actualizado.
+2025-05-07 00:01:15,526 - INFO - TSLA ya estaba actualizado.
+2025-05-07 00:01:15,561 - INFO - MSFT ya estaba actualizado.
+2025-05-07 00:01:21,776 - ERROR - 
+1 Failed download:
+2025-05-07 00:01:21,776 - ERROR - ['AMZN']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-07 00:01:23,759 - ERROR - 
+1 Failed download:
+2025-05-07 00:01:23,759 - ERROR - ['NVDA']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
