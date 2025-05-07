@@ -7,7 +7,7 @@ import random
 import logging
 
 # === CONFIGURACIÓN GENERAL ===
-TICKERS = ["AAPL", "TSLA", "MSFT", "AMZN", "NVDA"]
+TICKERS = ["AMZN", "NVDA", "AAPL", "TSLA", "MSFT"]
 END_DATE = datetime.today().strftime('%Y-%m-%d')
 
 # Carpetas

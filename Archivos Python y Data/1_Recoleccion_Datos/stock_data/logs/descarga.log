@@ -103,3 +103,189 @@
 2025-05-07 00:01:23,759 - ERROR - 
 1 Failed download:
 2025-05-07 00:01:23,759 - ERROR - ['NVDA']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-07 09:28:04,476 - INFO - AAPL ya estaba actualizado.
+2025-05-07 09:28:04,501 - INFO - TSLA ya estaba actualizado.
+2025-05-07 09:28:04,538 - INFO - MSFT ya estaba actualizado.
+2025-05-07 09:28:12,175 - ERROR - 
+1 Failed download:
+2025-05-07 09:28:12,175 - ERROR - ['AMZN']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-07 09:28:13,984 - ERROR - 
+1 Failed download:
+2025-05-07 09:28:13,984 - ERROR - ['NVDA']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-07 11:35:05,701 - INFO - AAPL ya estaba actualizado.
+2025-05-07 11:35:05,724 - INFO - TSLA ya estaba actualizado.
+2025-05-07 11:35:05,755 - INFO - MSFT ya estaba actualizado.
+2025-05-07 11:35:14,433 - ERROR - 
+1 Failed download:
+2025-05-07 11:35:14,433 - ERROR - ['AMZN']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-07 11:35:17,632 - ERROR - 
+1 Failed download:
+2025-05-07 11:35:17,633 - ERROR - ['NVDA']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-07 12:50:55,832 - ERROR - 
+1 Failed download:
+2025-05-07 12:50:55,832 - ERROR - ['AMZN']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-07 12:50:58,334 - ERROR - 
+1 Failed download:
+2025-05-07 12:50:58,334 - ERROR - ['NVDA']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-07 12:50:58,416 - INFO - AAPL ya estaba actualizado.
+2025-05-07 12:50:58,437 - INFO - TSLA ya estaba actualizado.
+2025-05-07 12:50:58,468 - INFO - MSFT ya estaba actualizado.
+2025-05-07 12:54:11,487 - ERROR - 
+1 Failed download:
+2025-05-07 12:54:11,487 - ERROR - ['AMZN']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-07 12:54:13,834 - ERROR - 
+1 Failed download:
+2025-05-07 12:54:13,834 - ERROR - ['NVDA']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-07 12:54:13,896 - INFO - AAPL ya actualizado.
+2025-05-07 12:54:13,909 - INFO - TSLA ya actualizado.
+2025-05-07 12:54:13,931 - INFO - MSFT ya actualizado.
+2025-05-07 12:54:44,848 - ERROR - 
+1 Failed download:
+2025-05-07 12:54:44,849 - ERROR - ['AMZN']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-07 12:54:46,384 - ERROR - 
+1 Failed download:
+2025-05-07 12:54:46,384 - ERROR - ['NVDA']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-07 12:54:46,411 - INFO - AAPL ya actualizado.
+2025-05-07 12:54:46,424 - INFO - TSLA ya actualizado.
+2025-05-07 12:54:46,447 - INFO - MSFT ya actualizado.
+2025-05-07 12:55:16,506 - ERROR - 
+1 Failed download:
+2025-05-07 12:55:16,506 - ERROR - ['AMZN']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-07 12:55:29,406 - ERROR - 
+1 Failed download:
+2025-05-07 12:55:29,409 - ERROR - ['AMZN']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-07 13:00:49,623 - INFO - AMZN actualizado hasta 1998-05-15
+2025-05-07 13:01:34,897 - ERROR - 
+1 Failed download:
+2025-05-07 13:01:34,897 - ERROR - ['AMZN']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-07 13:01:38,407 - ERROR - 
+1 Failed download:
+2025-05-07 13:01:38,407 - ERROR - ['NVDA']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-07 13:01:38,504 - INFO - AAPL ya estaba actualizado.
+2025-05-07 13:01:38,520 - INFO - TSLA ya estaba actualizado.
+2025-05-07 13:01:38,545 - INFO - MSFT ya estaba actualizado.
+2025-05-07 13:01:56,803 - INFO - AMZN actualizado hasta 1999-05-15
+2025-05-07 13:03:33,303 - INFO - AMZN actualizado hasta 1999-05-15
+2025-05-07 13:08:25,887 - INFO - AMZN actualizado hasta 1998-05-14
+2025-05-07 13:08:37,702 - WARNING - \u26a0\ufe0f Error en AMZN (1998-05-15 - 1999-05-14) intento 1: No columns to parse from file
+2025-05-07 13:08:47,759 - WARNING - \u26a0\ufe0f Error en AMZN (1998-05-15 - 1999-05-14) intento 2: No columns to parse from file
+2025-05-07 13:09:07,792 - WARNING - \u26a0\ufe0f Error en AMZN (1998-05-15 - 1999-05-14) intento 3: No columns to parse from file
+2025-05-07 13:09:37,793 - ERROR - \u274c Falló descarga de AMZN para 1998-05-15 - 1999-05-14 tras 3 intentos
+2025-05-07 13:11:28,823 - INFO - AMZN actualizado hasta 1998-05-14
+2025-05-07 13:11:38,805 - WARNING - \u26a0\ufe0f Error en AMZN (1998-05-15 - 1999-05-14) intento 1: No columns to parse from file
+2025-05-07 13:11:48,824 - WARNING - \u26a0\ufe0f Error en AMZN (1998-05-15 - 1999-05-14) intento 2: No columns to parse from file
+2025-05-07 13:12:08,851 - WARNING - \u26a0\ufe0f Error en AMZN (1998-05-15 - 1999-05-14) intento 3: No columns to parse from file
+2025-05-07 13:12:38,853 - ERROR - \u274c Falló descarga de AMZN para 1998-05-15 - 1999-05-14 tras 3 intentos
+2025-05-07 13:15:36,804 - INFO - AMZN actualizado hasta 1998-05-14
+2025-05-07 13:15:51,588 - WARNING - AMZN (1998-05-15 - 1999-05-14) intento 1: Index(['Date'], dtype='object')
+2025-05-07 13:16:01,617 - WARNING - AMZN (1998-05-15 - 1999-05-14) intento 2: Index(['Date'], dtype='object')
+2025-05-07 13:16:21,648 - WARNING - AMZN (1998-05-15 - 1999-05-14) intento 3: Index(['Date'], dtype='object')
+2025-05-07 13:16:51,649 - ERROR - \u274c Falló la descarga de AMZN entre 1998-05-15 y 1999-05-14 tras 3 intentos.
+2025-05-07 13:16:53,749 - INFO - NVDA actualizado hasta 2000-01-21
+2025-05-07 13:17:11,488 - WARNING - NVDA (2000-01-22 - 2001-01-20) intento 1: Index(['Date'], dtype='object')
+2025-05-07 13:19:39,906 - INFO - AMZN actualizado hasta 1998-05-14
+2025-05-07 13:19:58,147 - WARNING - AMZN (1998-05-15 - 1999-05-14) intento 1: Index(['Date'], dtype='object')
+2025-05-07 13:20:08,175 - WARNING - AMZN (1998-05-15 - 1999-05-14) intento 2: Index(['Date'], dtype='object')
+2025-05-07 13:20:28,247 - WARNING - AMZN (1998-05-15 - 1999-05-14) intento 3: Index(['Date'], dtype='object')
+2025-05-07 13:22:25,896 - INFO - AMZN actualizado hasta 1999-05-13
+2025-05-07 13:22:40,588 - INFO - AMZN actualizado hasta 2000-05-12
+2025-05-07 13:22:56,562 - INFO - AMZN actualizado hasta 2001-05-12
+2025-05-07 13:23:11,162 - INFO - AMZN actualizado hasta 2002-05-12
+2025-05-07 13:23:26,630 - INFO - AMZN actualizado hasta 2003-05-12
+2025-05-07 13:23:42,660 - INFO - AMZN actualizado hasta 2004-05-11
+2025-05-07 13:23:58,058 - INFO - AMZN actualizado hasta 2005-05-11
+2025-05-07 13:24:08,897 - INFO - AMZN actualizado hasta 2006-05-11
+2025-05-07 13:24:27,112 - INFO - AMZN actualizado hasta 2007-05-11
+2025-05-07 13:24:38,269 - INFO - AMZN actualizado hasta 2008-05-10
+2025-05-07 13:24:50,810 - INFO - AMZN actualizado hasta 2009-05-10
+2025-05-07 13:25:06,454 - INFO - AMZN actualizado hasta 2010-05-10
+2025-05-07 13:25:20,021 - INFO - AMZN actualizado hasta 2011-05-10
+2025-05-07 13:25:35,383 - INFO - AMZN actualizado hasta 2012-05-09
+2025-05-07 13:25:54,496 - INFO - AMZN actualizado hasta 2013-05-09
+2025-05-07 13:26:14,581 - INFO - AMZN actualizado hasta 2014-05-09
+2025-05-07 13:26:29,312 - INFO - AMZN actualizado hasta 2015-05-09
+2025-05-07 13:26:43,871 - INFO - AMZN actualizado hasta 2016-05-08
+2025-05-07 13:26:55,111 - INFO - AMZN actualizado hasta 2017-05-08
+2025-05-07 13:27:12,830 - INFO - AMZN actualizado hasta 2018-05-08
+2025-05-07 13:27:27,633 - INFO - AMZN actualizado hasta 2019-05-08
+2025-05-07 13:27:44,008 - INFO - AMZN actualizado hasta 2020-05-07
+2025-05-07 13:28:01,154 - INFO - AMZN actualizado hasta 2021-05-07
+2025-05-07 13:28:12,638 - INFO - AMZN actualizado hasta 2022-05-07
+2025-05-07 13:28:32,462 - INFO - AMZN actualizado hasta 2023-05-07
+2025-05-07 13:28:52,301 - INFO - AMZN actualizado hasta 2024-05-06
+2025-05-07 13:29:07,423 - INFO - AMZN actualizado hasta 2025-05-06
+2025-05-07 13:29:21,836 - INFO - NVDA actualizado hasta 2000-01-21
+2025-05-07 13:29:39,634 - INFO - NVDA actualizado hasta 2001-01-20
+2025-05-07 13:29:52,187 - INFO - NVDA actualizado hasta 2002-01-20
+2025-05-07 13:30:03,739 - INFO - NVDA actualizado hasta 2003-01-20
+2025-05-07 13:30:20,688 - INFO - NVDA actualizado hasta 2004-01-20
+2025-05-07 13:30:35,844 - INFO - NVDA actualizado hasta 2005-01-19
+2025-05-07 13:30:53,883 - INFO - NVDA actualizado hasta 2006-01-19
+2025-05-07 13:31:12,956 - INFO - NVDA actualizado hasta 2007-01-19
+2025-05-07 13:31:25,075 - INFO - NVDA actualizado hasta 2008-01-19
+2025-05-07 13:31:41,919 - INFO - NVDA actualizado hasta 2009-01-18
+2025-05-07 13:32:01,343 - INFO - NVDA actualizado hasta 2010-01-18
+2025-05-07 13:32:13,796 - INFO - NVDA actualizado hasta 2011-01-18
+2025-05-07 13:32:26,816 - INFO - NVDA actualizado hasta 2012-01-18
+2025-05-07 13:32:43,573 - INFO - NVDA actualizado hasta 2013-01-17
+2025-05-07 13:32:55,752 - INFO - NVDA actualizado hasta 2014-01-17
+2025-05-07 13:33:16,133 - INFO - NVDA actualizado hasta 2015-01-17
+2025-05-07 13:33:27,553 - INFO - NVDA actualizado hasta 2016-01-17
+2025-05-07 13:33:41,337 - INFO - NVDA actualizado hasta 2017-01-16
+2025-05-07 13:33:57,274 - INFO - NVDA actualizado hasta 2018-01-16
+2025-05-07 13:34:11,911 - INFO - NVDA actualizado hasta 2019-01-16
+2025-05-07 13:34:31,770 - INFO - NVDA actualizado hasta 2020-01-16
+2025-05-07 13:34:47,662 - INFO - NVDA actualizado hasta 2021-01-15
+2025-05-07 13:34:59,348 - INFO - NVDA actualizado hasta 2022-01-15
+2025-05-07 13:35:12,342 - INFO - NVDA actualizado hasta 2023-01-15
+2025-05-07 13:35:30,968 - INFO - NVDA actualizado hasta 2024-01-15
+2025-05-07 13:35:50,690 - INFO - NVDA actualizado hasta 2025-01-14
+2025-05-07 13:36:05,381 - INFO - NVDA actualizado hasta 2025-05-07
+2025-05-07 13:36:41,350 - ERROR - 
+1 Failed download:
+2025-05-07 13:36:41,351 - ERROR - ['AMZN']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-07 13:36:41,391 - INFO - NVDA ya estaba actualizado.
+2025-05-07 13:36:41,420 - INFO - AAPL ya estaba actualizado.
+2025-05-07 13:36:41,436 - INFO - TSLA ya estaba actualizado.
+2025-05-07 13:36:41,462 - INFO - MSFT ya estaba actualizado.
+2025-05-07 13:38:56,958 - INFO - AMZN actualizado hasta 2025-05-07
+2025-05-07 13:40:20,015 - INFO - AMZN ya estaba actualizado.
+2025-05-07 13:40:20,028 - INFO - NVDA ya estaba actualizado.
+2025-05-07 13:40:20,055 - INFO - AAPL ya estaba actualizado.
+2025-05-07 13:40:20,068 - INFO - TSLA ya estaba actualizado.
+2025-05-07 13:40:20,092 - INFO - MSFT ya estaba actualizado.
+2025-05-07 13:40:32,186 - INFO - AMZN ya estaba actualizado.
+2025-05-07 13:40:32,199 - INFO - NVDA ya estaba actualizado.
+2025-05-07 13:40:32,224 - INFO - AAPL ya estaba actualizado.
+2025-05-07 13:40:32,238 - INFO - TSLA ya estaba actualizado.
+2025-05-07 13:40:32,262 - INFO - MSFT ya estaba actualizado.
+2025-05-07 13:40:54,199 - ERROR - 
+1 Failed download:
+2025-05-07 13:40:54,200 - ERROR - ['AMZN']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-07 13:40:54,222 - INFO - NVDA ya estaba actualizado.
+2025-05-07 13:40:54,251 - INFO - AAPL ya estaba actualizado.
+2025-05-07 13:40:54,263 - INFO - TSLA ya estaba actualizado.
+2025-05-07 13:40:54,288 - INFO - MSFT ya estaba actualizado.
+2025-05-07 13:41:04,566 - INFO - AMZN actualizado hasta 2025-05-07
+2025-05-07 13:44:13,929 - INFO - AMZN actualizado hasta 2025-05-07
+2025-05-07 13:44:27,859 - INFO - NVDA actualizado hasta 2025-05-07
+2025-05-07 13:53:41,173 - INFO - AMZN completamente actualizado hasta 2025-05-06
+2025-05-07 13:53:41,195 - INFO - NVDA completamente actualizado hasta 2025-05-06
+2025-05-07 13:53:41,247 - INFO - AAPL completamente actualizado hasta 2025-05-06
+2025-05-07 13:53:41,269 - INFO - TSLA completamente actualizado hasta 2025-05-06
+2025-05-07 13:53:41,321 - INFO - MSFT completamente actualizado hasta 2025-05-06
+2025-05-07 13:53:50,339 - INFO - AMZN completamente actualizado hasta 2025-05-06
+2025-05-07 13:53:50,362 - INFO - NVDA completamente actualizado hasta 2025-05-06
+2025-05-07 13:53:50,414 - INFO - AAPL completamente actualizado hasta 2025-05-06
+2025-05-07 13:53:50,438 - INFO - TSLA completamente actualizado hasta 2025-05-06
+2025-05-07 13:53:50,485 - INFO - MSFT completamente actualizado hasta 2025-05-06
+2025-05-07 13:53:53,501 - INFO - AMZN completamente actualizado hasta 2025-05-06
+2025-05-07 13:53:53,524 - INFO - NVDA completamente actualizado hasta 2025-05-06
+2025-05-07 13:53:53,575 - INFO - AAPL completamente actualizado hasta 2025-05-06
+2025-05-07 13:53:53,601 - INFO - TSLA completamente actualizado hasta 2025-05-06
+2025-05-07 13:53:53,648 - INFO - MSFT completamente actualizado hasta 2025-05-06
+2025-05-07 13:54:25,840 - INFO - AMZN completamente actualizado hasta 2025-05-06
+2025-05-07 13:54:25,864 - INFO - NVDA completamente actualizado hasta 2025-05-06
+2025-05-07 13:54:25,917 - INFO - AAPL completamente actualizado hasta 2025-05-06
+2025-05-07 13:54:25,941 - INFO - TSLA completamente actualizado hasta 2025-05-06
+2025-05-07 13:54:25,987 - INFO - MSFT completamente actualizado hasta 2025-05-06

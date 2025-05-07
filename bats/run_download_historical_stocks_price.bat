@@ -8,7 +8,7 @@ REM Cambiar al directorio donde está el script
 cd /d "C:\Users\Admin\PycharmProjects\IA_Finance_Society_UCN\Archivos Python y Data\1_Recoleccion_Datos\stock_data"
 
 REM Ejecutar el script
-python download_historical_stocks_price.py
+python download_historical_stocks_price_year_blocks.py
 
 echo === Proceso terminado ===
 pause

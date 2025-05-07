@@ -17,7 +17,13 @@ for archivo in os.listdir(RAW_DATA_DIR):
         ruta_archivo = os.path.join(RAW_DATA_DIR, archivo)
         print(f"🔍 Procesando {ticker}...")
 
+        # Cargar el archivo
         df = pd.read_csv(ruta_archivo, parse_dates=["Date"])
+
+        # Eliminar fila con tickers repetidos si está presente
+        if df.iloc[0].isnull().all() and df.iloc[1].str.contains(ticker).all():
+            print("⚠️ Fila con tickers repetidos detectada. Eliminando fila 1...")
+            df = df.drop(index=1).reset_index(drop=True)
 
         # Convertir columnas numéricas a float (por si vienen como texto)
         columnas_numericas = ["Close", "Open", "High", "Low", "Volume"]

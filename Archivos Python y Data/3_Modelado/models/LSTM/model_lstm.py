@@ -9,7 +9,7 @@ from torch.utils.data import DataLoader, TensorDataset
 from sklearn.metrics import mean_squared_error, mean_absolute_error
 
 # === CONFIGURACIÓN GENERAL ===
-ticker = "MSFT"
+ticker = "AMZN"
 window_size = 30
 epochs = 50
 batch_size = 32
