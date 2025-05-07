@@ -6,7 +6,7 @@ import joblib
 
 # Rutas
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-PROCESSED_DATA_DIR = os.path.join(BASE_DIR, "..", "2_Procesamiento_de_Datos", "processed_data")
+PROCESSED_DATA_DIR = os.path.join(BASE_DIR, "..", "2_Procesamiento_Datos_Stock", "processed_data")
 SPLIT_DIR = os.path.join(BASE_DIR, "data", "train_test_split")
 SCALED_DIR = os.path.join(BASE_DIR, "data", "scaled")
 os.makedirs(SPLIT_DIR, exist_ok=True)

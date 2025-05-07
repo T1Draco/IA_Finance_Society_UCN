@@ -6,10 +6,10 @@ import joblib
 import torch
 import torch.nn as nn
 from torch.utils.data import DataLoader, TensorDataset
-from sklearn.metrics import mean_squared_error, mean_absolute_error
+from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score, mean_absolute_percentage_error
 
 # === CONFIGURACIÓN GENERAL ===
-ticker = "AMZN"
+ticker = "MSFT"
 window_size = 30
 epochs = 50
 batch_size = 32
@@ -20,8 +20,10 @@ SCALED_DIR = "../../data/scaled"
 SPLIT_DIR = "../../data/train_test_split"
 SAVE_DIR = "../../results/predictions/lstm"
 GRAPH_DIR = "../../results/plots/lstm"
+FORECAST_DIR = os.path.join(GRAPH_DIR, "forecast")
 os.makedirs(SAVE_DIR, exist_ok=True)
 os.makedirs(GRAPH_DIR, exist_ok=True)
+os.makedirs(FORECAST_DIR, exist_ok=True)
 
 # === CARGA DE DATOS ESCALADOS ===
 train_scaled = np.load(os.path.join(SCALED_DIR, f"{ticker}_train_scaled.npy"))
@@ -96,24 +98,46 @@ df_result = pd.DataFrame({
 })
 csv_path = os.path.join(SAVE_DIR, f"{ticker}_lstm_pytorch_predicciones.csv")
 df_result.to_csv(csv_path, index=False)
-print(f" Resultados guardados en: {csv_path}")
+print(f"📁 Resultados guardados en: {csv_path}")
 
 # === EVALUACIÓN ===
 rmse = np.sqrt(mean_squared_error(df_result["Real"], df_result["Predicho"]))
 mae = mean_absolute_error(df_result["Real"], df_result["Predicho"])
-print(f"📊 RMSE: {rmse:.2f} | MAE: {mae:.2f}")
+r2 = r2_score(df_result["Real"], df_result["Predicho"])
+mape = mean_absolute_percentage_error(df_result["Real"], df_result["Predicho"])
 
-# === GRAFICAR ===
+print("\n📊 Métricas del Modelo Base:")
+print(f"   ✅ RMSE : {rmse:.4f}")
+print(f"   ✅ MAE  : {mae:.4f}")
+print(f"   ✅ R²   : {r2:.4f}")
+print(f"   ✅ MAPE : {mape * 100:.2f}%")
+
+# === GRAFICAR SOLO TEST ===
 plt.figure(figsize=(12, 5))
-plt.plot(df_train["Date"], df_train["Close"], label="Train", color="gray", alpha=0.6)
-plt.plot(df_result["Date"], df_result["Real"], label="Test Real", color="blue")
-plt.plot(df_result["Date"], df_result["Predicho"], label="Predicción LSTM (PyTorch)", color="orange", linestyle="--")
-plt.title(f"{ticker} – LSTM PyTorch (ventana={window_size})")
+plt.plot(df_result["Date"], df_result["Real"], label="Real", color="blue")
+plt.plot(df_result["Date"], df_result["Predicho"], label="Predicción", color="orange", linestyle="--")
+plt.title(f"{ticker} – LSTM PyTorch (Solo Test)")
 plt.xlabel("Fecha")
 plt.ylabel("Precio Close")
 plt.legend()
+# Texto con métricas
+textstr = f"""Métricas:
+RMSE  = {rmse:.2f}
+MAE   = {mae:.2f}
+R²    = {r2:.2f}
+MAPE  = {mape*100:.2f}%"""
+
+# Añadir cuadro de texto al gráfico
+plt.gca().text(
+    0.02, 0.95, textstr,
+    transform=plt.gca().transAxes,
+    fontsize=10,
+    verticalalignment='top',
+    bbox=dict(boxstyle="round,pad=0.4", facecolor='white', alpha=0.8)
+)
 plt.grid(True)
 plt.tight_layout()
-plt.savefig(os.path.join(GRAPH_DIR, f"{ticker}_lstm_pytorch_forecast.png"))
+plot_path = os.path.join(FORECAST_DIR, f"{ticker}_lstm_test_zoom.png")
+plt.savefig(plot_path)
 plt.close()
-print(f" Gráfico guardado: {ticker}_lstm_pytorch_forecast.png")
+print(f"🖼️ Gráfico de test guardado en: {plot_path}")
