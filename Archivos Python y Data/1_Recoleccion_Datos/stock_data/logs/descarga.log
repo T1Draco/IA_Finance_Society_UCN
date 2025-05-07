@@ -1,0 +1,96 @@
+2025-05-06 19:21:15,560 - INFO - AAPL actualizado correctamente.
+2025-05-06 19:21:29,352 - ERROR - 
+1 Failed download:
+2025-05-06 19:21:29,352 - ERROR - ['TSLA']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-06 19:21:43,327 - ERROR - 
+1 Failed download:
+2025-05-06 19:21:43,327 - ERROR - ['MSFT']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-06 19:24:21,811 - ERROR - 
+1 Failed download:
+2025-05-06 19:24:21,811 - ERROR - ['TSLA']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-06 19:24:40,781 - ERROR - 
+1 Failed download:
+2025-05-06 19:24:40,781 - ERROR - ['MSFT']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-06 19:26:16,801 - INFO - AAPL ya estaba actualizado.
+2025-05-06 19:26:20,754 - ERROR - 
+1 Failed download:
+2025-05-06 19:26:20,754 - ERROR - ['TSLA']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-06 19:26:23,216 - ERROR - 
+1 Failed download:
+2025-05-06 19:26:23,216 - ERROR - ['MSFT']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-06 19:38:11,992 - INFO - AAPL ya estaba actualizado.
+2025-05-06 19:38:15,996 - ERROR - 
+1 Failed download:
+2025-05-06 19:38:15,996 - ERROR - ['TSLA']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-06 19:38:49,993 - INFO - AAPL ya estaba actualizado.
+2025-05-06 19:38:53,645 - ERROR - 
+1 Failed download:
+2025-05-06 19:38:53,645 - ERROR - ['TSLA']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-06 19:38:55,598 - ERROR - 
+1 Failed download:
+2025-05-06 19:38:55,598 - ERROR - ['MSFT']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-06 19:57:43,156 - INFO - AAPL ya estaba actualizado.
+2025-05-06 19:57:50,954 - ERROR - 
+1 Failed download:
+2025-05-06 19:57:50,954 - ERROR - ['TSLA']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-06 19:57:53,499 - INFO - MSFT actualizado correctamente.
+2025-05-06 19:58:14,483 - ERROR - 
+1 Failed download:
+2025-05-06 19:58:14,483 - ERROR - ['AMZN']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-06 19:58:18,927 - ERROR - 
+1 Failed download:
+2025-05-06 19:58:18,927 - ERROR - ['NVDA']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-06 20:09:40,167 - INFO - AAPL ya estaba actualizado.
+2025-05-06 20:09:40,182 - INFO - TSLA ya estaba actualizado.
+2025-05-06 20:09:40,205 - INFO - MSFT ya estaba actualizado.
+2025-05-06 20:09:46,637 - ERROR - 
+1 Failed download:
+2025-05-06 20:09:46,637 - ERROR - ['AMZN']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-06 20:09:49,179 - ERROR - 
+1 Failed download:
+2025-05-06 20:09:49,179 - ERROR - ['NVDA']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-06 20:12:15,556 - INFO - AAPL ya estaba actualizado.
+2025-05-06 20:12:15,570 - INFO - TSLA ya estaba actualizado.
+2025-05-06 20:12:15,594 - INFO - MSFT ya estaba actualizado.
+2025-05-06 20:12:19,569 - ERROR - 
+1 Failed download:
+2025-05-06 20:12:19,569 - ERROR - ['AMZN']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-06 20:12:21,711 - ERROR - 
+1 Failed download:
+2025-05-06 20:12:21,711 - ERROR - ['NVDA']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-06 20:44:48,885 - INFO - AAPL ya estaba actualizado.
+2025-05-06 20:44:48,897 - INFO - TSLA ya estaba actualizado.
+2025-05-06 20:44:48,921 - INFO - MSFT ya estaba actualizado.
+2025-05-06 20:44:52,768 - ERROR - 
+1 Failed download:
+2025-05-06 20:44:52,768 - ERROR - ['AMZN']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-06 20:44:55,063 - ERROR - 
+1 Failed download:
+2025-05-06 20:44:55,063 - ERROR - ['NVDA']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-06 20:45:06,665 - INFO - AAPL ya estaba actualizado.
+2025-05-06 20:45:06,680 - INFO - TSLA ya estaba actualizado.
+2025-05-06 20:45:06,707 - INFO - MSFT ya estaba actualizado.
+2025-05-06 20:45:12,675 - ERROR - 
+1 Failed download:
+2025-05-06 20:45:12,675 - ERROR - ['AMZN']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-06 20:45:15,159 - ERROR - 
+1 Failed download:
+2025-05-06 20:45:15,159 - ERROR - ['NVDA']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-06 20:45:30,549 - INFO - AAPL ya estaba actualizado.
+2025-05-06 20:45:30,561 - INFO - TSLA ya estaba actualizado.
+2025-05-06 20:45:30,587 - INFO - MSFT ya estaba actualizado.
+2025-05-06 20:45:36,206 - ERROR - 
+1 Failed download:
+2025-05-06 20:45:36,206 - ERROR - ['AMZN']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-06 20:45:38,356 - ERROR - 
+1 Failed download:
+2025-05-06 20:45:38,356 - ERROR - ['NVDA']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-06 22:05:06,801 - INFO - AAPL ya estaba actualizado.
+2025-05-06 22:05:06,842 - INFO - TSLA ya estaba actualizado.
+2025-05-06 22:05:06,895 - INFO - MSFT ya estaba actualizado.
+2025-05-06 22:05:12,421 - ERROR - 
+1 Failed download:
+2025-05-06 22:05:12,421 - ERROR - ['AMZN']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-06 22:05:14,904 - ERROR - 
+1 Failed download:
+2025-05-06 22:05:14,904 - ERROR - ['NVDA']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')

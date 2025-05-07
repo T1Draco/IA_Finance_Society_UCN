@@ -7,12 +7,13 @@ import random
 import logging
 
 # === CONFIGURACIÓN GENERAL ===
-TICKERS = ["AAPL", "TSLA", "MSFT"]
+TICKERS = ["AAPL", "TSLA", "MSFT", "AMZN", "NVDA"]
 END_DATE = datetime.today().strftime('%Y-%m-%d')
 
 # Carpetas
-RAW_DATA_DIR = os.path.join("raw_data")
-LOG_DIR = os.path.join("logs")
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+RAW_DATA_DIR = os.path.join(BASE_DIR, "raw_data")
+LOG_DIR = os.path.join(BASE_DIR, "logs")
 os.makedirs(RAW_DATA_DIR, exist_ok=True)
 os.makedirs(LOG_DIR, exist_ok=True)
 
