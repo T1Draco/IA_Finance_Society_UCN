@@ -14,7 +14,7 @@ USE_SMALL_INVESTOR = True
 # === Rutas ===
 CURRENT_DIR = os.path.dirname(__file__)
 ROOT_DIR = os.path.abspath(os.path.join(CURRENT_DIR, ".."))
-MODEL_PATH = os.path.join(ROOT_DIR, "results", f"{TICKER}_dqn_model.zip")
+MODEL_PATH = os.path.join(ROOT_DIR, "results", "models" ,f"{TICKER}_dqn_model.zip")
 DATA_PATH = os.path.join(ROOT_DIR, "data", "rl_input", f"{TICKER}_rl_input.csv")
 RESULTS_DIR = os.path.join(ROOT_DIR, "results")
 PLOT_DIR = os.path.join(RESULTS_DIR, "plots", TICKER)

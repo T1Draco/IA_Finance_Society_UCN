@@ -359,3 +359,55 @@
 1 Failed download:
 2025-05-07 22:06:45,539 - ERROR - ['MSFT']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
 2025-05-07 22:06:45,564 - INFO - MSFT completamente actualizado hasta 2025-05-06
+2025-05-08 01:19:04,083 - INFO - AMZN actualizado hasta 2025-05-08
+2025-05-08 01:19:20,590 - INFO - AMZN completamente actualizado hasta 2025-05-07
+2025-05-08 01:19:21,304 - INFO - NVDA actualizado hasta 2025-05-08
+2025-05-08 01:19:38,465 - INFO - NVDA completamente actualizado hasta 2025-05-07
+2025-05-08 01:19:39,258 - INFO - AAPL actualizado hasta 2025-05-08
+2025-05-08 01:19:51,479 - INFO - AAPL completamente actualizado hasta 2025-05-07
+2025-05-08 01:19:52,090 - INFO - TSLA actualizado hasta 2025-05-08
+2025-05-08 01:20:10,760 - INFO - TSLA completamente actualizado hasta 2025-05-07
+2025-05-08 01:20:11,525 - INFO - MSFT actualizado hasta 2025-05-08
+2025-05-08 01:20:23,764 - INFO - MSFT completamente actualizado hasta 2025-05-07
+2025-05-08 01:20:26,213 - INFO - GOLD actualizado hasta 1986-02-12
+2025-05-08 01:20:44,371 - INFO - GOLD actualizado hasta 1987-02-12
+2025-05-08 01:20:57,405 - INFO - GOLD actualizado hasta 1988-02-12
+2025-05-08 01:21:11,670 - INFO - GOLD actualizado hasta 1989-02-11
+2025-05-08 01:21:28,613 - INFO - GOLD actualizado hasta 1990-02-11
+2025-05-08 01:21:43,081 - INFO - GOLD actualizado hasta 1991-02-11
+2025-05-08 01:22:00,849 - INFO - GOLD actualizado hasta 1992-02-11
+2025-05-08 01:22:16,271 - INFO - GOLD actualizado hasta 1993-02-10
+2025-05-08 01:22:36,351 - INFO - GOLD actualizado hasta 1994-02-10
+2025-05-08 01:22:50,515 - INFO - GOLD actualizado hasta 1995-02-10
+2025-05-08 01:23:09,441 - INFO - GOLD actualizado hasta 1996-02-10
+2025-05-08 01:23:22,512 - INFO - GOLD actualizado hasta 1997-02-09
+2025-05-08 01:23:39,757 - INFO - GOLD actualizado hasta 1998-02-09
+2025-05-08 01:23:57,965 - INFO - GOLD actualizado hasta 1999-02-09
+2025-05-08 01:24:11,587 - INFO - GOLD actualizado hasta 2000-02-09
+2025-05-08 01:24:25,959 - INFO - GOLD actualizado hasta 2001-02-08
+2025-05-08 01:24:39,806 - INFO - GOLD actualizado hasta 2002-02-08
+2025-05-08 01:24:54,189 - INFO - GOLD actualizado hasta 2003-02-08
+2025-05-08 01:25:10,269 - INFO - GOLD actualizado hasta 2004-02-08
+2025-05-08 01:25:30,408 - INFO - GOLD actualizado hasta 2005-02-07
+2025-05-08 01:25:50,161 - INFO - GOLD actualizado hasta 2006-02-07
+2025-05-08 01:26:09,347 - INFO - GOLD actualizado hasta 2007-02-07
+2025-05-08 01:26:23,964 - INFO - GOLD actualizado hasta 2008-02-07
+2025-05-08 01:26:39,850 - INFO - GOLD actualizado hasta 2009-02-06
+2025-05-08 01:26:54,373 - INFO - GOLD actualizado hasta 2010-02-06
+2025-05-08 01:27:12,509 - INFO - GOLD actualizado hasta 2011-02-06
+2025-05-08 01:27:31,683 - INFO - GOLD actualizado hasta 2012-02-06
+2025-05-08 01:27:51,051 - INFO - GOLD actualizado hasta 2013-02-05
+2025-05-08 01:28:10,422 - INFO - GOLD actualizado hasta 2014-02-05
+2025-05-08 01:28:28,858 - INFO - GOLD actualizado hasta 2015-02-05
+2025-05-08 01:28:49,266 - INFO - GOLD actualizado hasta 2016-02-05
+2025-05-08 01:29:02,626 - INFO - GOLD actualizado hasta 2017-02-04
+2025-05-08 01:29:23,099 - INFO - GOLD actualizado hasta 2018-02-04
+2025-05-08 01:29:37,826 - INFO - GOLD actualizado hasta 2019-02-04
+2025-05-08 01:29:56,029 - INFO - GOLD actualizado hasta 2020-02-04
+2025-05-08 01:30:16,715 - INFO - GOLD actualizado hasta 2021-02-03
+2025-05-08 01:30:37,192 - INFO - GOLD actualizado hasta 2022-02-03
+2025-05-08 01:30:51,646 - INFO - GOLD actualizado hasta 2023-02-03
+2025-05-08 01:31:03,451 - INFO - GOLD actualizado hasta 2024-02-03
+2025-05-08 01:31:17,986 - INFO - GOLD actualizado hasta 2025-02-02
+2025-05-08 01:31:32,594 - INFO - GOLD actualizado hasta 2025-05-08
+2025-05-08 01:31:43,754 - INFO - GOLD completamente actualizado hasta 2025-05-07

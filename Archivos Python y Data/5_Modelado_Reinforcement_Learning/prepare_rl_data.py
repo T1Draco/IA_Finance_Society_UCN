@@ -2,7 +2,7 @@ import pandas as pd
 import os
 
 
-def preparar_input_rl(ticker='AAPL'):
+def preparar_input_rl(ticker='GOLD'):
     path_pred = f"../3_Modelado_Precios_Futuros/results/predictions/lstm/{ticker}_lstm_pytorch_predicciones.csv"
     path_real = f"../2_Procesamiento_Datos_Stock/processed_data/{ticker}_processed.csv"
 
@@ -29,5 +29,5 @@ def preparar_input_rl(ticker='AAPL'):
 
 
 if __name__ == "__main__":
-    for ticker in ["AAPL", "AMZN", "MSFT", "NVDA", "TSLA"]:
+    for ticker in ["AAPL", "AMZN", "MSFT", "NVDA", "TSLA", "GOLD"]:
         preparar_input_rl(ticker)
