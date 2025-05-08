@@ -56,7 +56,7 @@ def descargar_datos_anuales(ticker, retries=3):
         print(f"⚠️ No se pudo determinar la fecha de inicio para {ticker}")
         return
 
-    while start < hoy:
+    while start <= hoy:
         end = min(start + timedelta(days=364), hoy)
         print(f"📥 Descargando {ticker} desde {start.date()} hasta {end.date()}")
 

@@ -289,3 +289,73 @@
 2025-05-07 13:54:25,917 - INFO - AAPL completamente actualizado hasta 2025-05-06
 2025-05-07 13:54:25,941 - INFO - TSLA completamente actualizado hasta 2025-05-06
 2025-05-07 13:54:25,987 - INFO - MSFT completamente actualizado hasta 2025-05-06
+2025-05-07 19:39:28,890 - INFO - AMZN completamente actualizado hasta 2025-05-06
+2025-05-07 19:39:28,926 - INFO - NVDA completamente actualizado hasta 2025-05-06
+2025-05-07 19:39:28,990 - INFO - AAPL completamente actualizado hasta 2025-05-06
+2025-05-07 19:39:29,025 - INFO - TSLA completamente actualizado hasta 2025-05-06
+2025-05-07 19:39:29,084 - INFO - MSFT completamente actualizado hasta 2025-05-06
+2025-05-07 19:40:40,828 - INFO - AMZN completamente actualizado hasta 2025-05-06
+2025-05-07 19:40:40,854 - INFO - NVDA completamente actualizado hasta 2025-05-06
+2025-05-07 19:40:40,906 - INFO - AAPL completamente actualizado hasta 2025-05-06
+2025-05-07 19:40:40,930 - INFO - TSLA completamente actualizado hasta 2025-05-06
+2025-05-07 19:40:40,978 - INFO - MSFT completamente actualizado hasta 2025-05-06
+2025-05-07 19:42:48,802 - ERROR - 
+1 Failed download:
+2025-05-07 19:42:48,802 - ERROR - ['AMZN']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-07 19:42:48,848 - INFO - AMZN completamente actualizado hasta 2025-05-06
+2025-05-07 19:42:50,580 - ERROR - 
+1 Failed download:
+2025-05-07 19:42:50,580 - ERROR - ['NVDA']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-07 19:42:50,594 - INFO - NVDA completamente actualizado hasta 2025-05-06
+2025-05-07 19:42:52,542 - ERROR - 
+1 Failed download:
+2025-05-07 19:42:52,542 - ERROR - ['AAPL']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-07 19:42:52,578 - INFO - AAPL completamente actualizado hasta 2025-05-06
+2025-05-07 19:42:54,374 - ERROR - 
+1 Failed download:
+2025-05-07 19:42:54,374 - ERROR - ['TSLA']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-07 19:42:54,389 - INFO - TSLA completamente actualizado hasta 2025-05-06
+2025-05-07 19:42:56,544 - ERROR - 
+1 Failed download:
+2025-05-07 19:42:56,544 - ERROR - ['MSFT']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-07 19:42:56,571 - INFO - MSFT completamente actualizado hasta 2025-05-06
+2025-05-07 19:44:58,947 - ERROR - 
+1 Failed download:
+2025-05-07 19:44:58,947 - ERROR - ['AMZN']: YFPricesMissingError('possibly delisted; no price data found  (1d 2025-05-07 00:00:00 -> 2025-05-07 00:00:00)')
+2025-05-07 19:44:58,966 - INFO - AMZN completamente actualizado hasta 2025-05-06
+2025-05-07 19:45:00,656 - ERROR - 
+1 Failed download:
+2025-05-07 19:45:00,656 - ERROR - ['NVDA']: YFPricesMissingError('possibly delisted; no price data found  (1d 2025-05-07 00:00:00 -> 2025-05-07 00:00:00)')
+2025-05-07 19:45:00,670 - INFO - NVDA completamente actualizado hasta 2025-05-06
+2025-05-07 19:45:02,463 - ERROR - 
+1 Failed download:
+2025-05-07 19:45:02,463 - ERROR - ['AAPL']: YFPricesMissingError('possibly delisted; no price data found  (1d 2025-05-07 00:00:00 -> 2025-05-07 00:00:00)')
+2025-05-07 19:45:02,493 - INFO - AAPL completamente actualizado hasta 2025-05-06
+2025-05-07 19:45:03,945 - ERROR - 
+1 Failed download:
+2025-05-07 19:45:03,945 - ERROR - ['TSLA']: YFPricesMissingError('possibly delisted; no price data found  (1d 2025-05-07 00:00:00 -> 2025-05-07 00:00:00)')
+2025-05-07 19:45:03,959 - INFO - TSLA completamente actualizado hasta 2025-05-06
+2025-05-07 19:45:05,500 - ERROR - 
+1 Failed download:
+2025-05-07 19:45:05,500 - ERROR - ['MSFT']: YFPricesMissingError('possibly delisted; no price data found  (1d 2025-05-07 00:00:00 -> 2025-05-07 00:00:00)')
+2025-05-07 19:45:05,525 - INFO - MSFT completamente actualizado hasta 2025-05-06
+2025-05-07 22:05:17,901 - ERROR - 
+1 Failed download:
+2025-05-07 22:05:17,920 - ERROR - ['AMZN']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-07 22:05:17,990 - INFO - AMZN completamente actualizado hasta 2025-05-06
+2025-05-07 22:05:39,069 - ERROR - 
+1 Failed download:
+2025-05-07 22:05:39,069 - ERROR - ['NVDA']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-07 22:05:39,082 - INFO - NVDA completamente actualizado hasta 2025-05-06
+2025-05-07 22:06:01,037 - ERROR - 
+1 Failed download:
+2025-05-07 22:06:01,037 - ERROR - ['AAPL']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-07 22:06:01,066 - INFO - AAPL completamente actualizado hasta 2025-05-06
+2025-05-07 22:06:25,277 - ERROR - 
+1 Failed download:
+2025-05-07 22:06:25,277 - ERROR - ['TSLA']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-07 22:06:25,296 - INFO - TSLA completamente actualizado hasta 2025-05-06
+2025-05-07 22:06:45,539 - ERROR - 
+1 Failed download:
+2025-05-07 22:06:45,539 - ERROR - ['MSFT']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-07 22:06:45,564 - INFO - MSFT completamente actualizado hasta 2025-05-06
