@@ -459,3 +459,146 @@
 1 Failed download:
 2025-05-08 22:45:48,181 - ERROR - ['GOLD']: YFPricesMissingError('possibly delisted; no price data found  (1d 2025-05-08 00:00:00 -> 2025-05-08 00:00:00)')
 2025-05-08 22:45:48,198 - INFO - GOLD completamente actualizado hasta 2025-05-07
+2025-05-09 10:55:52,154 - ERROR - 
+1 Failed download:
+2025-05-09 10:55:52,154 - ERROR - ['AMZN']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-09 10:55:52,188 - INFO - AMZN completamente actualizado hasta 2025-05-07
+2025-05-09 10:55:55,080 - ERROR - 
+1 Failed download:
+2025-05-09 10:55:55,080 - ERROR - ['NVDA']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-09 10:55:55,093 - INFO - NVDA completamente actualizado hasta 2025-05-07
+2025-05-09 10:55:57,881 - ERROR - 
+1 Failed download:
+2025-05-09 10:55:57,881 - ERROR - ['AAPL']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-09 10:55:57,900 - INFO - AAPL completamente actualizado hasta 2025-05-07
+2025-05-09 10:56:00,224 - ERROR - 
+1 Failed download:
+2025-05-09 10:56:00,224 - ERROR - ['TSLA']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-09 10:56:00,235 - INFO - TSLA completamente actualizado hasta 2025-05-07
+2025-05-09 10:56:02,659 - ERROR - 
+1 Failed download:
+2025-05-09 10:56:02,659 - ERROR - ['MSFT']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-09 10:56:02,677 - INFO - MSFT completamente actualizado hasta 2025-05-07
+2025-05-09 10:56:05,247 - ERROR - 
+1 Failed download:
+2025-05-09 10:56:05,247 - ERROR - ['GOLD']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-09 10:56:05,269 - INFO - GOLD completamente actualizado hasta 2025-05-07
+2025-05-09 10:56:33,124 - INFO - AMZN actualizado hasta 2025-05-09
+2025-05-09 10:56:48,209 - INFO - AMZN completamente actualizado hasta 2025-05-08
+2025-05-09 10:56:48,902 - INFO - NVDA actualizado hasta 2025-05-09
+2025-05-09 10:57:06,642 - INFO - NVDA completamente actualizado hasta 2025-05-08
+2025-05-09 10:57:07,672 - INFO - AAPL actualizado hasta 2025-05-09
+2025-05-09 10:57:23,745 - INFO - AAPL completamente actualizado hasta 2025-05-08
+2025-05-09 10:57:24,380 - INFO - TSLA actualizado hasta 2025-05-09
+2025-05-09 10:57:42,857 - INFO - TSLA completamente actualizado hasta 2025-05-08
+2025-05-09 10:57:43,760 - INFO - MSFT actualizado hasta 2025-05-09
+2025-05-09 10:57:57,450 - INFO - MSFT completamente actualizado hasta 2025-05-08
+2025-05-09 10:57:58,211 - INFO - GOLD actualizado hasta 2025-05-09
+2025-05-09 10:58:17,924 - INFO - GOLD completamente actualizado hasta 2025-05-08
+2025-05-09 11:00:49,022 - ERROR - 
+1 Failed download:
+2025-05-09 11:00:49,022 - ERROR - ['AMZN']: YFPricesMissingError('possibly delisted; no price data found  (1d 2025-05-09 00:00:00 -> 2025-05-09 00:00:00)')
+2025-05-09 11:00:49,037 - INFO - AMZN completamente actualizado hasta 2025-05-08
+2025-05-09 11:00:49,650 - ERROR - 
+1 Failed download:
+2025-05-09 11:00:49,650 - ERROR - ['NVDA']: YFPricesMissingError('possibly delisted; no price data found  (1d 2025-05-09 00:00:00 -> 2025-05-09 00:00:00)')
+2025-05-09 11:00:49,664 - INFO - NVDA completamente actualizado hasta 2025-05-08
+2025-05-09 11:00:50,345 - ERROR - 
+1 Failed download:
+2025-05-09 11:00:50,345 - ERROR - ['AAPL']: YFPricesMissingError('possibly delisted; no price data found  (1d 2025-05-09 00:00:00 -> 2025-05-09 00:00:00)')
+2025-05-09 11:00:50,365 - INFO - AAPL completamente actualizado hasta 2025-05-08
+2025-05-09 11:00:50,977 - ERROR - 
+1 Failed download:
+2025-05-09 11:00:50,977 - ERROR - ['TSLA']: YFPricesMissingError('possibly delisted; no price data found  (1d 2025-05-09 00:00:00 -> 2025-05-09 00:00:00)')
+2025-05-09 11:00:50,986 - INFO - TSLA completamente actualizado hasta 2025-05-08
+2025-05-09 11:00:51,667 - ERROR - 
+1 Failed download:
+2025-05-09 11:00:51,667 - ERROR - ['MSFT']: YFPricesMissingError('possibly delisted; no price data found  (1d 2025-05-09 00:00:00 -> 2025-05-09 00:00:00)')
+2025-05-09 11:00:51,684 - INFO - MSFT completamente actualizado hasta 2025-05-08
+2025-05-09 11:00:52,334 - ERROR - 
+1 Failed download:
+2025-05-09 11:00:52,334 - ERROR - ['GOLD']: YFPricesMissingError('possibly delisted; no price data found  (1d 2025-05-09 00:00:00 -> 2025-05-09 00:00:00)')
+2025-05-09 11:00:52,352 - INFO - GOLD completamente actualizado hasta 2025-05-08
+2025-05-09 11:00:54,167 - INFO - GC actualizado hasta 2006-12-05
+2025-05-09 11:01:11,436 - INFO - GC actualizado hasta 2007-12-05
+2025-05-09 11:01:24,069 - INFO - GC actualizado hasta 2008-12-04
+2025-05-09 11:01:38,182 - INFO - GC actualizado hasta 2009-12-04
+2025-05-09 11:01:54,550 - INFO - GC actualizado hasta 2010-12-04
+2025-05-09 11:02:09,727 - INFO - GC actualizado hasta 2011-12-04
+2025-05-09 11:02:28,708 - INFO - GC actualizado hasta 2012-12-03
+2025-05-09 11:02:47,996 - INFO - GC actualizado hasta 2013-12-03
+2025-05-09 11:03:03,428 - INFO - GC actualizado hasta 2014-12-03
+2025-05-09 11:03:16,999 - INFO - GC actualizado hasta 2015-12-03
+2025-05-09 11:03:30,578 - INFO - GC actualizado hasta 2016-12-02
+2025-05-09 11:03:44,564 - ERROR - 
+1 Failed download:
+2025-05-09 11:03:44,564 - ERROR - ['GC']: YFPricesMissingError('possibly delisted; no price data found  (1d 2016-12-03 00:00:00 -> 2017-12-02 00:00:00)')
+2025-05-09 11:03:45,163 - INFO - GC actualizado hasta 2018-12-02
+2025-05-09 11:03:57,019 - ERROR - 
+1 Failed download:
+2025-05-09 11:03:57,019 - ERROR - ['GC']: YFPricesMissingError('possibly delisted; no price data found  (1d 2018-12-03 00:00:00 -> 2019-12-02 00:00:00)')
+2025-05-09 11:03:57,912 - ERROR - 
+1 Failed download:
+2025-05-09 11:03:57,912 - ERROR - ['GC']: YFPricesMissingError('possibly delisted; no price data found  (1d 2019-12-03 00:00:00 -> 2020-12-01 00:00:00)')
+2025-05-09 11:03:58,508 - ERROR - 
+1 Failed download:
+2025-05-09 11:03:58,508 - ERROR - ['GC']: YFPricesMissingError('possibly delisted; no price data found  (1d 2020-12-02 00:00:00 -> 2021-12-01 00:00:00)')
+2025-05-09 11:03:59,140 - ERROR - 
+1 Failed download:
+2025-05-09 11:03:59,140 - ERROR - ['GC']: YFPricesMissingError('possibly delisted; no price data found  (1d 2021-12-02 00:00:00 -> 2022-12-01 00:00:00)')
+2025-05-09 11:03:59,744 - ERROR - 
+1 Failed download:
+2025-05-09 11:03:59,744 - ERROR - ['GC']: YFPricesMissingError('possibly delisted; no price data found  (1d 2022-12-02 00:00:00 -> 2023-12-01 00:00:00)')
+2025-05-09 11:04:00,380 - ERROR - 
+1 Failed download:
+2025-05-09 11:04:00,380 - ERROR - ['GC']: YFPricesMissingError('possibly delisted; no price data found  (1d 2023-12-02 00:00:00 -> 2024-11-30 00:00:00)')
+2025-05-09 11:04:00,965 - ERROR - 
+1 Failed download:
+2025-05-09 11:04:00,965 - ERROR - ['GC']: YFPricesMissingError('possibly delisted; no price data found  (1d 2024-12-01 00:00:00 -> 2025-05-09 00:00:00)')
+2025-05-09 11:04:00,983 - INFO - GC completamente actualizado hasta 2018-02-22
+2025-05-09 11:05:19,285 - ERROR - 
+1 Failed download:
+2025-05-09 11:05:19,285 - ERROR - ['AMZN']: YFPricesMissingError('possibly delisted; no price data found  (1d 2025-05-09 00:00:00 -> 2025-05-09 00:00:00)')
+2025-05-09 11:05:19,300 - INFO - AMZN completamente actualizado hasta 2025-05-08
+2025-05-09 11:05:19,896 - ERROR - 
+1 Failed download:
+2025-05-09 11:05:19,896 - ERROR - ['NVDA']: YFPricesMissingError('possibly delisted; no price data found  (1d 2025-05-09 00:00:00 -> 2025-05-09 00:00:00)')
+2025-05-09 11:05:19,910 - INFO - NVDA completamente actualizado hasta 2025-05-08
+2025-05-09 11:05:20,603 - ERROR - 
+1 Failed download:
+2025-05-09 11:05:20,603 - ERROR - ['AAPL']: YFPricesMissingError('possibly delisted; no price data found  (1d 2025-05-09 00:00:00 -> 2025-05-09 00:00:00)')
+2025-05-09 11:05:20,621 - INFO - AAPL completamente actualizado hasta 2025-05-08
+2025-05-09 11:05:21,221 - ERROR - 
+1 Failed download:
+2025-05-09 11:05:21,221 - ERROR - ['TSLA']: YFPricesMissingError('possibly delisted; no price data found  (1d 2025-05-09 00:00:00 -> 2025-05-09 00:00:00)')
+2025-05-09 11:05:21,232 - INFO - TSLA completamente actualizado hasta 2025-05-08
+2025-05-09 11:05:21,942 - ERROR - 
+1 Failed download:
+2025-05-09 11:05:21,942 - ERROR - ['MSFT']: YFPricesMissingError('possibly delisted; no price data found  (1d 2025-05-09 00:00:00 -> 2025-05-09 00:00:00)')
+2025-05-09 11:05:21,958 - INFO - MSFT completamente actualizado hasta 2025-05-08
+2025-05-09 11:05:23,876 - INFO - GC=F actualizado hasta 2001-08-29
+2025-05-09 11:05:35,908 - INFO - GC=F actualizado hasta 2002-08-29
+2025-05-09 11:05:50,463 - INFO - GC=F actualizado hasta 2003-08-29
+2025-05-09 11:06:10,333 - INFO - GC=F actualizado hasta 2004-08-28
+2025-05-09 11:06:23,158 - INFO - GC=F actualizado hasta 2005-08-28
+2025-05-09 11:06:41,951 - INFO - GC=F actualizado hasta 2006-08-28
+2025-05-09 11:06:58,022 - INFO - GC=F actualizado hasta 2007-08-28
+2025-05-09 11:07:10,931 - INFO - GC=F actualizado hasta 2008-08-27
+2025-05-09 11:07:24,444 - INFO - GC=F actualizado hasta 2009-08-27
+2025-05-09 11:07:42,746 - INFO - GC=F actualizado hasta 2010-08-27
+2025-05-09 11:07:56,354 - INFO - GC=F actualizado hasta 2011-08-27
+2025-05-09 11:08:16,426 - INFO - GC=F actualizado hasta 2012-08-26
+2025-05-09 11:08:28,512 - INFO - GC=F actualizado hasta 2013-08-26
+2025-05-09 11:08:44,370 - INFO - GC=F actualizado hasta 2014-08-26
+2025-05-09 11:09:00,293 - INFO - GC=F actualizado hasta 2015-08-26
+2025-05-09 11:09:15,774 - INFO - GC=F actualizado hasta 2016-08-25
+2025-05-09 11:09:35,582 - INFO - GC=F actualizado hasta 2017-08-25
+2025-05-09 11:09:48,413 - INFO - GC=F actualizado hasta 2018-08-25
+2025-05-09 11:10:03,497 - INFO - GC=F actualizado hasta 2019-08-25
+2025-05-09 11:10:16,428 - INFO - GC=F actualizado hasta 2020-08-24
+2025-05-09 11:10:28,998 - INFO - GC=F actualizado hasta 2021-08-24
+2025-05-09 11:10:49,043 - INFO - GC=F actualizado hasta 2022-08-24
+2025-05-09 11:11:08,108 - INFO - GC=F actualizado hasta 2023-08-24
+2025-05-09 11:11:19,817 - INFO - GC=F actualizado hasta 2024-08-23
+2025-05-09 11:11:40,329 - INFO - GC=F actualizado hasta 2025-05-09
+2025-05-09 11:11:59,572 - INFO - GC=F completamente actualizado hasta 2025-05-08

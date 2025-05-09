@@ -10,7 +10,7 @@ from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score, m
 from datetime import timedelta
 
 # === CONFIGURACIÓN GENERAL ===
-ticker = "TSLA"
+ticker = "GC=F"
 window_size = 30
 epochs = 60
 batch_size = 32
