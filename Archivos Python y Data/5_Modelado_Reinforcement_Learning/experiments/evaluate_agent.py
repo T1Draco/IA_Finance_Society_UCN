@@ -51,6 +51,9 @@ buy_and_hold = []
 portfolio_log = []
 
 for i in range(len(dates)):
+    env_.last_shares_bought = 0
+    env_.last_shares_sold = 0
+
     action, _ = model.predict(obs)
     obs, reward, done, _ = env.step(action)
 
@@ -71,15 +74,24 @@ for i in range(len(dates)):
         "shares_held": env_.shares_held,
         "price": price,
         "total_asset": capital,
-        "reward": reward
+        "reward": reward,
+        "real_shares_bought": env_.last_shares_bought,
+        "real_shares_sold": env_.last_shares_sold
     })
 
     if done:
         break
 
-# === Guardar CSV
+# === Guardar CSV con actividad real
 portfolio_df = pd.DataFrame(portfolio_log)
 portfolio_df.to_csv(os.path.join(RESULTS_DIR, f"{TICKER}_portfolio_tracking.csv"), index=False)
+
+# === NUEVAS métricas
+total_real_buys = (portfolio_df["real_shares_bought"] > 0).sum()
+total_real_sells = (portfolio_df["real_shares_sold"] > 0).sum()
+
+print(f"\n📌 Acciones realmente compradas: {total_real_buys}")
+print(f"📌 Acciones realmente vendidas  : {total_real_sells}")
 
 # === Gráfico 1: Capital + Acciones
 plt.figure(figsize=(14, 6))

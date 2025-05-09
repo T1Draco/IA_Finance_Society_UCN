@@ -19,7 +19,7 @@ class StockTradingEnv(gym.Env):
         self.observation_space = spaces.Box(
             low=-np.inf,
             high=np.inf,
-            shape=(13,),
+            shape=(14,),
             dtype=np.float32
         )
 
@@ -34,10 +34,18 @@ class StockTradingEnv(gym.Env):
         return self._get_obs()
 
     def _get_obs(self):
-        row = self.df.iloc[self.current_step]
+        if self.current_step == 0:
+            # devuelve una observación inicial "neutra"
+            obs = np.zeros(self.observation_space.shape, dtype=np.float32)
+            obs[0] = self.df.iloc[0]["Pred"]  # la predicción inicial sí está disponible
+            return obs
+        # Queremos que el agente vea lo que SABE en t:
+        row = self.df.iloc[self.current_step - 1]  # ayer
+        row_pred = self.df.iloc[self.current_step]  # predicción de hoy, que sí estaría disponible en t
 
         obs = np.array([
-            row["Close"],
+            row_pred["Pred"],  # predicción LSTM para hoy
+            row["Close"],  # último cierre conocido
             self.balance,
             self.shares_held,
             self.avg_buy_price,
@@ -69,6 +77,7 @@ class StockTradingEnv(gym.Env):
             cost = self.shares_held * price * self.transaction_cost
             self.balance += self.shares_held * price - cost
             self.shares_held = 0
+
 
         self.current_step += 1
         done = self.current_step >= len(self.df) - 1

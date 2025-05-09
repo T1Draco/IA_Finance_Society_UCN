@@ -411,3 +411,51 @@
 2025-05-08 01:31:17,986 - INFO - GOLD actualizado hasta 2025-02-02
 2025-05-08 01:31:32,594 - INFO - GOLD actualizado hasta 2025-05-08
 2025-05-08 01:31:43,754 - INFO - GOLD completamente actualizado hasta 2025-05-07
+2025-05-08 22:05:11,326 - ERROR - 
+1 Failed download:
+2025-05-08 22:05:11,326 - ERROR - ['AMZN']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-08 22:05:11,420 - INFO - AMZN completamente actualizado hasta 2025-05-07
+2025-05-08 22:05:13,564 - ERROR - 
+1 Failed download:
+2025-05-08 22:05:13,565 - ERROR - ['NVDA']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-08 22:05:13,594 - INFO - NVDA completamente actualizado hasta 2025-05-07
+2025-05-08 22:05:15,915 - ERROR - 
+1 Failed download:
+2025-05-08 22:05:15,915 - ERROR - ['AAPL']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-08 22:05:15,935 - INFO - AAPL completamente actualizado hasta 2025-05-07
+2025-05-08 22:05:17,966 - ERROR - 
+1 Failed download:
+2025-05-08 22:05:17,966 - ERROR - ['TSLA']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-08 22:05:17,977 - INFO - TSLA completamente actualizado hasta 2025-05-07
+2025-05-08 22:05:20,509 - ERROR - 
+1 Failed download:
+2025-05-08 22:05:20,509 - ERROR - ['MSFT']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-08 22:05:20,531 - INFO - MSFT completamente actualizado hasta 2025-05-07
+2025-05-08 22:05:23,185 - ERROR - 
+1 Failed download:
+2025-05-08 22:05:23,185 - ERROR - ['GOLD']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-08 22:05:23,262 - INFO - GOLD completamente actualizado hasta 2025-05-07
+2025-05-08 22:45:44,797 - ERROR - 
+1 Failed download:
+2025-05-08 22:45:44,798 - ERROR - ['AMZN']: YFPricesMissingError('possibly delisted; no price data found  (1d 2025-05-08 00:00:00 -> 2025-05-08 00:00:00)')
+2025-05-08 22:45:44,830 - INFO - AMZN completamente actualizado hasta 2025-05-07
+2025-05-08 22:45:45,493 - ERROR - 
+1 Failed download:
+2025-05-08 22:45:45,493 - ERROR - ['NVDA']: YFPricesMissingError('possibly delisted; no price data found  (1d 2025-05-08 00:00:00 -> 2025-05-08 00:00:00)')
+2025-05-08 22:45:45,507 - INFO - NVDA completamente actualizado hasta 2025-05-07
+2025-05-08 22:45:46,115 - ERROR - 
+1 Failed download:
+2025-05-08 22:45:46,115 - ERROR - ['AAPL']: YFPricesMissingError('possibly delisted; no price data found  (1d 2025-05-08 00:00:00 -> 2025-05-08 00:00:00)')
+2025-05-08 22:45:46,164 - INFO - AAPL completamente actualizado hasta 2025-05-07
+2025-05-08 22:45:46,765 - ERROR - 
+1 Failed download:
+2025-05-08 22:45:46,765 - ERROR - ['TSLA']: YFPricesMissingError('possibly delisted; no price data found  (1d 2025-05-08 00:00:00 -> 2025-05-08 00:00:00)')
+2025-05-08 22:45:46,807 - INFO - TSLA completamente actualizado hasta 2025-05-07
+2025-05-08 22:45:47,462 - ERROR - 
+1 Failed download:
+2025-05-08 22:45:47,462 - ERROR - ['MSFT']: YFPricesMissingError('possibly delisted; no price data found  (1d 2025-05-08 00:00:00 -> 2025-05-08 00:00:00)')
+2025-05-08 22:45:47,479 - INFO - MSFT completamente actualizado hasta 2025-05-07
+2025-05-08 22:45:48,181 - ERROR - 
+1 Failed download:
+2025-05-08 22:45:48,181 - ERROR - ['GOLD']: YFPricesMissingError('possibly delisted; no price data found  (1d 2025-05-08 00:00:00 -> 2025-05-08 00:00:00)')
+2025-05-08 22:45:48,198 - INFO - GOLD completamente actualizado hasta 2025-05-07

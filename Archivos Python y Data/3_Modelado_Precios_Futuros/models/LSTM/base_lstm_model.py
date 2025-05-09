@@ -9,7 +9,7 @@ from torch.utils.data import DataLoader, TensorDataset
 from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score, mean_absolute_percentage_error
 
 # === CONFIGURACIÓN GENERAL ===
-ticker = "GOLD"
+ticker = "TSLA"
 window_size = 30
 epochs = 50
 batch_size = 32
@@ -81,6 +81,8 @@ for epoch in range(epochs):
         total_loss += loss.item()
     print(f" Época {epoch+1}/{epochs} – Pérdida: {total_loss:.4f}")
 
+torch.save(model.state_dict(), "base_lstm_model.pth")
+
 # === PREDICCIÓN ===
 model.eval()
 with torch.no_grad():
@@ -141,3 +143,65 @@ plot_path = os.path.join(FORECAST_DIR, f"{ticker}_lstm_test_zoom.png")
 plt.savefig(plot_path)
 plt.close()
 print(f"🖼️ Gráfico de test guardado en: {plot_path}")
+
+from datetime import timedelta
+
+# === FORECAST FUTURO ===
+forecast_horizon = 10
+last_window = test_scaled[-window_size:].reshape(1, window_size, 1)  # Última secuencia
+input_seq = torch.tensor(last_window, dtype=torch.float32).to(device)
+
+preds_scaled = []
+model.eval()
+with torch.no_grad():
+    for _ in range(forecast_horizon):
+        pred = model(input_seq).cpu().numpy()
+        preds_scaled.append(pred[0][0])
+
+        # Desplazar ventana
+        input_np = input_seq.cpu().numpy().squeeze()
+        new_input = np.append(input_np[1:], pred)
+        input_seq = torch.tensor(new_input.reshape(1, window_size, 1), dtype=torch.float32).to(device)
+
+# === Invertir escalado ===
+forecast_real = scaler.inverse_transform(np.array(preds_scaled).reshape(-1, 1)).flatten()
+
+# === Fechas futuras ===
+last_date = df_result["Date"].iloc[-1]
+future_dates = [last_date + timedelta(days=i + 1) for i in range(forecast_horizon)]
+
+# === Calcular Intervalo de Confianza (IC ±1 std del error de test) ===
+std_error = np.std(df_result["Real"] - df_result["Predicho"])
+lower_bound = forecast_real - std_error
+upper_bound = forecast_real + std_error
+
+# === Crear DataFrame de forecast ===
+df_forecast = pd.DataFrame({
+    "Date": future_dates,
+    "Real": [np.nan] * forecast_horizon,
+    "Predicho": forecast_real,
+    "IC_lower": lower_bound,
+    "IC_upper": upper_bound
+})
+
+# === Agregar forecast al CSV ===
+df_final = pd.concat([df_result, df_forecast], ignore_index=True)
+df_final.to_csv(csv_path, index=False)
+print(f"📁 Forecast futuro agregado al archivo: {csv_path}")
+
+# === Graficar con IC ===
+plt.figure(figsize=(12, 5))
+plt.plot(df_result["Date"], df_result["Real"], label="Real", color="blue")
+plt.plot(df_final["Date"], df_final["Predicho"], label="Predicción", color="orange", linestyle="--")
+plt.fill_between(df_forecast["Date"], lower_bound, upper_bound, color='orange', alpha=0.2, label="IC ±1σ")
+plt.axvline(x=last_date, color='gray', linestyle='--', linewidth=1)
+plt.title(f"{ticker} – LSTM PyTorch (Test + Forecast)")
+plt.xlabel("Fecha")
+plt.ylabel("Precio Close")
+plt.legend()
+plt.grid(True)
+plt.tight_layout()
+plot_path_forecast = os.path.join(FORECAST_DIR, f"{ticker}_lstm_forecast_10d.png")
+plt.savefig(plot_path_forecast)
+plt.close()
+print(f"🖼️ Gráfico de forecast guardado en: {plot_path_forecast}")

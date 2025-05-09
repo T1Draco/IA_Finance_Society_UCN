@@ -14,10 +14,11 @@ class SmallInvestorEnv(StockTradingEnv):
         self.max_shares_per_trade = 3  # compra en lotes chicos
 
     def step(self, action):
-        row = self.df.iloc[self.current_step]
-        price = row["Close"]
+        row = self.df.iloc[self.current_step - 1]  # ayer
+        row_now = self.df.iloc[self.current_step]  # hoy
+        row_pred = row_now  # predicción del día (ya disponible)
+        price = row_now["Close"]
         prev_total_asset = self.balance + self.shares_held * price
-        prev_balance = self.balance
         reward = 0
         reward_bonus = 0
 
@@ -36,8 +37,21 @@ class SmallInvestorEnv(StockTradingEnv):
 
                 self.shares_held += shares_bought
                 self.balance -= total_spent
+
+                # ✅ Compró bajo SMA
+                if price < row["SMA_20"]:
+                    reward_bonus += 0.2
+
+                # ❌ Compró con poca liquidez restante
+                if self.balance < price * self.max_shares_per_trade * 1.1:
+                    reward -= 0.3
+
+                # ❌ Compró en condiciones bajistas
+                if row_pred["Pred"] <= row["Close"] and price < row["Close"]:
+                    reward -= 0.4
+
             else:
-                reward -= 0.05  # ❌ penaliza intento de comprar sin cash
+                reward -= 0.05  # ❌ intentó comprar sin cash
 
         # === Acción: Vender ===
         elif action == 2:
@@ -45,61 +59,86 @@ class SmallInvestorEnv(StockTradingEnv):
                 cost = self.shares_held * price * self.transaction_cost
                 self.balance += self.shares_held * price - cost
 
+                # ✅ Vendió con ganancia
                 if price > self.avg_buy_price:
-                    reward_bonus += 1  # ✅ vendió con ganancia
+                    reward_bonus += 1.0
+                    if (price - self.avg_buy_price) > 3:
+                        reward_bonus += 0.3  # gran ganancia
+
                 else:
                     reward_bonus -= 0.5  # ❌ vendió con pérdida
 
+                if price > row["SMA_20"]:
+                    reward_bonus += 0.1  # vendió alto
+
                 self.shares_held = 0
                 self.avg_buy_price = 0
+
+                # ✅ Salió antes de una caída
+                if row_pred["Pred"] < row["Close"] and price < row["Close"]:
+                    reward_bonus += 0.4
+
+                # ❌ Vendió antes de una subida
+                if row_pred["Pred"] > row["Close"] and price > row["Close"]:
+                    reward_bonus -= 0.3
+
             else:
-                reward -= 0.1  # ❌ penaliza vender sin tener acciones
+                reward -= 0.1  # ❌ vendió sin tener
 
         # === Acción: Hold ===
         elif action == 0:
-            reward -= 0.01  # leve penalización por inacción continua
+            price_change = row_now["Close"] - row["Close"]
+            if price_change > 2 and self.shares_held == 0:
+                reward -= 0.1  # ❌ no compró en subida
+            elif price_change < -2 and self.shares_held > 0:
+                reward -= 0.1  # ❌ no vendió en bajada
+            else:
+                reward -= 0.005
+
+            # ❌ mantuvo muchas acciones durante caída con mala predicción
+            if self.shares_held > 0 and row_pred["Pred"] < row["Close"] and price < row["Close"]:
+                reward -= 0.3
+
+            # ❌ volatilidad alta sin acción
+            volatility = abs(row["Close"] - row["SMA_20"])
+            if volatility > 3:
+                reward -= 0.1
 
         # === Avanza un paso
         self.current_step += 1
         done = self.current_step >= len(self.df) - 1
 
-        # === Calcular nuevo capital y reward base
+        # === Calcular reward base
         new_total_asset = self.balance + self.shares_held * price
         capital_gain = new_total_asset - prev_total_asset
-        reward = 0  # reiniciamos reward base (modular)
+        reward += np.tanh(capital_gain / 20)
 
-        # === 🎯 Reward proporcional continuo
-        reward += np.tanh(capital_gain / 20)  # escala ajustable
-
-        # === 💰 Bonus por ganancia significativa
-        if capital_gain > 10:
-            reward += 0.2
-
-        # === 📉 Penalización por pérdida sostenida
+        # === Penalización por pérdidas
         if new_total_asset < prev_total_asset:
-            reward -= 0.05  # penaliza pérdida neta en el paso
-
-        # === 🧠 Penalización por mantener sin convicción
-        if action in [1, 2] and abs(price - self.avg_buy_price) < 0.5:
             reward -= 0.05
-
-        # === 🧯 Penalización si se queda sin liquidez
-        if self.balance < 1:
-            reward -= 0.2
-
-        # === 📊 Penalización por drawdown respecto a máximo anterior
         if new_total_asset < self.total_asset:
             reward -= 0.1 + 0.001 * (self.total_asset - new_total_asset)
 
-        # === 🎉 Bonus pequeño si rompe el capital anterior
+        # === Bonus por superar capital previo
         if new_total_asset > self.total_asset:
             reward += 0.05
 
-        # === Aplicar bonus/penalizaciones de la acción
+        # === Penalización si sin liquidez
+        if self.balance < 1:
+            reward -= 0.2
+
+        # === Penalización por operar sin convicción
+        if action in [1, 2] and abs(price - self.avg_buy_price) < 0.5:
+            reward -= 0.05
+
+        # ❌ Mantener acciones con pérdida penaliza
+        if self.shares_held > 0 and price < self.avg_buy_price:
+            reward -= 0.01 * self.shares_held
+
+        # Aplicar bonus/penalización acumulada
         reward += reward_bonus
 
-        # Actualizar asset total
+        # Actualizar total asset
         self.total_asset = new_total_asset
+
         return self._get_obs(), reward, done, {}
-
-

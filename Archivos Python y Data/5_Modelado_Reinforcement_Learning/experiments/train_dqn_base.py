@@ -59,7 +59,7 @@ model = DQN(
 )
 
 # === Entrenamiento ===
-model.learn(total_timesteps=50_000)
+model.learn(total_timesteps=100_000)
 
 # === Evaluación rápida ===
 obs = env.reset()
