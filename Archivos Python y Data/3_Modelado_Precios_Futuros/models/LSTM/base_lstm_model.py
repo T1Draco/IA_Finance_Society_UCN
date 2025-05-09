@@ -16,11 +16,11 @@ batch_size = 32
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 # === RUTAS ===
-SCALED_DIR = "../../data/scaled"
+SCALED_DIR = "../../data/only_close_price_data/scaled"
 SPLIT_DIR = "../../data/train_test_split"
 SAVE_DIR = "../../results/predictions/lstm"
 GRAPH_DIR = "../../results/plots/lstm"
-FORECAST_DIR = os.path.join(GRAPH_DIR, "forecast")
+FORECAST_DIR = os.path.join(GRAPH_DIR, "forecast/10d")
 os.makedirs(SAVE_DIR, exist_ok=True)
 os.makedirs(GRAPH_DIR, exist_ok=True)
 os.makedirs(FORECAST_DIR, exist_ok=True)

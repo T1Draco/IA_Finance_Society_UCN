@@ -8,7 +8,7 @@ import joblib
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 PROCESSED_DATA_DIR = os.path.join(BASE_DIR, "..", "2_Procesamiento_Datos_Stock", "processed_data")
 SPLIT_DIR = os.path.join(BASE_DIR, "data", "train_test_split")
-SCALED_DIR = os.path.join(BASE_DIR, "data", "scaled")
+SCALED_DIR = os.path.join(BASE_DIR, "data/only_close_price_data", "scaled")
 os.makedirs(SPLIT_DIR, exist_ok=True)
 os.makedirs(SCALED_DIR, exist_ok=True)
 
