@@ -602,3 +602,56 @@
 2025-05-09 11:11:19,817 - INFO - GC=F actualizado hasta 2024-08-23
 2025-05-09 11:11:40,329 - INFO - GC=F actualizado hasta 2025-05-09
 2025-05-09 11:11:59,572 - INFO - GC=F completamente actualizado hasta 2025-05-08
+2025-05-09 22:05:10,697 - ERROR - 
+1 Failed download:
+2025-05-09 22:05:10,697 - ERROR - ['AMZN']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-09 22:05:10,902 - INFO - AMZN completamente actualizado hasta 2025-05-08
+2025-05-09 22:05:12,775 - ERROR - 
+1 Failed download:
+2025-05-09 22:05:12,775 - ERROR - ['NVDA']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-09 22:05:12,789 - INFO - NVDA completamente actualizado hasta 2025-05-08
+2025-05-09 22:05:14,724 - ERROR - 
+1 Failed download:
+2025-05-09 22:05:14,724 - ERROR - ['AAPL']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-09 22:05:14,743 - INFO - AAPL completamente actualizado hasta 2025-05-08
+2025-05-09 22:05:16,816 - ERROR - 
+1 Failed download:
+2025-05-09 22:05:16,816 - ERROR - ['TSLA']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-09 22:05:16,827 - INFO - TSLA completamente actualizado hasta 2025-05-08
+2025-05-09 22:05:19,036 - ERROR - 
+1 Failed download:
+2025-05-09 22:05:19,036 - ERROR - ['MSFT']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-09 22:05:19,054 - INFO - MSFT completamente actualizado hasta 2025-05-08
+2025-05-09 22:05:21,114 - ERROR - 
+1 Failed download:
+2025-05-09 22:05:21,114 - ERROR - ['GC=F']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-09 22:05:21,127 - INFO - GC=F completamente actualizado hasta 2025-05-08
+2025-05-10 04:25:22,914 - INFO - AMZN actualizado hasta 2025-05-10
+2025-05-10 04:25:38,322 - INFO - AMZN completamente actualizado hasta 2025-05-09
+2025-05-10 04:25:39,011 - INFO - NVDA actualizado hasta 2025-05-10
+2025-05-10 04:25:51,504 - INFO - NVDA completamente actualizado hasta 2025-05-09
+2025-05-10 04:25:52,238 - INFO - AAPL actualizado hasta 2025-05-10
+2025-05-10 04:26:08,791 - INFO - AAPL completamente actualizado hasta 2025-05-09
+2025-05-10 04:26:09,428 - INFO - TSLA actualizado hasta 2025-05-10
+2025-05-10 04:26:23,724 - INFO - TSLA completamente actualizado hasta 2025-05-09
+2025-05-10 04:26:24,607 - INFO - MSFT actualizado hasta 2025-05-10
+2025-05-10 04:26:38,213 - INFO - MSFT completamente actualizado hasta 2025-05-09
+2025-05-10 04:26:38,815 - INFO - GC=F actualizado hasta 2025-05-10
+2025-05-10 04:26:54,890 - INFO - GC=F completamente actualizado hasta 2025-05-09
+2025-05-10 04:26:56,353 - INFO - ETH actualizado hasta 2025-05-10
+2025-05-10 04:27:06,787 - INFO - ETH completamente actualizado hasta 2025-05-09
+2025-05-10 04:30:59,302 - INFO - AMZN completamente actualizado hasta 2025-05-09
+2025-05-10 04:31:00,178 - INFO - NVDA completamente actualizado hasta 2025-05-09
+2025-05-10 04:31:00,822 - INFO - AAPL completamente actualizado hasta 2025-05-09
+2025-05-10 04:31:01,464 - INFO - TSLA completamente actualizado hasta 2025-05-09
+2025-05-10 04:31:02,169 - INFO - MSFT completamente actualizado hasta 2025-05-09
+2025-05-10 04:31:03,048 - INFO - GC=F completamente actualizado hasta 2025-05-09
+2025-05-10 04:31:05,032 - INFO - ETH-USD actualizado hasta 2018-11-08
+2025-05-10 04:31:18,324 - INFO - ETH-USD actualizado hasta 2019-11-08
+2025-05-10 04:31:36,346 - INFO - ETH-USD actualizado hasta 2020-11-07
+2025-05-10 04:31:53,017 - INFO - ETH-USD actualizado hasta 2021-11-07
+2025-05-10 04:32:06,299 - INFO - ETH-USD actualizado hasta 2022-11-07
+2025-05-10 04:32:19,690 - INFO - ETH-USD actualizado hasta 2023-11-07
+2025-05-10 04:32:31,103 - INFO - ETH-USD actualizado hasta 2024-11-06
+2025-05-10 04:32:47,080 - INFO - ETH-USD actualizado hasta 2025-05-10
+2025-05-10 04:33:06,408 - INFO - ETH-USD completamente actualizado hasta 2025-05-09

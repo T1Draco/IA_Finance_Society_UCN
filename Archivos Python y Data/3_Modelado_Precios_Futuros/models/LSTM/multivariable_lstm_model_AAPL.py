@@ -10,8 +10,8 @@ from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score, m
 from datetime import timedelta
 
 # === CONFIGURACIÓN GENERAL ===
-ticker = "GC=F"
-window_size = 30
+ticker = "AAPLmultivariable_lstm_model_AAPL.py"
+window_size = 60
 epochs = 60
 batch_size = 32
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
@@ -56,11 +56,11 @@ train_loader = DataLoader(TensorDataset(X_train, y_train), batch_size=batch_size
 class LSTMModel(nn.Module):
     def __init__(self, input_size):
         super().__init__()
-        self.lstm = nn.LSTM(input_size=input_size, hidden_size=64, num_layers=2, batch_first=True, dropout=0.2)
+        self.lstm = nn.LSTM(input_size=input_size, hidden_size=256, num_layers=2, batch_first=True, dropout=0.2)
         self.fc = nn.Sequential(
-            nn.Linear(64, 32),
+            nn.Linear(256, 128),
             nn.ReLU(),
-            nn.Linear(32, 1)
+            nn.Linear(128, 1)
         )
 
     def forward(self, x):

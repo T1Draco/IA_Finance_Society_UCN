@@ -5,7 +5,9 @@ from sklearn.preprocessing import MinMaxScaler
 import joblib
 
 # === Configuración ===
-AÑOS_TEST = 2  # último N años para test
+TICKERS_ALTOS = ["AAPL", "MSFT", "NVDA", "GC=F"]
+AÑOS_TEST_DEFECTO = 2
+AÑOS_TEST_ALTO = 1
 
 # === Rutas base ===
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -30,7 +32,9 @@ for archivo in os.listdir(PROCESSED_DATA_DIR):
         df = df[["Date"] + features].dropna()
 
         # === División temporal por fecha ===
-        fecha_corte = df["Date"].max() - pd.DateOffset(years=AÑOS_TEST)
+        # === División temporal por fecha ===
+        años_test = AÑOS_TEST_ALTO if ticker in TICKERS_ALTOS else AÑOS_TEST_DEFECTO
+        fecha_corte = df["Date"].max() - pd.DateOffset(years=años_test)
         df_train = df[df["Date"] < fecha_corte]
         df_test = df[df["Date"] >= fecha_corte]
 
@@ -49,3 +53,32 @@ for archivo in os.listdir(PROCESSED_DATA_DIR):
         df_test.to_csv(os.path.join(SPLIT_DIR, f"{ticker}_test.csv"), index=False)
 
         print(f"✅ {ticker} procesado correctamente con corte en {fecha_corte.date()}")
+
+        import matplotlib.pyplot as plt
+
+        # === Crear carpeta y gráfico del split ===
+        PLOT_DIR = os.path.join(BASE_DIR, "graficos_split")
+        os.makedirs(PLOT_DIR, exist_ok=True)
+
+        # Crear gráfico visual del split con línea de corte
+        plt.figure(figsize=(12, 5))
+        plt.plot(df_train["Date"], df_train["Close"], label="Train", color="blue")
+        plt.plot(df_test["Date"], df_test["Close"], label="Test", color="red")
+
+        # Línea vertical en la fecha de corte
+        plt.axvline(x=fecha_corte, color='black', linestyle='--', linewidth=1, label='Fecha de corte')
+
+        # Anotación de la fecha exacta
+        plt.text(fecha_corte, df["Close"].max() * 0.93,
+                 fecha_corte.strftime('%Y-%m-%d'),
+                 rotation=90, color='black', verticalalignment='center')
+
+        plt.title(f"{ticker} – Train/Test Split ({años_test} años)")
+        plt.xlabel("Fecha")
+        plt.ylabel("Precio Close")
+        plt.legend()
+        plt.grid(True)
+        plt.tight_layout()
+        plt.savefig(os.path.join(PLOT_DIR, f"{ticker}_split.png"))
+        plt.close()
+        print(f"📊 Gráfico guardado: {ticker}_split.png")
