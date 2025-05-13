@@ -10,7 +10,7 @@ from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score, m
 from datetime import timedelta
 
 # === CONFIGURACIÓN GENERAL ===
-ticker = "AAPLmultivariable_lstm_model_AAPL.py"
+ticker = "AAPL"
 window_size = 60
 epochs = 60
 batch_size = 32
@@ -56,9 +56,11 @@ train_loader = DataLoader(TensorDataset(X_train, y_train), batch_size=batch_size
 class LSTMModel(nn.Module):
     def __init__(self, input_size):
         super().__init__()
-        self.lstm = nn.LSTM(input_size=input_size, hidden_size=256, num_layers=2, batch_first=True, dropout=0.2)
+        self.lstm = nn.LSTM(input_size=input_size, hidden_size=128, num_layers=2, batch_first=True, dropout=0.2)
         self.fc = nn.Sequential(
-            nn.Linear(256, 128),
+            nn.Linear(128, 128),
+            nn.ReLU(),
+            nn.Linear(128, 128),
             nn.ReLU(),
             nn.Linear(128, 1)
         )

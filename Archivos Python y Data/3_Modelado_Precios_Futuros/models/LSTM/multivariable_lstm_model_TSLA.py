@@ -15,6 +15,7 @@ window_size = 60
 epochs = 60
 batch_size = 32
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+print(device)
 
 # === RUTAS ===
 SCALED_DIR = "../../data/multivariable_data/multivariable_scaled"

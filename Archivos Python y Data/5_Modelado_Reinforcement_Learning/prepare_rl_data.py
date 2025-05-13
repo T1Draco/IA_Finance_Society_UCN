@@ -3,7 +3,7 @@ import os
 
 
 def preparar_input_rl(ticker='GOLD'):
-    path_pred = f"../3_Modelado_Precios_Futuros/results/predictions/lstm/{ticker}_lstm_pytorch_predicciones.csv"
+    path_pred = f"../3_Modelado_Precios_Futuros/results/predictions/lstm_multivariable/{ticker}_lstm_multivariable_predicciones.csv"
     path_real = f"../2_Procesamiento_Datos_Stock/processed_data/{ticker}_processed.csv"
 
     df_pred = pd.read_csv(path_pred, parse_dates=["Date"])
@@ -29,5 +29,5 @@ def preparar_input_rl(ticker='GOLD'):
 
 
 if __name__ == "__main__":
-    for ticker in ["AAPL", "AMZN", "MSFT", "NVDA", "TSLA", "GOLD"]:
+    for ticker in ["AAPL", "MSFT", "NVDA", "TSLA", "GC=F", "ETH-USD"]:
         preparar_input_rl(ticker)
