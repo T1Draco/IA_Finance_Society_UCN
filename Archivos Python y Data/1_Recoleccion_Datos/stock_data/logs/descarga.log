@@ -8,3 +8,17 @@
 1 Failed download:
 2025-05-11 23:49:21,839 - ERROR - ['ETH-USD']: YFPricesMissingError('possibly delisted; no price data found  (1d 2025-05-11 00:00:00 -> 2025-05-11 00:00:00)')
 2025-05-11 23:49:21,847 - INFO - ETH-USD completamente actualizado hasta 2025-05-10
+2025-05-13 11:12:50,293 - INFO - AMZN actualizado hasta 2025-05-13
+2025-05-13 11:13:05,543 - INFO - AMZN completamente actualizado hasta 2025-05-12
+2025-05-13 11:13:06,227 - INFO - NVDA actualizado hasta 2025-05-13
+2025-05-13 11:13:16,960 - INFO - NVDA completamente actualizado hasta 2025-05-12
+2025-05-13 11:13:17,719 - INFO - AAPL actualizado hasta 2025-05-13
+2025-05-13 11:13:33,523 - INFO - AAPL completamente actualizado hasta 2025-05-12
+2025-05-13 11:13:34,167 - INFO - TSLA actualizado hasta 2025-05-13
+2025-05-13 11:13:54,176 - INFO - TSLA completamente actualizado hasta 2025-05-12
+2025-05-13 11:13:55,015 - INFO - MSFT actualizado hasta 2025-05-13
+2025-05-13 11:14:12,034 - INFO - MSFT completamente actualizado hasta 2025-05-12
+2025-05-13 11:14:12,673 - INFO - GC=F actualizado hasta 2025-05-13
+2025-05-13 11:14:32,428 - INFO - GC=F completamente actualizado hasta 2025-05-12
+2025-05-13 11:14:33,035 - INFO - ETH-USD actualizado hasta 2025-05-13
+2025-05-13 11:14:49,585 - INFO - ETH-USD completamente actualizado hasta 2025-05-12

@@ -21,10 +21,13 @@ class SmallInvestorEnv(StockTradingEnv):
         prev_total_asset = self.balance + self.shares_held * price
         reward = 0
         reward_bonus = 0
+        self.last_shares_bought = 0
+        self.last_shares_sold = 0
 
         # === Acción: Comprar ===
         if action == 1:
             shares_bought = min(self.balance // price, self.max_shares_per_trade)
+
             if shares_bought > 0:
                 cost = shares_bought * price * self.transaction_cost
                 total_spent = shares_bought * price + cost
@@ -37,53 +40,51 @@ class SmallInvestorEnv(StockTradingEnv):
 
                 self.shares_held += shares_bought
                 self.balance -= total_spent
+                self.last_shares_bought = shares_bought  # ✅ solo si compra
 
-                # ✅ Compró bajo SMA
+                # Bonus/Penalizaciones
                 if price < row["SMA_20"]:
                     reward_bonus += 0.2
-
-                # ❌ Compró con poca liquidez restante
                 if self.balance < price * self.max_shares_per_trade * 1.1:
                     reward -= 0.3
-
-                # ❌ Compró en condiciones bajistas
                 if row_pred["Pred"] <= row["Close"] and price < row["Close"]:
                     reward -= 0.4
 
             else:
-                reward -= 0.05  # ❌ intentó comprar sin cash
+                self.last_shares_bought = 0  # ❌ no hubo compra real
+                reward -= 0.2  # Penalización más fuerte por intentar comprar sin fondos
+
 
         # === Acción: Vender ===
-        elif action == 2:
+        if action == 2:
             if self.shares_held > 0:
+                self.last_shares_sold = self.shares_held  # ✅ guardar antes de vender
                 cost = self.shares_held * price * self.transaction_cost
                 self.balance += self.shares_held * price - cost
 
-                # ✅ Vendió con ganancia
+                # Bonus/Penalizaciones
                 if price > self.avg_buy_price:
                     reward_bonus += 1.0
                     if (price - self.avg_buy_price) > 3:
-                        reward_bonus += 0.3  # gran ganancia
-
+                        reward_bonus += 0.3
                 else:
-                    reward_bonus -= 0.5  # ❌ vendió con pérdida
+                    reward_bonus -= 0.5
 
                 if price > row["SMA_20"]:
-                    reward_bonus += 0.1  # vendió alto
+                    reward_bonus += 0.1
+
+                if row_pred["Pred"] < row["Close"] and price < row["Close"]:
+                    reward_bonus += 0.4
+                if row_pred["Pred"] > row["Close"] and price > row["Close"]:
+                    reward_bonus -= 0.3
 
                 self.shares_held = 0
                 self.avg_buy_price = 0
 
-                # ✅ Salió antes de una caída
-                if row_pred["Pred"] < row["Close"] and price < row["Close"]:
-                    reward_bonus += 0.4
-
-                # ❌ Vendió antes de una subida
-                if row_pred["Pred"] > row["Close"] and price > row["Close"]:
-                    reward_bonus -= 0.3
-
             else:
-                reward -= 0.1  # ❌ vendió sin tener
+                self.last_shares_sold = 0  # ❌ no hubo venta real
+                reward -= 0.2  # Penalización más fuerte por vender sin tener acciones
+
 
         # === Acción: Hold ===
         elif action == 0:

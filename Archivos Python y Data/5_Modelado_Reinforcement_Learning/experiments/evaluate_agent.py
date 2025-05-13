@@ -7,7 +7,7 @@ from stable_baselines3 import DQN
 from stable_baselines3.common.vec_env import DummyVecEnv, VecFrameStack
 
 # === CONFIGURACIÓN ===
-TICKER = "AAPL"
+TICKER = "TSLA"
 N_STACK = 10
 USE_SMALL_INVESTOR = True
 
@@ -51,12 +51,12 @@ buy_and_hold = []
 portfolio_log = []
 
 for i in range(len(dates)):
-    env_.last_shares_bought = 0
-    env_.last_shares_sold = 0
-
     action, _ = model.predict(obs)
+
+    # 💡 Aquí sí el entorno ejecuta la acción y actualiza internamente los valores
     obs, reward, done, _ = env.step(action)
 
+    # 💡 Extraer las variables ya modificadas
     price = df.loc[i + N_STACK - 1, "Close"]
     capital = env_.balance + env_.shares_held * price
     bh_value = env_.initial_balance * price / initial_close
@@ -66,6 +66,7 @@ for i in range(len(dates)):
     rewards.append(float(reward))
     actions_taken.append(int(action))
 
+    # 🧠 Aquí ya tiene los valores correctos desde el .step()
     portfolio_log.append({
         "step": i,
         "date": dates[i],

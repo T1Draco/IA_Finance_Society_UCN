@@ -16,7 +16,7 @@ from env.stock_trading_env import StockTradingEnv # Descomenta para usar inverso
 from env.small_investor_env import SmallInvestorEnv  # Descomenta para usar inversor pequeño
 
 # === Configuración del experimento ===
-TICKER = "AAPL"
+TICKER = "TSLA"
 USE_SMALL_INVESTOR = True  # Cambia esto a True para usar el entorno del inversor pequeño
 
 # === Cargar datos ===
@@ -59,7 +59,7 @@ model = DQN(
 )
 
 # === Entrenamiento ===
-model.learn(total_timesteps=100_000)
+model.learn(total_timesteps=50_000)
 
 # === Evaluación rápida ===
 obs = env.reset()
