@@ -81,7 +81,7 @@ for epoch in range(epochs):
         total_loss += loss.item()
     print(f" Época {epoch+1}/{epochs} – Pérdida: {total_loss:.4f}")
 
-torch.save(model.state_dict(), "base_lstm_model.pth")
+torch.save(model.state_dict(), "models_pytorch/base_lstm_model.pth")
 
 # === PREDICCIÓN ===
 model.eval()

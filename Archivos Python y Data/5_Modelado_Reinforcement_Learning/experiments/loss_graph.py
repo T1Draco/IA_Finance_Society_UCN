@@ -5,7 +5,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # === CONFIGURACIÓN ===
-TICKER = "TSLA"
+TICKER = "AAPL"
 SMOOTHING_WINDOW = 50
 
 # === Rutas del proyecto ===
