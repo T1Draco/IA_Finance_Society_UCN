@@ -22,3 +22,83 @@
 2025-05-13 11:14:32,428 - INFO - GC=F completamente actualizado hasta 2025-05-12
 2025-05-13 11:14:33,035 - INFO - ETH-USD actualizado hasta 2025-05-13
 2025-05-13 11:14:49,585 - INFO - ETH-USD completamente actualizado hasta 2025-05-12
+2025-05-13 22:05:12,728 - ERROR - 
+1 Failed download:
+2025-05-13 22:05:12,728 - ERROR - ['AMZN']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-13 22:05:12,836 - INFO - AMZN completamente actualizado hasta 2025-05-12
+2025-05-13 22:05:15,097 - ERROR - 
+1 Failed download:
+2025-05-13 22:05:15,097 - ERROR - ['NVDA']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-13 22:05:15,121 - INFO - NVDA completamente actualizado hasta 2025-05-12
+2025-05-13 22:05:17,438 - ERROR - 
+1 Failed download:
+2025-05-13 22:05:17,438 - ERROR - ['AAPL']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-13 22:05:17,472 - INFO - AAPL completamente actualizado hasta 2025-05-12
+2025-05-13 22:05:19,560 - ERROR - 
+1 Failed download:
+2025-05-13 22:05:19,560 - ERROR - ['TSLA']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-13 22:05:19,573 - INFO - TSLA completamente actualizado hasta 2025-05-12
+2025-05-13 22:05:21,979 - ERROR - 
+1 Failed download:
+2025-05-13 22:05:21,979 - ERROR - ['MSFT']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-13 22:05:21,998 - INFO - MSFT completamente actualizado hasta 2025-05-12
+2025-05-13 22:05:24,098 - ERROR - 
+1 Failed download:
+2025-05-13 22:05:24,098 - ERROR - ['GC=F']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-13 22:05:24,113 - INFO - GC=F completamente actualizado hasta 2025-05-12
+2025-05-13 22:05:26,222 - ERROR - 
+1 Failed download:
+2025-05-13 22:05:26,222 - ERROR - ['ETH-USD']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-05-13 22:05:26,235 - INFO - ETH-USD completamente actualizado hasta 2025-05-12
+2025-05-13 23:39:53,815 - ERROR - 
+1 Failed download:
+2025-05-13 23:39:53,817 - ERROR - ['AMZN']: YFPricesMissingError('possibly delisted; no price data found  (1d 2025-05-13 00:00:00 -> 2025-05-13 00:00:00)')
+2025-05-13 23:39:53,864 - INFO - AMZN completamente actualizado hasta 2025-05-12
+2025-05-13 23:39:54,444 - ERROR - 
+1 Failed download:
+2025-05-13 23:39:54,445 - ERROR - ['NVDA']: YFPricesMissingError('possibly delisted; no price data found  (1d 2025-05-13 00:00:00 -> 2025-05-13 00:00:00)')
+2025-05-13 23:39:54,479 - INFO - NVDA completamente actualizado hasta 2025-05-12
+2025-05-13 23:39:55,106 - ERROR - 
+1 Failed download:
+2025-05-13 23:39:55,107 - ERROR - ['AAPL']: YFPricesMissingError('possibly delisted; no price data found  (1d 2025-05-13 00:00:00 -> 2025-05-13 00:00:00)')
+2025-05-13 23:39:55,155 - INFO - AAPL completamente actualizado hasta 2025-05-12
+2025-05-13 23:39:56,014 - ERROR - 
+1 Failed download:
+2025-05-13 23:39:56,014 - ERROR - ['TSLA']: YFPricesMissingError('possibly delisted; no price data found  (1d 2025-05-13 00:00:00 -> 2025-05-13 00:00:00)')
+2025-05-13 23:39:56,031 - INFO - TSLA completamente actualizado hasta 2025-05-12
+2025-05-13 23:39:56,637 - ERROR - 
+1 Failed download:
+2025-05-13 23:39:56,637 - ERROR - ['MSFT']: YFPricesMissingError('possibly delisted; no price data found  (1d 2025-05-13 00:00:00 -> 2025-05-13 00:00:00)')
+2025-05-13 23:39:56,682 - INFO - MSFT completamente actualizado hasta 2025-05-12
+2025-05-13 23:39:57,335 - INFO - GC=F actualizado hasta 2025-05-13
+2025-05-13 23:40:16,407 - INFO - GC=F completamente actualizado hasta 2025-05-13
+2025-05-13 23:40:17,029 - ERROR - 
+1 Failed download:
+2025-05-13 23:40:17,029 - ERROR - ['ETH-USD']: YFPricesMissingError('possibly delisted; no price data found  (1d 2025-05-13 00:00:00 -> 2025-05-13 00:00:00)')
+2025-05-13 23:40:17,061 - INFO - ETH-USD completamente actualizado hasta 2025-05-12
+2025-05-13 23:40:18,955 - INFO - CL=F actualizado hasta 2001-08-22
+2025-05-13 23:40:38,266 - INFO - CL=F actualizado hasta 2002-08-22
+2025-05-13 23:40:49,157 - INFO - CL=F actualizado hasta 2003-08-22
+2025-05-13 23:41:08,052 - INFO - CL=F actualizado hasta 2004-08-21
+2025-05-13 23:41:19,623 - INFO - CL=F actualizado hasta 2005-08-21
+2025-05-13 23:41:38,768 - INFO - CL=F actualizado hasta 2006-08-21
+2025-05-13 23:41:54,518 - INFO - CL=F actualizado hasta 2007-08-21
+2025-05-13 23:42:13,805 - INFO - CL=F actualizado hasta 2008-08-20
+2025-05-13 23:42:33,813 - INFO - CL=F actualizado hasta 2009-08-20
+2025-05-13 23:42:49,930 - INFO - CL=F actualizado hasta 2010-08-20
+2025-05-13 23:43:01,960 - INFO - CL=F actualizado hasta 2011-08-20
+2025-05-13 23:43:22,461 - INFO - CL=F actualizado hasta 2012-08-19
+2025-05-13 23:43:39,407 - INFO - CL=F actualizado hasta 2013-08-19
+2025-05-13 23:43:52,458 - INFO - CL=F actualizado hasta 2014-08-19
+2025-05-13 23:44:04,013 - INFO - CL=F actualizado hasta 2015-08-19
+2025-05-13 23:44:16,281 - INFO - CL=F actualizado hasta 2016-08-18
+2025-05-13 23:44:28,011 - INFO - CL=F actualizado hasta 2017-08-18
+2025-05-13 23:44:45,626 - INFO - CL=F actualizado hasta 2018-08-18
+2025-05-13 23:44:58,368 - INFO - CL=F actualizado hasta 2019-08-18
+2025-05-13 23:45:12,318 - INFO - CL=F actualizado hasta 2020-08-17
+2025-05-13 23:45:32,539 - INFO - CL=F actualizado hasta 2021-08-17
+2025-05-13 23:45:43,315 - INFO - CL=F actualizado hasta 2022-08-17
+2025-05-13 23:45:56,768 - INFO - CL=F actualizado hasta 2023-08-17
+2025-05-13 23:46:10,409 - INFO - CL=F actualizado hasta 2024-08-16
+2025-05-13 23:46:23,693 - INFO - CL=F actualizado hasta 2025-05-13
+2025-05-13 23:46:40,354 - INFO - CL=F completamente actualizado hasta 2025-05-13

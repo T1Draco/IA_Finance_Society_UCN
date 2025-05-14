@@ -7,7 +7,7 @@ import random
 import logging
 
 # === CONFIGURACIÓN GENERAL ===
-TICKERS = ["AMZN", "NVDA", "AAPL", "TSLA", "MSFT", "GC=F", "ETH-USD"]
+TICKERS = ["AMZN", "NVDA", "AAPL", "TSLA", "MSFT", "GC=F", "ETH-USD", "CL=F"]
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 RAW_DATA_DIR = os.path.join(BASE_DIR, "raw_data")
 LOG_DIR = os.path.join(BASE_DIR, "logs")

@@ -1,21 +1,17 @@
-import gym
-from gym import spaces
+import gymnasium as gym
+from gymnasium import spaces
 import numpy as np
 import pandas as pd
 
-
 class StockTradingEnv(gym.Env):
     def __init__(self, df, initial_balance=10000):
-        super(StockTradingEnv, self).__init__()
+        super().__init__()
 
         self.df = df.reset_index(drop=True)
         self.initial_balance = initial_balance
-        self.transaction_cost = 0.001  # 0.1% (más estándar)
+        self.transaction_cost = 0.001
 
-        # Acción: 0 = hold, 1 = buy, 2 = sell
-        self.action_space = spaces.Discrete(3)
-
-        # Observación: predicción LSTM y precio real
+        self.action_space = spaces.Discrete(3)  # 0: hold, 1: buy, 2: sell
         self.observation_space = spaces.Box(
             low=-np.inf,
             high=np.inf,
@@ -23,29 +19,38 @@ class StockTradingEnv(gym.Env):
             dtype=np.float32
         )
 
+        self.seed()  # Inicializa semilla
         self.reset()
 
-    def reset(self):
+    def seed(self, seed=None):
+        self.np_random, seed = gym.utils.seeding.np_random(seed)
+        return [seed]
+
+    def reset(self, *, seed=None, options=None):
+        super().reset(seed=seed)
+        self.seed(seed)
+
         self.balance = self.initial_balance
         self.shares_held = 0
         self.current_step = 0
         self.total_asset = self.balance
-        self.avg_buy_price = 0  # 🆕 nuevo atributo para seguimiento de compras
-        return self._get_obs()
+        self.avg_buy_price = 0
+
+        obs = self._get_obs()
+        return obs, {}
 
     def _get_obs(self):
         if self.current_step == 0:
-            # devuelve una observación inicial "neutra"
             obs = np.zeros(self.observation_space.shape, dtype=np.float32)
-            obs[0] = self.df.iloc[0]["Pred"]  # la predicción inicial sí está disponible
+            obs[0] = self.df.iloc[0]["Pred"]
             return obs
-        # Queremos que el agente vea lo que SABE en t:
-        row = self.df.iloc[self.current_step - 1]  # ayer
-        row_pred = self.df.iloc[self.current_step]  # predicción de hoy, que sí estaría disponible en t
+
+        row = self.df.iloc[self.current_step - 1]
+        row_pred = self.df.iloc[self.current_step]
 
         obs = np.array([
-            row_pred["Pred"],  # predicción LSTM para hoy
-            row["Close"],  # último cierre conocido
+            row_pred["Pred"],
+            row["Close"],
             self.balance,
             self.shares_held,
             self.avg_buy_price,
@@ -64,7 +69,7 @@ class StockTradingEnv(gym.Env):
 
     def step(self, action):
         row = self.df.iloc[self.current_step]
-        price = row['Close']
+        price = row["Close"]
         cost = 0
 
         if action == 1:  # Buy
@@ -78,15 +83,18 @@ class StockTradingEnv(gym.Env):
             self.balance += self.shares_held * price - cost
             self.shares_held = 0
 
-
         self.current_step += 1
-        done = self.current_step >= len(self.df) - 1
+        terminated = self.current_step >= len(self.df) - 1
+        truncated = False
+
         next_total_asset = self.balance + self.shares_held * price
         reward = next_total_asset - self.total_asset - cost
         self.total_asset = next_total_asset
 
-        return self._get_obs(), reward, done, {}
+        obs = self._get_obs()
+        info = {}
+
+        return obs, reward, terminated, truncated, info
 
     def render(self):
-        print(
-            f"Step: {self.current_step}, Balance: {self.balance}, Shares held: {self.shares_held}, Asset: {self.total_asset}")
+        print(f"Step: {self.current_step}, Balance: {self.balance}, Shares held: {self.shares_held}, Asset: {self.total_asset}")
