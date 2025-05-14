@@ -85,7 +85,9 @@ for epoch in range(epochs):
         loss.backward()
         optimizer.step()
         total_loss += loss.item()
-    print(f"Época {epoch+1}/{epochs} – Pérdida: {total_loss:.4f}")
+
+    train_losses.append(total_loss)  # <<--- GUARDAR LA PÉRDIDA DE ESTA ÉPOCA
+    print(f"Época {epoch + 1}/{epochs} – Pérdida: {total_loss:.4f}")
 
 torch.save(model.state_dict(), f"{ticker}_lstm_multivariable_model.pth")
 
@@ -232,20 +234,6 @@ plot_path_forecast_zoom = os.path.join(FORECAST_DIR, f"{ticker}_lstm_multivariab
 plt.savefig(plot_path_forecast_zoom)
 plt.close()
 print(f"🔍 Gráfico con zoom guardado en: {plot_path_forecast_zoom}")
-
-
-for epoch in range(epochs):
-    total_loss = 0
-    for X_batch, y_batch in train_loader:
-        optimizer.zero_grad()
-        output = model(X_batch).squeeze()
-        loss = criterion(output, y_batch)
-        loss.backward()
-        optimizer.step()
-        total_loss += loss.item()
-
-    train_losses.append(total_loss)  # <<--- GUARDAR LA PÉRDIDA DE ESTA ÉPOCA
-    print(f"Época {epoch + 1}/{epochs} – Pérdida: {total_loss:.4f}")
 
 # === GRAFICAR FUNCIÓN DE PÉRDIDA ===
 plt.figure(figsize=(10, 4))
