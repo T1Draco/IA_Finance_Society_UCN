@@ -72,6 +72,8 @@ model = LSTMModel(input_size).to(device)
 criterion = nn.MSELoss()
 optimizer = torch.optim.Adam(model.parameters(), lr=0.001)
 
+train_losses = []
+
 # === ENTRENAMIENTO ===
 model.train()
 for epoch in range(epochs):
@@ -230,3 +232,28 @@ plot_path_forecast_zoom = os.path.join(FORECAST_DIR, f"{ticker}_lstm_multivariab
 plt.savefig(plot_path_forecast_zoom)
 plt.close()
 print(f"🔍 Gráfico con zoom guardado en: {plot_path_forecast_zoom}")
+
+
+for epoch in range(epochs):
+    total_loss = 0
+    for X_batch, y_batch in train_loader:
+        optimizer.zero_grad()
+        output = model(X_batch).squeeze()
+        loss = criterion(output, y_batch)
+        loss.backward()
+        optimizer.step()
+        total_loss += loss.item()
+
+    train_losses.append(total_loss)  # <<--- GUARDAR LA PÉRDIDA DE ESTA ÉPOCA
+    print(f"Época {epoch + 1}/{epochs} – Pérdida: {total_loss:.4f}")
+
+# === GRAFICAR FUNCIÓN DE PÉRDIDA ===
+plt.figure(figsize=(10, 4))
+plt.plot(range(1, epochs + 1), train_losses, label="Pérdida de entrenamiento", color="red")
+plt.xlabel("Época")
+plt.ylabel("Pérdida")
+plt.title(f"{ticker} – Función de pérdida durante el entrenamiento")
+plt.grid(True)
+plt.legend()
+plt.tight_layout()
+plt.show()
