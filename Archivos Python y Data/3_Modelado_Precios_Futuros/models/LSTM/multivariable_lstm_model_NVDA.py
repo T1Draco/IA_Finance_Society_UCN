@@ -10,7 +10,7 @@ from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score, m
 from datetime import timedelta
 
 # === CONFIGURACIÓN GENERAL ===
-ticker = "AAPL"
+ticker = "NVDA"
 window_size = 60
 epochs = 60
 batch_size = 32
@@ -58,9 +58,9 @@ class LSTMModel(nn.Module):
         super().__init__()
         self.lstm = nn.LSTM(input_size=input_size, hidden_size=512, num_layers=3, batch_first=True, dropout=0.2)
         self.fc = nn.Sequential(
-            nn.Linear(512, 128),
+            nn.Linear(512, 256),
             nn.ReLU(),
-            nn.Linear(128, 128),
+            nn.Linear(256, 128),
             nn.ReLU(),
             nn.Linear(128, 1)
         )
