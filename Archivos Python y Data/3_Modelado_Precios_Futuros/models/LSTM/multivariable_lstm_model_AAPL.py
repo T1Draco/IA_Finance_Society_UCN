@@ -3,7 +3,7 @@ import torch.nn as nn
 class LSTMModel(nn.Module):
     def __init__(self, input_size):
         super().__init__()
-        self.lstm = nn.LSTM(input_size=input_size, hidden_size=512, num_layers=2, batch_first=True, dropout=0.2)
+        self.lstm = nn.LSTM(input_size=input_size, hidden_size=512, num_layers=3, batch_first=True, dropout=0.2)
         self.fc = nn.Sequential(
             nn.Linear(512, 128),
             nn.ReLU(),
