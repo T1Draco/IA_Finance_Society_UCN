@@ -29,5 +29,5 @@ def preparar_input_rl(ticker='GOLD'):
 
 
 if __name__ == "__main__":
-    for ticker in ["AAPL", "MSFT", "NVDA", "TSLA", "GC=F", "ETH-USD", "CL=F"]:
+    for ticker in ["AAPL", "AMZN", "CL=F", "ETH-USD", "GC=F", "MSFT", "NVDA", "TSLA"]:
         preparar_input_rl(ticker)

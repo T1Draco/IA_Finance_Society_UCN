@@ -28,14 +28,21 @@ if ROOT_DIR not in sys.path:
 # === Cargar datos y entorno ===
 df = pd.read_csv(DATA_PATH, parse_dates=["Date"])
 
-from env.small_investor_tsla_env import SmallInvestorEnv
 from env.stock_trading_env import StockTradingEnv
+from rewards.reward_fn_tsla import reward_fn_tsla
+
 
 def make_env():
-    return SmallInvestorEnv(df) if USE_SMALL_INVESTOR else StockTradingEnv(df)
+    return StockTradingEnv(
+        df,
+        transaction_cost=0.002,
+        max_shares_per_trade=3,
+        reward_fn=reward_fn_tsla
+    )
+
 
 env = DummyVecEnv([make_env])
-env = VecFrameStack(env, n_stack=N_STACK)
+#env = VecFrameStack(env, n_stack=N_STACK)
 model = DQN.load(MODEL_PATH, env=env)
 
 # === Simulación ===
