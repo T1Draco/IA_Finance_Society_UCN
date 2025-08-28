@@ -32,7 +32,6 @@ for archivo in os.listdir(PROCESSED_DATA_DIR):
         df = df[["Date"] + features].dropna()
 
         # === División temporal por fecha ===
-        # === División temporal por fecha ===
         años_test = AÑOS_TEST_ALTO if ticker in TICKERS_ALTOS else AÑOS_TEST_DEFECTO
         fecha_corte = df["Date"].max() - pd.DateOffset(years=años_test)
         df_train = df[df["Date"] < fecha_corte]

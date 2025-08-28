@@ -89,8 +89,11 @@ for epoch in range(epochs):
     train_losses.append(total_loss)  # <<--- GUARDAR LA PÉRDIDA DE ESTA ÉPOCA
     print(f"Época {epoch + 1}/{epochs} – Pérdida: {total_loss:.4f}")
 
-torch.save(model.state_dict(), f"{ticker}_lstm_multivariable_model.pth")
+save_dir = "./models_pytorch"
+os.makedirs(save_dir, exist_ok=True)
 
+# Guarda el modelo
+torch.save(model.state_dict(), os.path.join(save_dir, f"{ticker}_lstm_multivariable_model.pth"))
 # === PREDICCIÓN TEST ===
 model.eval()
 with torch.no_grad():

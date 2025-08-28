@@ -1,0 +1,2 @@
+Ticker,Fecha inicial,Fecha final,Retorno total (%),Retorno medio diario (%),Volatilidad diaria (%),Precio máximo,Precio mínimo,Drawdown máximo (%),Volumen promedio,Volumen máximo,RSI promedio,RSI máximo,RSI mínimo
+CL=F,2000-08-24,2025-08-27,102.81379458729059,-0.014705156349292606,4.929198079796152,145.2899932861328,-37.630001068115234,-125.89992622135169,303889.45487941225,2288230,51.697830796787166,96.58793194019567,6.0773242792190985

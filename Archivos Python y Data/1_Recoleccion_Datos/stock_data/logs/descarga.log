@@ -527,3 +527,1517 @@
 2025-06-09 22:07:02,048 - INFO - ETH-USD completamente actualizado hasta 2025-06-08
 2025-06-09 22:07:02,381 - INFO - CL=F actualizado hasta 2025-06-09
 2025-06-09 22:07:18,834 - INFO - CL=F completamente actualizado hasta 2025-06-09
+2025-06-11 22:05:08,552 - INFO - AMZN actualizado hasta 2025-06-11
+2025-06-11 22:05:24,843 - INFO - AMZN completamente actualizado hasta 2025-06-10
+2025-06-11 22:05:25,222 - INFO - NVDA actualizado hasta 2025-06-11
+2025-06-11 22:05:44,660 - INFO - NVDA completamente actualizado hasta 2025-06-10
+2025-06-11 22:05:45,116 - INFO - AAPL actualizado hasta 2025-06-11
+2025-06-11 22:05:55,909 - INFO - AAPL completamente actualizado hasta 2025-06-10
+2025-06-11 22:05:56,249 - INFO - TSLA actualizado hasta 2025-06-11
+2025-06-11 22:06:13,091 - INFO - TSLA completamente actualizado hasta 2025-06-10
+2025-06-11 22:06:13,547 - INFO - MSFT actualizado hasta 2025-06-11
+2025-06-11 22:06:24,466 - INFO - MSFT completamente actualizado hasta 2025-06-10
+2025-06-11 22:06:24,875 - INFO - GC=F actualizado hasta 2025-06-11
+2025-06-11 22:06:35,625 - INFO - GC=F completamente actualizado hasta 2025-06-11
+2025-06-11 22:06:35,950 - INFO - ETH-USD actualizado hasta 2025-06-11
+2025-06-11 22:06:53,730 - INFO - ETH-USD completamente actualizado hasta 2025-06-10
+2025-06-11 22:07:03,478 - INFO - CL=F actualizado hasta 2025-06-11
+2025-06-11 22:07:13,545 - INFO - CL=F completamente actualizado hasta 2025-06-11
+2025-06-12 22:05:12,775 - ERROR - 
+1 Failed download:
+2025-06-12 22:05:12,775 - ERROR - ['AMZN']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-12 22:05:12,891 - INFO - AMZN completamente actualizado hasta 2025-06-10
+2025-06-12 22:05:16,436 - ERROR - 
+1 Failed download:
+2025-06-12 22:05:16,436 - ERROR - ['NVDA']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-12 22:05:16,451 - INFO - NVDA completamente actualizado hasta 2025-06-10
+2025-06-12 22:05:20,242 - ERROR - 
+1 Failed download:
+2025-06-12 22:05:20,242 - ERROR - ['AAPL']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-12 22:05:20,263 - INFO - AAPL completamente actualizado hasta 2025-06-10
+2025-06-12 22:05:23,147 - ERROR - 
+1 Failed download:
+2025-06-12 22:05:23,147 - ERROR - ['TSLA']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-12 22:05:23,157 - INFO - TSLA completamente actualizado hasta 2025-06-10
+2025-06-12 22:05:25,828 - ERROR - 
+1 Failed download:
+2025-06-12 22:05:25,828 - ERROR - ['MSFT']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-12 22:05:25,849 - INFO - MSFT completamente actualizado hasta 2025-06-10
+2025-06-12 22:05:28,712 - ERROR - 
+1 Failed download:
+2025-06-12 22:05:28,712 - ERROR - ['GC=F']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-12 22:05:28,726 - INFO - GC=F completamente actualizado hasta 2025-06-11
+2025-06-12 22:05:31,818 - ERROR - 
+1 Failed download:
+2025-06-12 22:05:31,818 - ERROR - ['ETH-USD']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-12 22:05:31,828 - INFO - ETH-USD completamente actualizado hasta 2025-06-10
+2025-06-12 22:05:34,497 - ERROR - 
+1 Failed download:
+2025-06-12 22:05:34,497 - ERROR - ['CL=F']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-12 22:05:34,512 - INFO - CL=F completamente actualizado hasta 2025-06-11
+2025-06-13 22:05:41,892 - ERROR - 
+1 Failed download:
+2025-06-13 22:05:41,892 - ERROR - ['AMZN']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-13 22:05:42,244 - INFO - AMZN completamente actualizado hasta 2025-06-10
+2025-06-13 22:05:45,116 - ERROR - 
+1 Failed download:
+2025-06-13 22:05:45,116 - ERROR - ['NVDA']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-13 22:05:45,130 - INFO - NVDA completamente actualizado hasta 2025-06-10
+2025-06-13 22:05:48,243 - ERROR - 
+1 Failed download:
+2025-06-13 22:05:48,243 - ERROR - ['AAPL']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-13 22:05:48,263 - INFO - AAPL completamente actualizado hasta 2025-06-10
+2025-06-13 22:05:51,137 - ERROR - 
+1 Failed download:
+2025-06-13 22:05:51,137 - ERROR - ['TSLA']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-13 22:05:51,148 - INFO - TSLA completamente actualizado hasta 2025-06-10
+2025-06-13 22:05:54,771 - ERROR - 
+1 Failed download:
+2025-06-13 22:05:54,771 - ERROR - ['MSFT']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-13 22:05:54,791 - INFO - MSFT completamente actualizado hasta 2025-06-10
+2025-06-13 22:05:58,339 - ERROR - 
+1 Failed download:
+2025-06-13 22:05:58,339 - ERROR - ['GC=F']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-13 22:05:58,354 - INFO - GC=F completamente actualizado hasta 2025-06-11
+2025-06-13 22:06:02,629 - ERROR - 
+1 Failed download:
+2025-06-13 22:06:02,629 - ERROR - ['ETH-USD']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-13 22:06:02,642 - INFO - ETH-USD completamente actualizado hasta 2025-06-10
+2025-06-13 22:06:05,958 - ERROR - 
+1 Failed download:
+2025-06-13 22:06:05,958 - ERROR - ['CL=F']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-13 22:06:05,972 - INFO - CL=F completamente actualizado hasta 2025-06-11
+2025-06-15 22:05:12,261 - ERROR - 
+1 Failed download:
+2025-06-15 22:05:12,262 - ERROR - ['AMZN']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-15 22:05:12,361 - INFO - AMZN completamente actualizado hasta 2025-06-10
+2025-06-15 22:05:15,222 - ERROR - 
+1 Failed download:
+2025-06-15 22:05:15,222 - ERROR - ['NVDA']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-15 22:05:15,236 - INFO - NVDA completamente actualizado hasta 2025-06-10
+2025-06-15 22:05:18,341 - ERROR - 
+1 Failed download:
+2025-06-15 22:05:18,341 - ERROR - ['AAPL']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-15 22:05:18,361 - INFO - AAPL completamente actualizado hasta 2025-06-10
+2025-06-15 22:05:21,223 - ERROR - 
+1 Failed download:
+2025-06-15 22:05:21,224 - ERROR - ['TSLA']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-15 22:05:21,235 - INFO - TSLA completamente actualizado hasta 2025-06-10
+2025-06-15 22:05:24,177 - ERROR - 
+1 Failed download:
+2025-06-15 22:05:24,177 - ERROR - ['MSFT']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-15 22:05:24,201 - INFO - MSFT completamente actualizado hasta 2025-06-10
+2025-06-15 22:05:27,073 - ERROR - 
+1 Failed download:
+2025-06-15 22:05:27,073 - ERROR - ['GC=F']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-15 22:05:27,088 - INFO - GC=F completamente actualizado hasta 2025-06-11
+2025-06-15 22:05:30,616 - ERROR - 
+1 Failed download:
+2025-06-15 22:05:30,616 - ERROR - ['ETH-USD']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-15 22:05:30,627 - INFO - ETH-USD completamente actualizado hasta 2025-06-10
+2025-06-15 22:05:33,468 - ERROR - 
+1 Failed download:
+2025-06-15 22:05:33,468 - ERROR - ['CL=F']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-15 22:05:33,484 - INFO - CL=F completamente actualizado hasta 2025-06-11
+2025-06-16 22:05:13,877 - ERROR - 
+1 Failed download:
+2025-06-16 22:05:13,877 - ERROR - ['AMZN']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-16 22:05:13,929 - INFO - AMZN completamente actualizado hasta 2025-06-10
+2025-06-16 22:05:17,277 - ERROR - 
+1 Failed download:
+2025-06-16 22:05:17,277 - ERROR - ['NVDA']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-16 22:05:17,292 - INFO - NVDA completamente actualizado hasta 2025-06-10
+2025-06-16 22:05:20,100 - ERROR - 
+1 Failed download:
+2025-06-16 22:05:20,100 - ERROR - ['AAPL']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-16 22:05:20,121 - INFO - AAPL completamente actualizado hasta 2025-06-10
+2025-06-16 22:05:22,786 - ERROR - 
+1 Failed download:
+2025-06-16 22:05:22,786 - ERROR - ['TSLA']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-16 22:05:22,796 - INFO - TSLA completamente actualizado hasta 2025-06-10
+2025-06-16 22:05:25,204 - ERROR - 
+1 Failed download:
+2025-06-16 22:05:25,204 - ERROR - ['MSFT']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-16 22:05:25,226 - INFO - MSFT completamente actualizado hasta 2025-06-10
+2025-06-16 22:05:27,650 - ERROR - 
+1 Failed download:
+2025-06-16 22:05:27,650 - ERROR - ['GC=F']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-16 22:05:27,662 - INFO - GC=F completamente actualizado hasta 2025-06-11
+2025-06-16 22:05:30,047 - ERROR - 
+1 Failed download:
+2025-06-16 22:05:30,047 - ERROR - ['ETH-USD']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-16 22:05:30,057 - INFO - ETH-USD completamente actualizado hasta 2025-06-10
+2025-06-16 22:05:32,156 - ERROR - 
+1 Failed download:
+2025-06-16 22:05:32,156 - ERROR - ['CL=F']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-16 22:05:32,171 - INFO - CL=F completamente actualizado hasta 2025-06-11
+2025-06-17 22:05:12,476 - ERROR - 
+1 Failed download:
+2025-06-17 22:05:12,477 - ERROR - ['AMZN']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-17 22:05:12,576 - INFO - AMZN completamente actualizado hasta 2025-06-10
+2025-06-17 22:05:15,896 - ERROR - 
+1 Failed download:
+2025-06-17 22:05:15,896 - ERROR - ['NVDA']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-17 22:05:15,914 - INFO - NVDA completamente actualizado hasta 2025-06-10
+2025-06-17 22:05:18,347 - ERROR - 
+1 Failed download:
+2025-06-17 22:05:18,347 - ERROR - ['AAPL']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-17 22:05:18,370 - INFO - AAPL completamente actualizado hasta 2025-06-10
+2025-06-17 22:05:20,626 - ERROR - 
+1 Failed download:
+2025-06-17 22:05:20,627 - ERROR - ['TSLA']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-17 22:05:20,648 - INFO - TSLA completamente actualizado hasta 2025-06-10
+2025-06-17 22:05:23,232 - ERROR - 
+1 Failed download:
+2025-06-17 22:05:23,232 - ERROR - ['MSFT']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-17 22:05:23,250 - INFO - MSFT completamente actualizado hasta 2025-06-10
+2025-06-17 22:05:25,549 - ERROR - 
+1 Failed download:
+2025-06-17 22:05:25,549 - ERROR - ['GC=F']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-17 22:05:25,563 - INFO - GC=F completamente actualizado hasta 2025-06-11
+2025-06-17 22:05:28,820 - ERROR - 
+1 Failed download:
+2025-06-17 22:05:28,820 - ERROR - ['ETH-USD']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-17 22:05:28,831 - INFO - ETH-USD completamente actualizado hasta 2025-06-10
+2025-06-17 22:05:31,416 - ERROR - 
+1 Failed download:
+2025-06-17 22:05:31,416 - ERROR - ['CL=F']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-17 22:05:31,454 - INFO - CL=F completamente actualizado hasta 2025-06-11
+2025-06-18 22:05:11,686 - ERROR - 
+1 Failed download:
+2025-06-18 22:05:11,686 - ERROR - ['AMZN']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-18 22:05:11,755 - INFO - AMZN completamente actualizado hasta 2025-06-10
+2025-06-18 22:05:14,506 - ERROR - 
+1 Failed download:
+2025-06-18 22:05:14,506 - ERROR - ['NVDA']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-18 22:05:14,521 - INFO - NVDA completamente actualizado hasta 2025-06-10
+2025-06-18 22:05:17,502 - ERROR - 
+1 Failed download:
+2025-06-18 22:05:17,502 - ERROR - ['AAPL']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-18 22:05:17,524 - INFO - AAPL completamente actualizado hasta 2025-06-10
+2025-06-18 22:05:19,940 - ERROR - 
+1 Failed download:
+2025-06-18 22:05:19,940 - ERROR - ['TSLA']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-18 22:05:19,955 - INFO - TSLA completamente actualizado hasta 2025-06-10
+2025-06-18 22:05:23,017 - ERROR - 
+1 Failed download:
+2025-06-18 22:05:23,017 - ERROR - ['MSFT']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-18 22:05:23,035 - INFO - MSFT completamente actualizado hasta 2025-06-10
+2025-06-18 22:05:26,391 - ERROR - 
+1 Failed download:
+2025-06-18 22:05:26,391 - ERROR - ['GC=F']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-18 22:05:26,406 - INFO - GC=F completamente actualizado hasta 2025-06-11
+2025-06-18 22:05:28,672 - ERROR - 
+1 Failed download:
+2025-06-18 22:05:28,672 - ERROR - ['ETH-USD']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-18 22:05:28,683 - INFO - ETH-USD completamente actualizado hasta 2025-06-10
+2025-06-18 22:05:31,051 - ERROR - 
+1 Failed download:
+2025-06-18 22:05:31,051 - ERROR - ['CL=F']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-18 22:05:31,083 - INFO - CL=F completamente actualizado hasta 2025-06-11
+2025-06-19 22:05:12,517 - ERROR - 
+1 Failed download:
+2025-06-19 22:05:12,517 - ERROR - ['AMZN']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-19 22:05:12,577 - INFO - AMZN completamente actualizado hasta 2025-06-10
+2025-06-19 22:05:15,029 - ERROR - 
+1 Failed download:
+2025-06-19 22:05:15,029 - ERROR - ['NVDA']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-19 22:05:15,043 - INFO - NVDA completamente actualizado hasta 2025-06-10
+2025-06-19 22:05:19,088 - ERROR - 
+1 Failed download:
+2025-06-19 22:05:19,088 - ERROR - ['AAPL']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-19 22:05:19,108 - INFO - AAPL completamente actualizado hasta 2025-06-10
+2025-06-19 22:05:22,403 - ERROR - 
+1 Failed download:
+2025-06-19 22:05:22,403 - ERROR - ['TSLA']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-19 22:05:22,413 - INFO - TSLA completamente actualizado hasta 2025-06-10
+2025-06-19 22:05:24,793 - ERROR - 
+1 Failed download:
+2025-06-19 22:05:24,793 - ERROR - ['MSFT']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-19 22:05:24,811 - INFO - MSFT completamente actualizado hasta 2025-06-10
+2025-06-19 22:05:27,523 - ERROR - 
+1 Failed download:
+2025-06-19 22:05:27,523 - ERROR - ['GC=F']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-19 22:05:27,537 - INFO - GC=F completamente actualizado hasta 2025-06-11
+2025-06-19 22:05:29,594 - ERROR - 
+1 Failed download:
+2025-06-19 22:05:29,594 - ERROR - ['ETH-USD']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-19 22:05:29,605 - INFO - ETH-USD completamente actualizado hasta 2025-06-10
+2025-06-19 22:05:31,992 - ERROR - 
+1 Failed download:
+2025-06-19 22:05:31,992 - ERROR - ['CL=F']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-19 22:05:32,006 - INFO - CL=F completamente actualizado hasta 2025-06-11
+2025-06-20 22:05:11,249 - ERROR - 
+1 Failed download:
+2025-06-20 22:05:11,249 - ERROR - ['AMZN']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-20 22:05:11,374 - INFO - AMZN completamente actualizado hasta 2025-06-10
+2025-06-20 22:05:14,060 - ERROR - 
+1 Failed download:
+2025-06-20 22:05:14,061 - ERROR - ['NVDA']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-20 22:05:14,076 - INFO - NVDA completamente actualizado hasta 2025-06-10
+2025-06-20 22:05:16,519 - ERROR - 
+1 Failed download:
+2025-06-20 22:05:16,519 - ERROR - ['AAPL']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-20 22:05:16,540 - INFO - AAPL completamente actualizado hasta 2025-06-10
+2025-06-20 22:05:19,797 - ERROR - 
+1 Failed download:
+2025-06-20 22:05:19,797 - ERROR - ['TSLA']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-20 22:05:19,807 - INFO - TSLA completamente actualizado hasta 2025-06-10
+2025-06-20 22:05:22,525 - ERROR - 
+1 Failed download:
+2025-06-20 22:05:22,525 - ERROR - ['MSFT']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-20 22:05:22,542 - INFO - MSFT completamente actualizado hasta 2025-06-10
+2025-06-20 22:05:24,895 - ERROR - 
+1 Failed download:
+2025-06-20 22:05:24,895 - ERROR - ['GC=F']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-20 22:05:24,908 - INFO - GC=F completamente actualizado hasta 2025-06-11
+2025-06-20 22:05:29,807 - ERROR - 
+1 Failed download:
+2025-06-20 22:05:29,807 - ERROR - ['ETH-USD']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-20 22:05:29,816 - INFO - ETH-USD completamente actualizado hasta 2025-06-10
+2025-06-20 22:05:32,505 - ERROR - 
+1 Failed download:
+2025-06-20 22:05:32,505 - ERROR - ['CL=F']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-20 22:05:32,517 - INFO - CL=F completamente actualizado hasta 2025-06-11
+2025-06-21 22:05:11,856 - ERROR - 
+1 Failed download:
+2025-06-21 22:05:11,856 - ERROR - ['AMZN']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-21 22:05:11,951 - INFO - AMZN completamente actualizado hasta 2025-06-10
+2025-06-21 22:05:14,774 - ERROR - 
+1 Failed download:
+2025-06-21 22:05:14,774 - ERROR - ['NVDA']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-21 22:05:14,788 - INFO - NVDA completamente actualizado hasta 2025-06-10
+2025-06-21 22:05:17,383 - ERROR - 
+1 Failed download:
+2025-06-21 22:05:17,383 - ERROR - ['AAPL']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-21 22:05:17,402 - INFO - AAPL completamente actualizado hasta 2025-06-10
+2025-06-21 22:05:19,788 - ERROR - 
+1 Failed download:
+2025-06-21 22:05:19,788 - ERROR - ['TSLA']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-21 22:05:19,799 - INFO - TSLA completamente actualizado hasta 2025-06-10
+2025-06-21 22:05:23,345 - ERROR - 
+1 Failed download:
+2025-06-21 22:05:23,345 - ERROR - ['MSFT']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-21 22:05:23,363 - INFO - MSFT completamente actualizado hasta 2025-06-10
+2025-06-21 22:05:26,124 - ERROR - 
+1 Failed download:
+2025-06-21 22:05:26,124 - ERROR - ['GC=F']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-21 22:05:26,138 - INFO - GC=F completamente actualizado hasta 2025-06-11
+2025-06-21 22:05:28,540 - ERROR - 
+1 Failed download:
+2025-06-21 22:05:28,540 - ERROR - ['ETH-USD']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-21 22:05:28,550 - INFO - ETH-USD completamente actualizado hasta 2025-06-10
+2025-06-21 22:05:30,697 - ERROR - 
+1 Failed download:
+2025-06-21 22:05:30,697 - ERROR - ['CL=F']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-21 22:05:30,710 - INFO - CL=F completamente actualizado hasta 2025-06-11
+2025-06-22 22:05:10,558 - ERROR - 
+1 Failed download:
+2025-06-22 22:05:10,558 - ERROR - ['AMZN']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-22 22:05:10,628 - INFO - AMZN completamente actualizado hasta 2025-06-10
+2025-06-22 22:05:13,041 - ERROR - 
+1 Failed download:
+2025-06-22 22:05:13,041 - ERROR - ['NVDA']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-22 22:05:13,054 - INFO - NVDA completamente actualizado hasta 2025-06-10
+2025-06-22 22:05:15,706 - ERROR - 
+1 Failed download:
+2025-06-22 22:05:15,706 - ERROR - ['AAPL']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-22 22:05:15,726 - INFO - AAPL completamente actualizado hasta 2025-06-10
+2025-06-22 22:05:18,989 - ERROR - 
+1 Failed download:
+2025-06-22 22:05:18,989 - ERROR - ['TSLA']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-22 22:05:19,028 - INFO - TSLA completamente actualizado hasta 2025-06-10
+2025-06-22 22:05:22,131 - ERROR - 
+1 Failed download:
+2025-06-22 22:05:22,131 - ERROR - ['MSFT']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-22 22:05:22,149 - INFO - MSFT completamente actualizado hasta 2025-06-10
+2025-06-22 22:05:25,137 - ERROR - 
+1 Failed download:
+2025-06-22 22:05:25,137 - ERROR - ['GC=F']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-22 22:05:25,151 - INFO - GC=F completamente actualizado hasta 2025-06-11
+2025-06-22 22:05:27,522 - ERROR - 
+1 Failed download:
+2025-06-22 22:05:27,522 - ERROR - ['ETH-USD']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-22 22:05:27,532 - INFO - ETH-USD completamente actualizado hasta 2025-06-10
+2025-06-22 22:05:29,601 - ERROR - 
+1 Failed download:
+2025-06-22 22:05:29,601 - ERROR - ['CL=F']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-22 22:05:29,615 - INFO - CL=F completamente actualizado hasta 2025-06-11
+2025-06-23 22:05:11,237 - ERROR - 
+1 Failed download:
+2025-06-23 22:05:11,237 - ERROR - ['AMZN']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-23 22:05:11,321 - INFO - AMZN completamente actualizado hasta 2025-06-10
+2025-06-23 22:05:14,422 - ERROR - 
+1 Failed download:
+2025-06-23 22:05:14,422 - ERROR - ['NVDA']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-23 22:05:14,437 - INFO - NVDA completamente actualizado hasta 2025-06-10
+2025-06-23 22:05:16,852 - ERROR - 
+1 Failed download:
+2025-06-23 22:05:16,852 - ERROR - ['AAPL']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-23 22:05:16,873 - INFO - AAPL completamente actualizado hasta 2025-06-10
+2025-06-23 22:05:19,470 - ERROR - 
+1 Failed download:
+2025-06-23 22:05:19,470 - ERROR - ['TSLA']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-23 22:05:19,481 - INFO - TSLA completamente actualizado hasta 2025-06-10
+2025-06-23 22:05:22,201 - ERROR - 
+1 Failed download:
+2025-06-23 22:05:22,201 - ERROR - ['MSFT']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-23 22:05:22,219 - INFO - MSFT completamente actualizado hasta 2025-06-10
+2025-06-23 22:05:24,728 - ERROR - 
+1 Failed download:
+2025-06-23 22:05:24,728 - ERROR - ['GC=F']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-23 22:05:24,744 - INFO - GC=F completamente actualizado hasta 2025-06-11
+2025-06-23 22:05:28,365 - ERROR - 
+1 Failed download:
+2025-06-23 22:05:28,365 - ERROR - ['ETH-USD']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-23 22:05:28,376 - INFO - ETH-USD completamente actualizado hasta 2025-06-10
+2025-06-23 22:05:30,921 - ERROR - 
+1 Failed download:
+2025-06-23 22:05:30,921 - ERROR - ['CL=F']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-23 22:05:30,936 - INFO - CL=F completamente actualizado hasta 2025-06-11
+2025-06-24 22:05:13,041 - ERROR - 
+1 Failed download:
+2025-06-24 22:05:13,041 - ERROR - ['AMZN']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-24 22:05:13,119 - INFO - AMZN completamente actualizado hasta 2025-06-10
+2025-06-24 22:05:15,574 - ERROR - 
+1 Failed download:
+2025-06-24 22:05:15,574 - ERROR - ['NVDA']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-24 22:05:15,590 - INFO - NVDA completamente actualizado hasta 2025-06-10
+2025-06-24 22:05:18,513 - ERROR - 
+1 Failed download:
+2025-06-24 22:05:18,513 - ERROR - ['AAPL']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-24 22:05:18,535 - INFO - AAPL completamente actualizado hasta 2025-06-10
+2025-06-24 22:05:21,214 - ERROR - 
+1 Failed download:
+2025-06-24 22:05:21,214 - ERROR - ['TSLA']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-24 22:05:21,226 - INFO - TSLA completamente actualizado hasta 2025-06-10
+2025-06-24 22:05:23,443 - ERROR - 
+1 Failed download:
+2025-06-24 22:05:23,443 - ERROR - ['MSFT']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-24 22:05:23,464 - INFO - MSFT completamente actualizado hasta 2025-06-10
+2025-06-24 22:05:25,859 - ERROR - 
+1 Failed download:
+2025-06-24 22:05:25,859 - ERROR - ['GC=F']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-24 22:05:25,876 - INFO - GC=F completamente actualizado hasta 2025-06-11
+2025-06-24 22:05:28,049 - ERROR - 
+1 Failed download:
+2025-06-24 22:05:28,049 - ERROR - ['ETH-USD']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-24 22:05:28,061 - INFO - ETH-USD completamente actualizado hasta 2025-06-10
+2025-06-24 22:05:31,609 - ERROR - 
+1 Failed download:
+2025-06-24 22:05:31,609 - ERROR - ['CL=F']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-24 22:05:31,624 - INFO - CL=F completamente actualizado hasta 2025-06-11
+2025-06-25 22:05:09,133 - INFO - AMZN actualizado hasta 2025-06-25
+2025-06-25 22:05:24,462 - INFO - AMZN completamente actualizado hasta 2025-06-24
+2025-06-25 22:05:24,841 - INFO - NVDA actualizado hasta 2025-06-25
+2025-06-25 22:05:41,667 - INFO - NVDA completamente actualizado hasta 2025-06-24
+2025-06-25 22:05:42,152 - INFO - AAPL actualizado hasta 2025-06-25
+2025-06-25 22:05:54,035 - INFO - AAPL completamente actualizado hasta 2025-06-24
+2025-06-25 22:05:54,329 - INFO - TSLA actualizado hasta 2025-06-25
+2025-06-25 22:06:06,581 - INFO - TSLA completamente actualizado hasta 2025-06-24
+2025-06-25 22:06:07,252 - INFO - MSFT actualizado hasta 2025-06-25
+2025-06-25 22:06:23,768 - INFO - MSFT completamente actualizado hasta 2025-06-24
+2025-06-25 22:06:24,379 - INFO - GC=F actualizado hasta 2025-06-25
+2025-06-25 22:06:38,915 - INFO - GC=F completamente actualizado hasta 2025-06-25
+2025-06-25 22:06:39,190 - INFO - ETH-USD actualizado hasta 2025-06-25
+2025-06-25 22:06:57,777 - INFO - ETH-USD completamente actualizado hasta 2025-06-24
+2025-06-25 22:06:58,094 - INFO - CL=F actualizado hasta 2025-06-25
+2025-06-25 22:07:15,795 - INFO - CL=F completamente actualizado hasta 2025-06-25
+2025-06-27 22:05:15,156 - ERROR - 
+1 Failed download:
+2025-06-27 22:05:15,157 - ERROR - ['AMZN']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-27 22:05:15,236 - INFO - AMZN completamente actualizado hasta 2025-06-24
+2025-06-27 22:05:18,560 - ERROR - 
+1 Failed download:
+2025-06-27 22:05:18,560 - ERROR - ['NVDA']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-27 22:05:18,581 - INFO - NVDA completamente actualizado hasta 2025-06-24
+2025-06-27 22:05:21,858 - ERROR - 
+1 Failed download:
+2025-06-27 22:05:21,858 - ERROR - ['AAPL']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-27 22:05:21,881 - INFO - AAPL completamente actualizado hasta 2025-06-24
+2025-06-27 22:05:25,164 - ERROR - 
+1 Failed download:
+2025-06-27 22:05:25,164 - ERROR - ['TSLA']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-27 22:05:25,177 - INFO - TSLA completamente actualizado hasta 2025-06-24
+2025-06-27 22:05:28,801 - ERROR - 
+1 Failed download:
+2025-06-27 22:05:28,801 - ERROR - ['MSFT']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-27 22:05:28,819 - INFO - MSFT completamente actualizado hasta 2025-06-24
+2025-06-27 22:05:32,573 - ERROR - 
+1 Failed download:
+2025-06-27 22:05:32,573 - ERROR - ['GC=F']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-27 22:05:32,589 - INFO - GC=F completamente actualizado hasta 2025-06-25
+2025-06-27 22:05:35,875 - ERROR - 
+1 Failed download:
+2025-06-27 22:05:35,875 - ERROR - ['ETH-USD']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-27 22:05:35,886 - INFO - ETH-USD completamente actualizado hasta 2025-06-24
+2025-06-27 22:05:39,201 - ERROR - 
+1 Failed download:
+2025-06-27 22:05:39,201 - ERROR - ['CL=F']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-27 22:05:39,214 - INFO - CL=F completamente actualizado hasta 2025-06-25
+2025-06-28 22:05:13,707 - ERROR - 
+1 Failed download:
+2025-06-28 22:05:13,724 - ERROR - ['AMZN']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-28 22:05:13,773 - INFO - AMZN completamente actualizado hasta 2025-06-24
+2025-06-28 22:05:16,492 - ERROR - 
+1 Failed download:
+2025-06-28 22:05:16,492 - ERROR - ['NVDA']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-28 22:05:16,507 - INFO - NVDA completamente actualizado hasta 2025-06-24
+2025-06-28 22:05:18,927 - ERROR - 
+1 Failed download:
+2025-06-28 22:05:18,927 - ERROR - ['AAPL']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-28 22:05:18,948 - INFO - AAPL completamente actualizado hasta 2025-06-24
+2025-06-28 22:05:21,114 - ERROR - 
+1 Failed download:
+2025-06-28 22:05:21,114 - ERROR - ['TSLA']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-28 22:05:21,127 - INFO - TSLA completamente actualizado hasta 2025-06-24
+2025-06-28 22:05:23,860 - ERROR - 
+1 Failed download:
+2025-06-28 22:05:23,860 - ERROR - ['MSFT']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-28 22:05:23,878 - INFO - MSFT completamente actualizado hasta 2025-06-24
+2025-06-28 22:05:25,963 - ERROR - 
+1 Failed download:
+2025-06-28 22:05:25,964 - ERROR - ['GC=F']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-28 22:05:25,991 - INFO - GC=F completamente actualizado hasta 2025-06-25
+2025-06-28 22:05:28,391 - ERROR - 
+1 Failed download:
+2025-06-28 22:05:28,391 - ERROR - ['ETH-USD']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-28 22:05:28,402 - INFO - ETH-USD completamente actualizado hasta 2025-06-24
+2025-06-28 22:05:30,787 - ERROR - 
+1 Failed download:
+2025-06-28 22:05:30,787 - ERROR - ['CL=F']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-28 22:05:30,801 - INFO - CL=F completamente actualizado hasta 2025-06-25
+2025-06-29 22:05:10,929 - ERROR - 
+1 Failed download:
+2025-06-29 22:05:10,929 - ERROR - ['AMZN']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-29 22:05:11,010 - INFO - AMZN completamente actualizado hasta 2025-06-24
+2025-06-29 22:05:14,579 - ERROR - 
+1 Failed download:
+2025-06-29 22:05:14,579 - ERROR - ['NVDA']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-29 22:05:14,594 - INFO - NVDA completamente actualizado hasta 2025-06-24
+2025-06-29 22:05:17,014 - ERROR - 
+1 Failed download:
+2025-06-29 22:05:17,014 - ERROR - ['AAPL']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-29 22:05:17,033 - INFO - AAPL completamente actualizado hasta 2025-06-24
+2025-06-29 22:05:19,415 - ERROR - 
+1 Failed download:
+2025-06-29 22:05:19,415 - ERROR - ['TSLA']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-29 22:05:19,426 - INFO - TSLA completamente actualizado hasta 2025-06-24
+2025-06-29 22:05:21,954 - ERROR - 
+1 Failed download:
+2025-06-29 22:05:21,954 - ERROR - ['MSFT']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-29 22:05:21,972 - INFO - MSFT completamente actualizado hasta 2025-06-24
+2025-06-29 22:05:24,434 - ERROR - 
+1 Failed download:
+2025-06-29 22:05:24,434 - ERROR - ['GC=F']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-29 22:05:24,448 - INFO - GC=F completamente actualizado hasta 2025-06-25
+2025-06-29 22:05:27,152 - ERROR - 
+1 Failed download:
+2025-06-29 22:05:27,152 - ERROR - ['ETH-USD']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-29 22:05:27,161 - INFO - ETH-USD completamente actualizado hasta 2025-06-24
+2025-06-29 22:05:29,933 - ERROR - 
+1 Failed download:
+2025-06-29 22:05:29,933 - ERROR - ['CL=F']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-29 22:05:29,946 - INFO - CL=F completamente actualizado hasta 2025-06-25
+2025-06-30 22:05:08,105 - INFO - AMZN actualizado hasta 2025-06-30
+2025-06-30 22:05:19,862 - INFO - AMZN completamente actualizado hasta 2025-06-27
+2025-06-30 22:05:20,168 - INFO - NVDA actualizado hasta 2025-06-30
+2025-06-30 22:05:39,413 - INFO - NVDA completamente actualizado hasta 2025-06-27
+2025-06-30 22:05:39,792 - INFO - AAPL actualizado hasta 2025-06-30
+2025-06-30 22:05:58,651 - INFO - AAPL completamente actualizado hasta 2025-06-27
+2025-06-30 22:05:58,912 - INFO - TSLA actualizado hasta 2025-06-30
+2025-06-30 22:06:16,897 - INFO - TSLA completamente actualizado hasta 2025-06-27
+2025-06-30 22:06:17,245 - INFO - MSFT actualizado hasta 2025-06-30
+2025-06-30 22:06:31,895 - INFO - MSFT completamente actualizado hasta 2025-06-27
+2025-06-30 22:06:32,414 - INFO - GC=F actualizado hasta 2025-06-30
+2025-06-30 22:06:43,006 - INFO - GC=F completamente actualizado hasta 2025-06-30
+2025-06-30 22:06:43,257 - INFO - ETH-USD actualizado hasta 2025-06-30
+2025-06-30 22:06:57,290 - INFO - ETH-USD completamente actualizado hasta 2025-06-29
+2025-06-30 22:06:57,568 - INFO - CL=F actualizado hasta 2025-06-30
+2025-06-30 22:07:12,083 - INFO - CL=F completamente actualizado hasta 2025-06-30
+2025-07-02 22:05:11,828 - ERROR - 
+1 Failed download:
+2025-07-02 22:05:11,828 - ERROR - ['AMZN']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-02 22:05:11,899 - INFO - AMZN completamente actualizado hasta 2025-06-27
+2025-07-02 22:05:14,095 - ERROR - 
+1 Failed download:
+2025-07-02 22:05:14,095 - ERROR - ['NVDA']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-02 22:05:14,109 - INFO - NVDA completamente actualizado hasta 2025-06-27
+2025-07-02 22:05:16,198 - ERROR - 
+1 Failed download:
+2025-07-02 22:05:16,198 - ERROR - ['AAPL']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-02 22:05:16,217 - INFO - AAPL completamente actualizado hasta 2025-06-27
+2025-07-02 22:05:19,413 - ERROR - 
+1 Failed download:
+2025-07-02 22:05:19,413 - ERROR - ['TSLA']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-02 22:05:19,425 - INFO - TSLA completamente actualizado hasta 2025-06-27
+2025-07-02 22:05:21,413 - ERROR - 
+1 Failed download:
+2025-07-02 22:05:21,413 - ERROR - ['MSFT']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-02 22:05:21,431 - INFO - MSFT completamente actualizado hasta 2025-06-27
+2025-07-02 22:05:25,487 - ERROR - 
+1 Failed download:
+2025-07-02 22:05:25,487 - ERROR - ['GC=F']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-02 22:05:25,500 - INFO - GC=F completamente actualizado hasta 2025-06-30
+2025-07-02 22:05:27,454 - ERROR - 
+1 Failed download:
+2025-07-02 22:05:27,454 - ERROR - ['ETH-USD']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-02 22:05:27,464 - INFO - ETH-USD completamente actualizado hasta 2025-06-29
+2025-07-02 22:05:29,721 - ERROR - 
+1 Failed download:
+2025-07-02 22:05:29,721 - ERROR - ['CL=F']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-02 22:05:29,735 - INFO - CL=F completamente actualizado hasta 2025-06-30
+2025-07-03 22:05:11,923 - ERROR - 
+1 Failed download:
+2025-07-03 22:05:11,923 - ERROR - ['AMZN']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-03 22:05:11,977 - INFO - AMZN completamente actualizado hasta 2025-06-27
+2025-07-03 22:05:14,286 - ERROR - 
+1 Failed download:
+2025-07-03 22:05:14,286 - ERROR - ['NVDA']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-03 22:05:14,300 - INFO - NVDA completamente actualizado hasta 2025-06-27
+2025-07-03 22:05:16,372 - ERROR - 
+1 Failed download:
+2025-07-03 22:05:16,372 - ERROR - ['AAPL']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-03 22:05:16,392 - INFO - AAPL completamente actualizado hasta 2025-06-27
+2025-07-03 22:05:18,983 - ERROR - 
+1 Failed download:
+2025-07-03 22:05:18,983 - ERROR - ['TSLA']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-03 22:05:18,994 - INFO - TSLA completamente actualizado hasta 2025-06-27
+2025-07-03 22:05:21,134 - ERROR - 
+1 Failed download:
+2025-07-03 22:05:21,134 - ERROR - ['MSFT']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-03 22:05:21,154 - INFO - MSFT completamente actualizado hasta 2025-06-27
+2025-07-03 22:05:23,240 - ERROR - 
+1 Failed download:
+2025-07-03 22:05:23,240 - ERROR - ['GC=F']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-03 22:05:23,253 - INFO - GC=F completamente actualizado hasta 2025-06-30
+2025-07-03 22:05:25,342 - ERROR - 
+1 Failed download:
+2025-07-03 22:05:25,342 - ERROR - ['ETH-USD']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-03 22:05:25,353 - INFO - ETH-USD completamente actualizado hasta 2025-06-29
+2025-07-03 22:05:27,183 - ERROR - 
+1 Failed download:
+2025-07-03 22:05:27,183 - ERROR - ['CL=F']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-03 22:05:27,196 - INFO - CL=F completamente actualizado hasta 2025-06-30
+2025-07-04 22:05:11,155 - ERROR - 
+1 Failed download:
+2025-07-04 22:05:11,156 - ERROR - ['AMZN']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-04 22:05:11,402 - INFO - AMZN completamente actualizado hasta 2025-06-27
+2025-07-04 22:05:14,539 - ERROR - 
+1 Failed download:
+2025-07-04 22:05:14,540 - ERROR - ['NVDA']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-04 22:05:14,609 - INFO - NVDA completamente actualizado hasta 2025-06-27
+2025-07-04 22:05:16,804 - ERROR - 
+1 Failed download:
+2025-07-04 22:05:16,805 - ERROR - ['AAPL']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-04 22:05:16,870 - INFO - AAPL completamente actualizado hasta 2025-06-27
+2025-07-04 22:05:18,903 - ERROR - 
+1 Failed download:
+2025-07-04 22:05:18,904 - ERROR - ['TSLA']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-04 22:05:18,958 - INFO - TSLA completamente actualizado hasta 2025-06-27
+2025-07-04 22:05:21,667 - ERROR - 
+1 Failed download:
+2025-07-04 22:05:21,668 - ERROR - ['MSFT']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-04 22:05:21,691 - INFO - MSFT completamente actualizado hasta 2025-06-27
+2025-07-04 22:05:23,554 - ERROR - 
+1 Failed download:
+2025-07-04 22:05:23,555 - ERROR - ['GC=F']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-04 22:05:23,614 - INFO - GC=F completamente actualizado hasta 2025-06-30
+2025-07-04 22:05:25,691 - ERROR - 
+1 Failed download:
+2025-07-04 22:05:25,691 - ERROR - ['ETH-USD']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-04 22:05:25,732 - INFO - ETH-USD completamente actualizado hasta 2025-06-29
+2025-07-04 22:05:28,289 - ERROR - 
+1 Failed download:
+2025-07-04 22:05:28,289 - ERROR - ['CL=F']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-04 22:05:28,304 - INFO - CL=F completamente actualizado hasta 2025-06-30
+2025-07-05 22:05:11,538 - ERROR - 
+1 Failed download:
+2025-07-05 22:05:11,538 - ERROR - ['AMZN']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-05 22:05:11,629 - INFO - AMZN completamente actualizado hasta 2025-06-27
+2025-07-05 22:05:13,700 - ERROR - 
+1 Failed download:
+2025-07-05 22:05:13,700 - ERROR - ['NVDA']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-05 22:05:13,715 - INFO - NVDA completamente actualizado hasta 2025-06-27
+2025-07-05 22:05:16,937 - ERROR - 
+1 Failed download:
+2025-07-05 22:05:16,937 - ERROR - ['AAPL']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-05 22:05:16,957 - INFO - AAPL completamente actualizado hasta 2025-06-27
+2025-07-05 22:05:19,030 - ERROR - 
+1 Failed download:
+2025-07-05 22:05:19,030 - ERROR - ['TSLA']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-05 22:05:19,041 - INFO - TSLA completamente actualizado hasta 2025-06-27
+2025-07-05 22:05:21,413 - ERROR - 
+1 Failed download:
+2025-07-05 22:05:21,413 - ERROR - ['MSFT']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-05 22:05:21,432 - INFO - MSFT completamente actualizado hasta 2025-06-27
+2025-07-05 22:05:23,402 - ERROR - 
+1 Failed download:
+2025-07-05 22:05:23,402 - ERROR - ['GC=F']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-05 22:05:23,416 - INFO - GC=F completamente actualizado hasta 2025-06-30
+2025-07-05 22:05:25,441 - ERROR - 
+1 Failed download:
+2025-07-05 22:05:25,441 - ERROR - ['ETH-USD']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-05 22:05:25,452 - INFO - ETH-USD completamente actualizado hasta 2025-06-29
+2025-07-05 22:05:27,765 - ERROR - 
+1 Failed download:
+2025-07-05 22:05:27,765 - ERROR - ['CL=F']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-05 22:05:27,779 - INFO - CL=F completamente actualizado hasta 2025-06-30
+2025-07-06 22:05:11,229 - ERROR - 
+1 Failed download:
+2025-07-06 22:05:11,229 - ERROR - ['AMZN']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-06 22:05:11,306 - INFO - AMZN completamente actualizado hasta 2025-06-27
+2025-07-06 22:05:13,654 - ERROR - 
+1 Failed download:
+2025-07-06 22:05:13,654 - ERROR - ['NVDA']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-06 22:05:13,669 - INFO - NVDA completamente actualizado hasta 2025-06-27
+2025-07-06 22:05:15,744 - ERROR - 
+1 Failed download:
+2025-07-06 22:05:15,744 - ERROR - ['AAPL']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-06 22:05:15,769 - INFO - AAPL completamente actualizado hasta 2025-06-27
+2025-07-06 22:05:19,479 - ERROR - 
+1 Failed download:
+2025-07-06 22:05:19,479 - ERROR - ['TSLA']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-06 22:05:19,492 - INFO - TSLA completamente actualizado hasta 2025-06-27
+2025-07-06 22:05:21,591 - ERROR - 
+1 Failed download:
+2025-07-06 22:05:21,591 - ERROR - ['MSFT']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-06 22:05:21,618 - INFO - MSFT completamente actualizado hasta 2025-06-27
+2025-07-06 22:05:23,700 - ERROR - 
+1 Failed download:
+2025-07-06 22:05:23,700 - ERROR - ['GC=F']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-06 22:05:23,730 - INFO - GC=F completamente actualizado hasta 2025-06-30
+2025-07-06 22:05:26,134 - ERROR - 
+1 Failed download:
+2025-07-06 22:05:26,134 - ERROR - ['ETH-USD']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-06 22:05:26,144 - INFO - ETH-USD completamente actualizado hasta 2025-06-29
+2025-07-06 22:05:28,440 - ERROR - 
+1 Failed download:
+2025-07-06 22:05:28,440 - ERROR - ['CL=F']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-06 22:05:28,454 - INFO - CL=F completamente actualizado hasta 2025-06-30
+2025-07-07 22:05:12,038 - ERROR - 
+1 Failed download:
+2025-07-07 22:05:12,038 - ERROR - ['AMZN']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-07 22:05:12,142 - INFO - AMZN completamente actualizado hasta 2025-06-27
+2025-07-07 22:05:14,098 - ERROR - 
+1 Failed download:
+2025-07-07 22:05:14,098 - ERROR - ['NVDA']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-07 22:05:14,114 - INFO - NVDA completamente actualizado hasta 2025-06-27
+2025-07-07 22:05:16,482 - ERROR - 
+1 Failed download:
+2025-07-07 22:05:16,482 - ERROR - ['AAPL']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-07 22:05:16,506 - INFO - AAPL completamente actualizado hasta 2025-06-27
+2025-07-07 22:05:18,364 - ERROR - 
+1 Failed download:
+2025-07-07 22:05:18,364 - ERROR - ['TSLA']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-07 22:05:18,376 - INFO - TSLA completamente actualizado hasta 2025-06-27
+2025-07-07 22:05:20,773 - ERROR - 
+1 Failed download:
+2025-07-07 22:05:20,773 - ERROR - ['MSFT']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-07 22:05:20,794 - INFO - MSFT completamente actualizado hasta 2025-06-27
+2025-07-07 22:05:22,907 - ERROR - 
+1 Failed download:
+2025-07-07 22:05:22,907 - ERROR - ['GC=F']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-07 22:05:22,923 - INFO - GC=F completamente actualizado hasta 2025-06-30
+2025-07-07 22:05:24,786 - ERROR - 
+1 Failed download:
+2025-07-07 22:05:24,786 - ERROR - ['ETH-USD']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-07 22:05:24,797 - INFO - ETH-USD completamente actualizado hasta 2025-06-29
+2025-07-07 22:05:26,765 - ERROR - 
+1 Failed download:
+2025-07-07 22:05:26,765 - ERROR - ['CL=F']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-07 22:05:26,782 - INFO - CL=F completamente actualizado hasta 2025-06-30
+2025-07-08 22:05:07,730 - INFO - AMZN actualizado hasta 2025-07-08
+2025-07-08 22:05:26,180 - INFO - AMZN completamente actualizado hasta 2025-07-07
+2025-07-08 22:05:26,552 - INFO - NVDA actualizado hasta 2025-07-08
+2025-07-08 22:05:43,814 - INFO - NVDA completamente actualizado hasta 2025-07-07
+2025-07-08 22:05:44,211 - INFO - AAPL actualizado hasta 2025-07-08
+2025-07-08 22:06:01,998 - INFO - AAPL completamente actualizado hasta 2025-07-07
+2025-07-08 22:06:02,399 - INFO - TSLA actualizado hasta 2025-07-08
+2025-07-08 22:06:14,494 - INFO - TSLA completamente actualizado hasta 2025-07-07
+2025-07-08 22:06:14,856 - INFO - MSFT actualizado hasta 2025-07-08
+2025-07-08 22:06:34,278 - INFO - MSFT completamente actualizado hasta 2025-07-07
+2025-07-08 22:06:34,565 - INFO - GC=F actualizado hasta 2025-07-08
+2025-07-08 22:06:49,408 - INFO - GC=F completamente actualizado hasta 2025-07-08
+2025-07-08 22:06:49,708 - INFO - ETH-USD actualizado hasta 2025-07-08
+2025-07-08 22:07:07,896 - INFO - ETH-USD completamente actualizado hasta 2025-07-07
+2025-07-08 22:07:08,188 - INFO - CL=F actualizado hasta 2025-07-08
+2025-07-08 22:07:22,523 - INFO - CL=F completamente actualizado hasta 2025-07-08
+2025-07-09 22:05:09,244 - INFO - AMZN actualizado hasta 2025-07-09
+2025-07-09 22:05:28,208 - INFO - AMZN completamente actualizado hasta 2025-07-08
+2025-07-09 22:05:28,537 - INFO - NVDA actualizado hasta 2025-07-09
+2025-07-09 22:05:38,784 - INFO - NVDA completamente actualizado hasta 2025-07-08
+2025-07-09 22:05:39,188 - INFO - AAPL actualizado hasta 2025-07-09
+2025-07-09 22:05:53,612 - INFO - AAPL completamente actualizado hasta 2025-07-08
+2025-07-09 22:05:53,889 - INFO - TSLA actualizado hasta 2025-07-09
+2025-07-09 22:06:08,153 - INFO - TSLA completamente actualizado hasta 2025-07-08
+2025-07-09 22:06:08,508 - INFO - MSFT actualizado hasta 2025-07-09
+2025-07-09 22:06:24,765 - INFO - MSFT completamente actualizado hasta 2025-07-08
+2025-07-09 22:06:25,060 - INFO - GC=F actualizado hasta 2025-07-09
+2025-07-09 22:06:40,200 - INFO - GC=F completamente actualizado hasta 2025-07-09
+2025-07-09 22:06:40,463 - INFO - ETH-USD actualizado hasta 2025-07-09
+2025-07-09 22:07:00,318 - INFO - ETH-USD completamente actualizado hasta 2025-07-08
+2025-07-09 22:07:00,603 - INFO - CL=F actualizado hasta 2025-07-09
+2025-07-09 22:07:16,103 - INFO - CL=F completamente actualizado hasta 2025-07-09
+2025-07-10 22:05:13,388 - ERROR - 
+1 Failed download:
+2025-07-10 22:05:13,388 - ERROR - ['AMZN']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-10 22:05:13,493 - INFO - AMZN completamente actualizado hasta 2025-07-08
+2025-07-10 22:05:15,807 - ERROR - 
+1 Failed download:
+2025-07-10 22:05:15,808 - ERROR - ['NVDA']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-10 22:05:15,826 - INFO - NVDA completamente actualizado hasta 2025-07-08
+2025-07-10 22:05:18,133 - ERROR - 
+1 Failed download:
+2025-07-10 22:05:18,133 - ERROR - ['AAPL']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-10 22:05:18,158 - INFO - AAPL completamente actualizado hasta 2025-07-08
+2025-07-10 22:05:20,200 - ERROR - 
+1 Failed download:
+2025-07-10 22:05:20,200 - ERROR - ['TSLA']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-10 22:05:20,213 - INFO - TSLA completamente actualizado hasta 2025-07-08
+2025-07-10 22:05:22,721 - ERROR - 
+1 Failed download:
+2025-07-10 22:05:22,721 - ERROR - ['MSFT']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-10 22:05:22,742 - INFO - MSFT completamente actualizado hasta 2025-07-08
+2025-07-10 22:05:24,611 - ERROR - 
+1 Failed download:
+2025-07-10 22:05:24,611 - ERROR - ['GC=F']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-10 22:05:24,627 - INFO - GC=F completamente actualizado hasta 2025-07-09
+2025-07-10 22:05:26,713 - ERROR - 
+1 Failed download:
+2025-07-10 22:05:26,713 - ERROR - ['ETH-USD']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-10 22:05:26,725 - INFO - ETH-USD completamente actualizado hasta 2025-07-08
+2025-07-10 22:05:28,710 - ERROR - 
+1 Failed download:
+2025-07-10 22:05:28,710 - ERROR - ['CL=F']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-10 22:05:28,726 - INFO - CL=F completamente actualizado hasta 2025-07-09
+2025-07-12 00:46:23,391 - INFO - AMZN actualizado hasta 2025-07-11
+2025-07-12 00:46:34,688 - INFO - AMZN completamente actualizado hasta 2025-07-10
+2025-07-12 00:46:35,026 - INFO - NVDA actualizado hasta 2025-07-12
+2025-07-12 00:46:46,144 - INFO - NVDA completamente actualizado hasta 2025-07-11
+2025-07-12 00:46:46,763 - INFO - AAPL actualizado hasta 2025-07-12
+2025-07-12 00:47:00,245 - INFO - AAPL completamente actualizado hasta 2025-07-11
+2025-07-12 00:47:00,545 - INFO - TSLA actualizado hasta 2025-07-12
+2025-07-12 00:47:13,665 - INFO - TSLA completamente actualizado hasta 2025-07-11
+2025-07-12 00:47:14,048 - INFO - MSFT actualizado hasta 2025-07-12
+2025-07-12 00:47:31,441 - INFO - MSFT completamente actualizado hasta 2025-07-11
+2025-07-12 00:47:31,796 - INFO - GC=F actualizado hasta 2025-07-12
+2025-07-12 00:47:45,095 - INFO - GC=F completamente actualizado hasta 2025-07-11
+2025-07-12 00:47:45,390 - INFO - ETH-USD actualizado hasta 2025-07-12
+2025-07-12 00:47:56,215 - INFO - ETH-USD completamente actualizado hasta 2025-07-10
+2025-07-12 00:47:56,527 - INFO - CL=F actualizado hasta 2025-07-12
+2025-07-12 00:48:14,494 - INFO - CL=F completamente actualizado hasta 2025-07-11
+2025-07-13 22:05:11,491 - INFO - AMZN actualizado hasta 2025-07-13
+2025-07-13 22:05:28,949 - INFO - AMZN completamente actualizado hasta 2025-07-11
+2025-07-13 22:05:29,259 - INFO - NVDA completamente actualizado hasta 2025-07-11
+2025-07-13 22:05:29,612 - INFO - AAPL completamente actualizado hasta 2025-07-11
+2025-07-13 22:05:29,903 - INFO - TSLA completamente actualizado hasta 2025-07-11
+2025-07-13 22:05:30,244 - INFO - MSFT completamente actualizado hasta 2025-07-11
+2025-07-13 22:05:30,539 - INFO - GC=F completamente actualizado hasta 2025-07-11
+2025-07-13 22:05:30,829 - INFO - ETH-USD actualizado hasta 2025-07-13
+2025-07-13 22:05:50,505 - INFO - ETH-USD completamente actualizado hasta 2025-07-12
+2025-07-13 22:05:50,790 - INFO - CL=F completamente actualizado hasta 2025-07-11
+2025-07-15 22:05:14,427 - ERROR - 
+1 Failed download:
+2025-07-15 22:05:14,427 - ERROR - ['AMZN']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-15 22:05:14,525 - INFO - AMZN completamente actualizado hasta 2025-07-11
+2025-07-15 22:05:16,848 - ERROR - 
+1 Failed download:
+2025-07-15 22:05:16,848 - ERROR - ['NVDA']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-15 22:05:16,867 - INFO - NVDA completamente actualizado hasta 2025-07-11
+2025-07-15 22:05:19,336 - ERROR - 
+1 Failed download:
+2025-07-15 22:05:19,336 - ERROR - ['AAPL']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-15 22:05:19,360 - INFO - AAPL completamente actualizado hasta 2025-07-11
+2025-07-15 22:05:22,265 - ERROR - 
+1 Failed download:
+2025-07-15 22:05:22,265 - ERROR - ['TSLA']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-15 22:05:22,279 - INFO - TSLA completamente actualizado hasta 2025-07-11
+2025-07-15 22:05:24,352 - ERROR - 
+1 Failed download:
+2025-07-15 22:05:24,352 - ERROR - ['MSFT']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-15 22:05:24,373 - INFO - MSFT completamente actualizado hasta 2025-07-11
+2025-07-15 22:05:26,790 - ERROR - 
+1 Failed download:
+2025-07-15 22:05:26,790 - ERROR - ['GC=F']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-15 22:05:26,806 - INFO - GC=F completamente actualizado hasta 2025-07-11
+2025-07-15 22:05:29,555 - ERROR - 
+1 Failed download:
+2025-07-15 22:05:29,555 - ERROR - ['ETH-USD']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-15 22:05:29,567 - INFO - ETH-USD completamente actualizado hasta 2025-07-12
+2025-07-15 22:05:31,984 - ERROR - 
+1 Failed download:
+2025-07-15 22:05:31,984 - ERROR - ['CL=F']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-15 22:05:32,002 - INFO - CL=F completamente actualizado hasta 2025-07-11
+2025-07-16 22:05:11,553 - ERROR - 
+1 Failed download:
+2025-07-16 22:05:11,553 - ERROR - ['AMZN']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-16 22:05:11,655 - INFO - AMZN completamente actualizado hasta 2025-07-11
+2025-07-16 22:05:14,277 - ERROR - 
+1 Failed download:
+2025-07-16 22:05:14,277 - ERROR - ['NVDA']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-16 22:05:14,292 - INFO - NVDA completamente actualizado hasta 2025-07-11
+2025-07-16 22:05:16,408 - ERROR - 
+1 Failed download:
+2025-07-16 22:05:16,408 - ERROR - ['AAPL']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-16 22:05:16,433 - INFO - AAPL completamente actualizado hasta 2025-07-11
+2025-07-16 22:05:18,765 - ERROR - 
+1 Failed download:
+2025-07-16 22:05:18,766 - ERROR - ['TSLA']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-16 22:05:18,778 - INFO - TSLA completamente actualizado hasta 2025-07-11
+2025-07-16 22:05:20,905 - ERROR - 
+1 Failed download:
+2025-07-16 22:05:20,905 - ERROR - ['MSFT']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-16 22:05:20,923 - INFO - MSFT completamente actualizado hasta 2025-07-11
+2025-07-16 22:05:23,022 - ERROR - 
+1 Failed download:
+2025-07-16 22:05:23,022 - ERROR - ['GC=F']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-16 22:05:23,035 - INFO - GC=F completamente actualizado hasta 2025-07-11
+2025-07-16 22:05:25,111 - ERROR - 
+1 Failed download:
+2025-07-16 22:05:25,111 - ERROR - ['ETH-USD']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-16 22:05:25,121 - INFO - ETH-USD completamente actualizado hasta 2025-07-12
+2025-07-16 22:05:27,256 - ERROR - 
+1 Failed download:
+2025-07-16 22:05:27,256 - ERROR - ['CL=F']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-16 22:05:27,271 - INFO - CL=F completamente actualizado hasta 2025-07-11
+2025-07-17 22:05:13,193 - ERROR - 
+1 Failed download:
+2025-07-17 22:05:13,193 - ERROR - ['AMZN']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-17 22:05:13,314 - INFO - AMZN completamente actualizado hasta 2025-07-11
+2025-07-17 22:05:15,248 - ERROR - 
+1 Failed download:
+2025-07-17 22:05:15,248 - ERROR - ['NVDA']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-17 22:05:15,263 - INFO - NVDA completamente actualizado hasta 2025-07-11
+2025-07-17 22:05:17,770 - ERROR - 
+1 Failed download:
+2025-07-17 22:05:17,770 - ERROR - ['AAPL']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-17 22:05:17,790 - INFO - AAPL completamente actualizado hasta 2025-07-11
+2025-07-17 22:05:19,701 - ERROR - 
+1 Failed download:
+2025-07-17 22:05:19,701 - ERROR - ['TSLA']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-17 22:05:19,717 - INFO - TSLA completamente actualizado hasta 2025-07-11
+2025-07-17 22:05:21,714 - ERROR - 
+1 Failed download:
+2025-07-17 22:05:21,714 - ERROR - ['MSFT']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-17 22:05:21,745 - INFO - MSFT completamente actualizado hasta 2025-07-11
+2025-07-17 22:05:23,587 - ERROR - 
+1 Failed download:
+2025-07-17 22:05:23,587 - ERROR - ['GC=F']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-17 22:05:23,601 - INFO - GC=F completamente actualizado hasta 2025-07-11
+2025-07-17 22:05:25,468 - ERROR - 
+1 Failed download:
+2025-07-17 22:05:25,468 - ERROR - ['ETH-USD']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-17 22:05:25,479 - INFO - ETH-USD completamente actualizado hasta 2025-07-12
+2025-07-17 22:05:27,575 - ERROR - 
+1 Failed download:
+2025-07-17 22:05:27,575 - ERROR - ['CL=F']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-17 22:05:27,591 - INFO - CL=F completamente actualizado hasta 2025-07-11
+2025-07-20 22:05:10,061 - INFO - AMZN actualizado hasta 2025-07-20
+2025-07-20 22:05:24,712 - INFO - AMZN completamente actualizado hasta 2025-07-18
+2025-07-20 22:05:25,032 - INFO - NVDA actualizado hasta 2025-07-20
+2025-07-20 22:05:44,288 - INFO - NVDA completamente actualizado hasta 2025-07-18
+2025-07-20 22:05:44,678 - INFO - AAPL actualizado hasta 2025-07-20
+2025-07-20 22:05:55,436 - INFO - AAPL completamente actualizado hasta 2025-07-18
+2025-07-20 22:05:55,714 - INFO - TSLA actualizado hasta 2025-07-20
+2025-07-20 22:06:07,573 - INFO - TSLA completamente actualizado hasta 2025-07-18
+2025-07-20 22:06:07,909 - INFO - MSFT actualizado hasta 2025-07-20
+2025-07-20 22:06:22,290 - INFO - MSFT completamente actualizado hasta 2025-07-18
+2025-07-20 22:06:22,587 - INFO - GC=F actualizado hasta 2025-07-20
+2025-07-20 22:06:39,031 - INFO - GC=F completamente actualizado hasta 2025-07-18
+2025-07-20 22:06:39,287 - INFO - ETH-USD actualizado hasta 2025-07-20
+2025-07-20 22:06:52,423 - INFO - ETH-USD completamente actualizado hasta 2025-07-19
+2025-07-20 22:06:52,704 - INFO - CL=F actualizado hasta 2025-07-20
+2025-07-20 22:07:03,291 - INFO - CL=F completamente actualizado hasta 2025-07-18
+2025-07-21 22:05:12,217 - ERROR - 
+1 Failed download:
+2025-07-21 22:05:12,218 - ERROR - ['AMZN']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-21 22:05:12,308 - INFO - AMZN completamente actualizado hasta 2025-07-18
+2025-07-21 22:05:14,634 - ERROR - 
+1 Failed download:
+2025-07-21 22:05:14,634 - ERROR - ['NVDA']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-21 22:05:14,650 - INFO - NVDA completamente actualizado hasta 2025-07-18
+2025-07-21 22:05:22,532 - ERROR - 
+1 Failed download:
+2025-07-21 22:05:22,532 - ERROR - ['AAPL']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-21 22:05:22,554 - INFO - AAPL completamente actualizado hasta 2025-07-18
+2025-07-21 22:05:24,521 - ERROR - 
+1 Failed download:
+2025-07-21 22:05:24,521 - ERROR - ['TSLA']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-21 22:05:24,532 - INFO - TSLA completamente actualizado hasta 2025-07-18
+2025-07-21 22:05:26,713 - ERROR - 
+1 Failed download:
+2025-07-21 22:05:26,713 - ERROR - ['MSFT']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-21 22:05:26,732 - INFO - MSFT completamente actualizado hasta 2025-07-18
+2025-07-21 22:05:28,699 - ERROR - 
+1 Failed download:
+2025-07-21 22:05:28,699 - ERROR - ['GC=F']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-21 22:05:28,714 - INFO - GC=F completamente actualizado hasta 2025-07-18
+2025-07-21 22:05:31,195 - ERROR - 
+1 Failed download:
+2025-07-21 22:05:31,195 - ERROR - ['ETH-USD']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-21 22:05:31,207 - INFO - ETH-USD completamente actualizado hasta 2025-07-19
+2025-07-21 22:05:33,300 - ERROR - 
+1 Failed download:
+2025-07-21 22:05:33,300 - ERROR - ['CL=F']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-21 22:05:33,316 - INFO - CL=F completamente actualizado hasta 2025-07-18
+2025-07-22 22:05:11,022 - ERROR - 
+1 Failed download:
+2025-07-22 22:05:11,022 - ERROR - ['AMZN']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-22 22:05:11,120 - INFO - AMZN completamente actualizado hasta 2025-07-18
+2025-07-22 22:05:14,008 - ERROR - 
+1 Failed download:
+2025-07-22 22:05:14,008 - ERROR - ['NVDA']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-22 22:05:14,022 - INFO - NVDA completamente actualizado hasta 2025-07-18
+2025-07-22 22:05:15,999 - ERROR - 
+1 Failed download:
+2025-07-22 22:05:15,999 - ERROR - ['AAPL']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-22 22:05:16,020 - INFO - AAPL completamente actualizado hasta 2025-07-18
+2025-07-22 22:05:18,291 - ERROR - 
+1 Failed download:
+2025-07-22 22:05:18,291 - ERROR - ['TSLA']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-22 22:05:18,302 - INFO - TSLA completamente actualizado hasta 2025-07-18
+2025-07-22 22:05:20,865 - ERROR - 
+1 Failed download:
+2025-07-22 22:05:20,865 - ERROR - ['MSFT']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-22 22:05:20,886 - INFO - MSFT completamente actualizado hasta 2025-07-18
+2025-07-22 22:05:23,280 - ERROR - 
+1 Failed download:
+2025-07-22 22:05:23,280 - ERROR - ['GC=F']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-22 22:05:23,294 - INFO - GC=F completamente actualizado hasta 2025-07-18
+2025-07-22 22:05:25,391 - ERROR - 
+1 Failed download:
+2025-07-22 22:05:25,391 - ERROR - ['ETH-USD']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-22 22:05:25,402 - INFO - ETH-USD completamente actualizado hasta 2025-07-19
+2025-07-22 22:05:27,385 - ERROR - 
+1 Failed download:
+2025-07-22 22:05:27,385 - ERROR - ['CL=F']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-22 22:05:27,399 - INFO - CL=F completamente actualizado hasta 2025-07-18
+2025-07-23 22:05:17,857 - ERROR - 
+1 Failed download:
+2025-07-23 22:05:17,874 - ERROR - ['AMZN']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-23 22:05:18,033 - INFO - AMZN completamente actualizado hasta 2025-07-18
+2025-07-23 22:05:20,221 - ERROR - 
+1 Failed download:
+2025-07-23 22:05:20,221 - ERROR - ['NVDA']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-23 22:05:20,244 - INFO - NVDA completamente actualizado hasta 2025-07-18
+2025-07-23 22:05:22,397 - ERROR - 
+1 Failed download:
+2025-07-23 22:05:22,397 - ERROR - ['AAPL']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-23 22:05:22,431 - INFO - AAPL completamente actualizado hasta 2025-07-18
+2025-07-23 22:05:24,558 - ERROR - 
+1 Failed download:
+2025-07-23 22:05:24,558 - ERROR - ['TSLA']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-23 22:05:24,570 - INFO - TSLA completamente actualizado hasta 2025-07-18
+2025-07-23 22:05:26,839 - ERROR - 
+1 Failed download:
+2025-07-23 22:05:26,839 - ERROR - ['MSFT']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-23 22:05:26,863 - INFO - MSFT completamente actualizado hasta 2025-07-18
+2025-07-23 22:05:28,881 - ERROR - 
+1 Failed download:
+2025-07-23 22:05:28,881 - ERROR - ['GC=F']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-23 22:05:28,898 - INFO - GC=F completamente actualizado hasta 2025-07-18
+2025-07-23 22:05:31,401 - ERROR - 
+1 Failed download:
+2025-07-23 22:05:31,401 - ERROR - ['ETH-USD']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-23 22:05:31,424 - INFO - ETH-USD completamente actualizado hasta 2025-07-19
+2025-07-23 22:05:33,318 - ERROR - 
+1 Failed download:
+2025-07-23 22:05:33,318 - ERROR - ['CL=F']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-23 22:05:33,336 - INFO - CL=F completamente actualizado hasta 2025-07-18
+2025-07-24 22:05:11,466 - ERROR - 
+1 Failed download:
+2025-07-24 22:05:11,466 - ERROR - ['AMZN']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-24 22:05:11,555 - INFO - AMZN completamente actualizado hasta 2025-07-18
+2025-07-24 22:05:13,458 - ERROR - 
+1 Failed download:
+2025-07-24 22:05:13,458 - ERROR - ['NVDA']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-24 22:05:13,474 - INFO - NVDA completamente actualizado hasta 2025-07-18
+2025-07-24 22:05:16,072 - ERROR - 
+1 Failed download:
+2025-07-24 22:05:16,072 - ERROR - ['AAPL']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-24 22:05:16,105 - INFO - AAPL completamente actualizado hasta 2025-07-18
+2025-07-24 22:05:18,986 - ERROR - 
+1 Failed download:
+2025-07-24 22:05:18,986 - ERROR - ['TSLA']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-24 22:05:19,002 - INFO - TSLA completamente actualizado hasta 2025-07-18
+2025-07-24 22:05:32,367 - ERROR - 
+1 Failed download:
+2025-07-24 22:05:32,367 - ERROR - ['MSFT']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-24 22:05:32,401 - INFO - MSFT completamente actualizado hasta 2025-07-18
+2025-07-24 22:05:34,597 - ERROR - 
+1 Failed download:
+2025-07-24 22:05:34,597 - ERROR - ['GC=F']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-24 22:05:34,622 - INFO - GC=F completamente actualizado hasta 2025-07-18
+2025-07-24 22:05:36,959 - ERROR - 
+1 Failed download:
+2025-07-24 22:05:36,959 - ERROR - ['ETH-USD']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-24 22:05:36,970 - INFO - ETH-USD completamente actualizado hasta 2025-07-19
+2025-07-24 22:05:39,519 - ERROR - 
+1 Failed download:
+2025-07-24 22:05:39,519 - ERROR - ['CL=F']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-24 22:05:39,534 - INFO - CL=F completamente actualizado hasta 2025-07-18
+2025-07-29 22:05:12,076 - ERROR - 
+1 Failed download:
+2025-07-29 22:05:12,076 - ERROR - ['AMZN']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-29 22:05:12,166 - INFO - AMZN completamente actualizado hasta 2025-07-18
+2025-07-29 22:05:14,057 - ERROR - 
+1 Failed download:
+2025-07-29 22:05:14,057 - ERROR - ['NVDA']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-29 22:05:14,073 - INFO - NVDA completamente actualizado hasta 2025-07-18
+2025-07-29 22:05:15,922 - ERROR - 
+1 Failed download:
+2025-07-29 22:05:15,922 - ERROR - ['AAPL']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-29 22:05:15,942 - INFO - AAPL completamente actualizado hasta 2025-07-18
+2025-07-29 22:05:18,378 - ERROR - 
+1 Failed download:
+2025-07-29 22:05:18,378 - ERROR - ['TSLA']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-29 22:05:18,392 - INFO - TSLA completamente actualizado hasta 2025-07-18
+2025-07-29 22:05:20,520 - ERROR - 
+1 Failed download:
+2025-07-29 22:05:20,520 - ERROR - ['MSFT']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-29 22:05:20,539 - INFO - MSFT completamente actualizado hasta 2025-07-18
+2025-07-29 22:05:22,623 - ERROR - 
+1 Failed download:
+2025-07-29 22:05:22,623 - ERROR - ['GC=F']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-29 22:05:22,638 - INFO - GC=F completamente actualizado hasta 2025-07-18
+2025-07-29 22:05:24,712 - ERROR - 
+1 Failed download:
+2025-07-29 22:05:24,712 - ERROR - ['ETH-USD']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-29 22:05:24,725 - INFO - ETH-USD completamente actualizado hasta 2025-07-19
+2025-07-29 22:05:26,858 - ERROR - 
+1 Failed download:
+2025-07-29 22:05:26,858 - ERROR - ['CL=F']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-29 22:05:26,876 - INFO - CL=F completamente actualizado hasta 2025-07-18
+2025-07-30 22:05:10,826 - INFO - AMZN actualizado hasta 2025-07-30
+2025-07-30 22:05:24,438 - INFO - AMZN completamente actualizado hasta 2025-07-29
+2025-07-30 22:05:24,738 - INFO - NVDA actualizado hasta 2025-07-30
+2025-07-30 22:05:44,083 - INFO - NVDA completamente actualizado hasta 2025-07-29
+2025-07-30 22:05:44,495 - INFO - AAPL actualizado hasta 2025-07-30
+2025-07-30 22:06:03,805 - INFO - AAPL completamente actualizado hasta 2025-07-29
+2025-07-30 22:06:04,070 - INFO - TSLA actualizado hasta 2025-07-30
+2025-07-30 22:06:18,325 - INFO - TSLA completamente actualizado hasta 2025-07-29
+2025-07-30 22:06:18,687 - INFO - MSFT actualizado hasta 2025-07-30
+2025-07-30 22:06:35,938 - INFO - MSFT completamente actualizado hasta 2025-07-29
+2025-07-30 22:06:36,237 - INFO - GC=F actualizado hasta 2025-07-30
+2025-07-30 22:06:46,937 - INFO - GC=F completamente actualizado hasta 2025-07-29
+2025-07-30 22:06:47,196 - INFO - ETH-USD actualizado hasta 2025-07-30
+2025-07-30 22:06:58,524 - INFO - ETH-USD completamente actualizado hasta 2025-07-28
+2025-07-30 22:06:58,826 - INFO - CL=F actualizado hasta 2025-07-30
+2025-07-30 22:07:09,964 - INFO - CL=F completamente actualizado hasta 2025-07-29
+2025-07-31 22:05:12,966 - ERROR - 
+1 Failed download:
+2025-07-31 22:05:12,966 - ERROR - ['AMZN']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-31 22:05:13,025 - INFO - AMZN completamente actualizado hasta 2025-07-29
+2025-07-31 22:05:15,287 - ERROR - 
+1 Failed download:
+2025-07-31 22:05:15,287 - ERROR - ['NVDA']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-31 22:05:15,304 - INFO - NVDA completamente actualizado hasta 2025-07-29
+2025-07-31 22:05:17,174 - ERROR - 
+1 Failed download:
+2025-07-31 22:05:17,174 - ERROR - ['AAPL']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-31 22:05:17,210 - INFO - AAPL completamente actualizado hasta 2025-07-29
+2025-07-31 22:05:19,411 - ERROR - 
+1 Failed download:
+2025-07-31 22:05:19,411 - ERROR - ['TSLA']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-31 22:05:19,424 - INFO - TSLA completamente actualizado hasta 2025-07-29
+2025-07-31 22:05:21,549 - ERROR - 
+1 Failed download:
+2025-07-31 22:05:21,549 - ERROR - ['MSFT']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-31 22:05:21,568 - INFO - MSFT completamente actualizado hasta 2025-07-29
+2025-07-31 22:05:23,666 - ERROR - 
+1 Failed download:
+2025-07-31 22:05:23,666 - ERROR - ['GC=F']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-31 22:05:23,682 - INFO - GC=F completamente actualizado hasta 2025-07-29
+2025-07-31 22:05:25,775 - ERROR - 
+1 Failed download:
+2025-07-31 22:05:25,775 - ERROR - ['ETH-USD']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-31 22:05:25,788 - INFO - ETH-USD completamente actualizado hasta 2025-07-28
+2025-07-31 22:05:27,927 - ERROR - 
+1 Failed download:
+2025-07-31 22:05:27,927 - ERROR - ['CL=F']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-07-31 22:05:27,941 - INFO - CL=F completamente actualizado hasta 2025-07-29
+2025-08-03 22:05:11,198 - ERROR - 
+1 Failed download:
+2025-08-03 22:05:11,198 - ERROR - ['AMZN']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-08-03 22:05:11,289 - INFO - AMZN completamente actualizado hasta 2025-07-29
+2025-08-03 22:05:13,548 - ERROR - 
+1 Failed download:
+2025-08-03 22:05:13,548 - ERROR - ['NVDA']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-08-03 22:05:13,563 - INFO - NVDA completamente actualizado hasta 2025-07-29
+2025-08-03 22:05:15,986 - ERROR - 
+1 Failed download:
+2025-08-03 22:05:15,986 - ERROR - ['AAPL']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-08-03 22:05:16,007 - INFO - AAPL completamente actualizado hasta 2025-07-29
+2025-08-03 22:05:18,159 - ERROR - 
+1 Failed download:
+2025-08-03 22:05:18,159 - ERROR - ['TSLA']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-08-03 22:05:18,171 - INFO - TSLA completamente actualizado hasta 2025-07-29
+2025-08-03 22:05:20,316 - ERROR - 
+1 Failed download:
+2025-08-03 22:05:20,316 - ERROR - ['MSFT']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-08-03 22:05:20,335 - INFO - MSFT completamente actualizado hasta 2025-07-29
+2025-08-03 22:05:22,697 - ERROR - 
+1 Failed download:
+2025-08-03 22:05:22,697 - ERROR - ['GC=F']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-08-03 22:05:22,712 - INFO - GC=F completamente actualizado hasta 2025-07-29
+2025-08-03 22:05:25,328 - ERROR - 
+1 Failed download:
+2025-08-03 22:05:25,328 - ERROR - ['ETH-USD']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-08-03 22:05:25,340 - INFO - ETH-USD completamente actualizado hasta 2025-07-28
+2025-08-03 22:05:27,497 - ERROR - 
+1 Failed download:
+2025-08-03 22:05:27,497 - ERROR - ['CL=F']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-08-03 22:05:27,512 - INFO - CL=F completamente actualizado hasta 2025-07-29
+2025-08-04 22:05:10,565 - INFO - AMZN actualizado hasta 2025-08-04
+2025-08-04 22:05:23,524 - INFO - AMZN completamente actualizado hasta 2025-08-01
+2025-08-04 22:05:23,823 - INFO - NVDA actualizado hasta 2025-08-04
+2025-08-04 22:05:42,814 - INFO - NVDA completamente actualizado hasta 2025-08-01
+2025-08-04 22:05:43,167 - INFO - AAPL actualizado hasta 2025-08-04
+2025-08-04 22:06:02,258 - INFO - AAPL completamente actualizado hasta 2025-08-01
+2025-08-04 22:06:02,522 - INFO - TSLA actualizado hasta 2025-08-04
+2025-08-04 22:06:15,622 - INFO - TSLA completamente actualizado hasta 2025-08-01
+2025-08-04 22:06:15,964 - INFO - MSFT actualizado hasta 2025-08-04
+2025-08-04 22:06:34,405 - INFO - MSFT completamente actualizado hasta 2025-08-01
+2025-08-04 22:06:34,694 - INFO - GC=F actualizado hasta 2025-08-04
+2025-08-04 22:06:54,418 - INFO - GC=F completamente actualizado hasta 2025-08-04
+2025-08-04 22:06:54,675 - INFO - ETH-USD actualizado hasta 2025-08-04
+2025-08-04 22:07:09,799 - INFO - ETH-USD completamente actualizado hasta 2025-08-02
+2025-08-04 22:07:10,098 - INFO - CL=F actualizado hasta 2025-08-04
+2025-08-04 22:07:24,064 - INFO - CL=F completamente actualizado hasta 2025-08-04
+2025-08-05 22:05:13,969 - ERROR - 
+1 Failed download:
+2025-08-05 22:05:13,969 - ERROR - ['AMZN']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-08-05 22:05:14,067 - INFO - AMZN completamente actualizado hasta 2025-08-01
+2025-08-05 22:05:16,158 - ERROR - 
+1 Failed download:
+2025-08-05 22:05:16,158 - ERROR - ['NVDA']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-08-05 22:05:16,174 - INFO - NVDA completamente actualizado hasta 2025-08-01
+2025-08-05 22:05:18,255 - ERROR - 
+1 Failed download:
+2025-08-05 22:05:18,255 - ERROR - ['AAPL']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-08-05 22:05:18,277 - INFO - AAPL completamente actualizado hasta 2025-08-01
+2025-08-05 22:05:20,357 - ERROR - 
+1 Failed download:
+2025-08-05 22:05:20,357 - ERROR - ['TSLA']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-08-05 22:05:20,368 - INFO - TSLA completamente actualizado hasta 2025-08-01
+2025-08-05 22:05:22,459 - ERROR - 
+1 Failed download:
+2025-08-05 22:05:22,459 - ERROR - ['MSFT']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-08-05 22:05:22,480 - INFO - MSFT completamente actualizado hasta 2025-08-01
+2025-08-05 22:05:24,599 - ERROR - 
+1 Failed download:
+2025-08-05 22:05:24,599 - ERROR - ['GC=F']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-08-05 22:05:24,613 - INFO - GC=F completamente actualizado hasta 2025-08-04
+2025-08-05 22:05:26,978 - ERROR - 
+1 Failed download:
+2025-08-05 22:05:26,978 - ERROR - ['ETH-USD']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-08-05 22:05:26,991 - INFO - ETH-USD completamente actualizado hasta 2025-08-02
+2025-08-05 22:05:28,907 - ERROR - 
+1 Failed download:
+2025-08-05 22:05:28,907 - ERROR - ['CL=F']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-08-05 22:05:28,924 - INFO - CL=F completamente actualizado hasta 2025-08-04
+2025-08-06 22:05:09,826 - INFO - AMZN actualizado hasta 2025-08-06
+2025-08-06 22:05:26,927 - INFO - AMZN completamente actualizado hasta 2025-08-05
+2025-08-06 22:05:27,217 - INFO - NVDA actualizado hasta 2025-08-06
+2025-08-06 22:05:44,456 - INFO - NVDA completamente actualizado hasta 2025-08-05
+2025-08-06 22:05:44,844 - INFO - AAPL actualizado hasta 2025-08-06
+2025-08-06 22:06:01,945 - INFO - AAPL completamente actualizado hasta 2025-08-05
+2025-08-06 22:06:02,215 - INFO - TSLA actualizado hasta 2025-08-06
+2025-08-06 22:06:12,497 - INFO - TSLA completamente actualizado hasta 2025-08-05
+2025-08-06 22:06:12,832 - INFO - MSFT actualizado hasta 2025-08-06
+2025-08-06 22:06:23,014 - INFO - MSFT completamente actualizado hasta 2025-08-05
+2025-08-06 22:06:23,295 - INFO - GC=F actualizado hasta 2025-08-06
+2025-08-06 22:06:34,011 - INFO - GC=F completamente actualizado hasta 2025-08-05
+2025-08-06 22:06:34,263 - INFO - ETH-USD actualizado hasta 2025-08-06
+2025-08-06 22:06:49,231 - INFO - ETH-USD completamente actualizado hasta 2025-08-04
+2025-08-06 22:06:49,512 - INFO - CL=F actualizado hasta 2025-08-06
+2025-08-06 22:07:08,779 - INFO - CL=F completamente actualizado hasta 2025-08-05
+2025-08-07 22:05:10,782 - ERROR - 
+1 Failed download:
+2025-08-07 22:05:10,783 - ERROR - ['AMZN']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-08-07 22:05:10,886 - INFO - AMZN completamente actualizado hasta 2025-08-05
+2025-08-07 22:05:12,921 - ERROR - 
+1 Failed download:
+2025-08-07 22:05:12,921 - ERROR - ['NVDA']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-08-07 22:05:12,937 - INFO - NVDA completamente actualizado hasta 2025-08-05
+2025-08-07 22:05:15,041 - ERROR - 
+1 Failed download:
+2025-08-07 22:05:15,041 - ERROR - ['AAPL']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-08-07 22:05:15,061 - INFO - AAPL completamente actualizado hasta 2025-08-05
+2025-08-07 22:05:16,944 - ERROR - 
+1 Failed download:
+2025-08-07 22:05:16,944 - ERROR - ['TSLA']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-08-07 22:05:16,955 - INFO - TSLA completamente actualizado hasta 2025-08-05
+2025-08-07 22:05:19,538 - ERROR - 
+1 Failed download:
+2025-08-07 22:05:19,538 - ERROR - ['MSFT']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-08-07 22:05:19,556 - INFO - MSFT completamente actualizado hasta 2025-08-05
+2025-08-07 22:05:22,094 - ERROR - 
+1 Failed download:
+2025-08-07 22:05:22,094 - ERROR - ['GC=F']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-08-07 22:05:22,111 - INFO - GC=F completamente actualizado hasta 2025-08-05
+2025-08-07 22:05:24,196 - ERROR - 
+1 Failed download:
+2025-08-07 22:05:24,196 - ERROR - ['ETH-USD']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-08-07 22:05:24,207 - INFO - ETH-USD completamente actualizado hasta 2025-08-04
+2025-08-07 22:05:26,648 - ERROR - 
+1 Failed download:
+2025-08-07 22:05:26,648 - ERROR - ['CL=F']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-08-07 22:05:26,663 - INFO - CL=F completamente actualizado hasta 2025-08-05
+2025-08-09 22:05:11,946 - ERROR - 
+1 Failed download:
+2025-08-09 22:05:11,958 - ERROR - ['AMZN']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-08-09 22:05:12,047 - INFO - AMZN completamente actualizado hasta 2025-08-05
+2025-08-09 22:05:14,384 - ERROR - 
+1 Failed download:
+2025-08-09 22:05:14,384 - ERROR - ['NVDA']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-08-09 22:05:14,403 - INFO - NVDA completamente actualizado hasta 2025-08-05
+2025-08-09 22:05:16,712 - ERROR - 
+1 Failed download:
+2025-08-09 22:05:16,712 - ERROR - ['AAPL']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-08-09 22:05:16,733 - INFO - AAPL completamente actualizado hasta 2025-08-05
+2025-08-09 22:05:18,597 - ERROR - 
+1 Failed download:
+2025-08-09 22:05:18,597 - ERROR - ['TSLA']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-08-09 22:05:18,613 - INFO - TSLA completamente actualizado hasta 2025-08-05
+2025-08-09 22:05:20,681 - ERROR - 
+1 Failed download:
+2025-08-09 22:05:20,681 - ERROR - ['MSFT']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-08-09 22:05:20,701 - INFO - MSFT completamente actualizado hasta 2025-08-05
+2025-08-09 22:05:22,775 - ERROR - 
+1 Failed download:
+2025-08-09 22:05:22,775 - ERROR - ['GC=F']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-08-09 22:05:22,790 - INFO - GC=F completamente actualizado hasta 2025-08-05
+2025-08-09 22:05:25,029 - ERROR - 
+1 Failed download:
+2025-08-09 22:05:25,029 - ERROR - ['ETH-USD']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-08-09 22:05:25,039 - INFO - ETH-USD completamente actualizado hasta 2025-08-04
+2025-08-09 22:05:27,391 - ERROR - 
+1 Failed download:
+2025-08-09 22:05:27,391 - ERROR - ['CL=F']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-08-09 22:05:27,405 - INFO - CL=F completamente actualizado hasta 2025-08-05
+2025-08-11 22:05:14,249 - ERROR - 
+1 Failed download:
+2025-08-11 22:05:14,292 - ERROR - ['AMZN']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-08-11 22:05:14,388 - INFO - AMZN completamente actualizado hasta 2025-08-05
+2025-08-11 22:05:16,606 - ERROR - 
+1 Failed download:
+2025-08-11 22:05:16,607 - ERROR - ['NVDA']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-08-11 22:05:16,662 - INFO - NVDA completamente actualizado hasta 2025-08-05
+2025-08-11 22:05:18,790 - ERROR - 
+1 Failed download:
+2025-08-11 22:05:18,791 - ERROR - ['AAPL']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-08-11 22:05:18,868 - INFO - AAPL completamente actualizado hasta 2025-08-05
+2025-08-11 22:05:20,905 - ERROR - 
+1 Failed download:
+2025-08-11 22:05:20,906 - ERROR - ['TSLA']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-08-11 22:05:20,962 - INFO - TSLA completamente actualizado hasta 2025-08-05
+2025-08-11 22:05:23,037 - ERROR - 
+1 Failed download:
+2025-08-11 22:05:23,037 - ERROR - ['MSFT']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-08-11 22:05:23,092 - INFO - MSFT completamente actualizado hasta 2025-08-05
+2025-08-11 22:05:25,262 - ERROR - 
+1 Failed download:
+2025-08-11 22:05:25,262 - ERROR - ['GC=F']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-08-11 22:05:25,323 - INFO - GC=F completamente actualizado hasta 2025-08-05
+2025-08-11 22:05:27,669 - ERROR - 
+1 Failed download:
+2025-08-11 22:05:27,669 - ERROR - ['ETH-USD']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-08-11 22:05:27,680 - INFO - ETH-USD completamente actualizado hasta 2025-08-04
+2025-08-11 22:05:30,111 - ERROR - 
+1 Failed download:
+2025-08-11 22:05:30,111 - ERROR - ['CL=F']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-08-11 22:05:30,162 - INFO - CL=F completamente actualizado hasta 2025-08-05
+2025-08-12 22:05:11,626 - ERROR - 
+1 Failed download:
+2025-08-12 22:05:11,626 - ERROR - ['AMZN']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-08-12 22:05:11,704 - INFO - AMZN completamente actualizado hasta 2025-08-05
+2025-08-12 22:05:13,793 - ERROR - 
+1 Failed download:
+2025-08-12 22:05:13,793 - ERROR - ['NVDA']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-08-12 22:05:13,807 - INFO - NVDA completamente actualizado hasta 2025-08-05
+2025-08-12 22:05:15,896 - ERROR - 
+1 Failed download:
+2025-08-12 22:05:15,896 - ERROR - ['AAPL']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-08-12 22:05:15,916 - INFO - AAPL completamente actualizado hasta 2025-08-05
+2025-08-12 22:05:18,084 - ERROR - 
+1 Failed download:
+2025-08-12 22:05:18,084 - ERROR - ['TSLA']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-08-12 22:05:18,095 - INFO - TSLA completamente actualizado hasta 2025-08-05
+2025-08-12 22:05:20,774 - ERROR - 
+1 Failed download:
+2025-08-12 22:05:20,774 - ERROR - ['MSFT']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-08-12 22:05:20,793 - INFO - MSFT completamente actualizado hasta 2025-08-05
+2025-08-12 22:05:22,845 - ERROR - 
+1 Failed download:
+2025-08-12 22:05:22,845 - ERROR - ['GC=F']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-08-12 22:05:22,857 - INFO - GC=F completamente actualizado hasta 2025-08-05
+2025-08-12 22:05:24,907 - ERROR - 
+1 Failed download:
+2025-08-12 22:05:24,907 - ERROR - ['ETH-USD']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-08-12 22:05:24,917 - INFO - ETH-USD completamente actualizado hasta 2025-08-04
+2025-08-12 22:05:27,342 - ERROR - 
+1 Failed download:
+2025-08-12 22:05:27,342 - ERROR - ['CL=F']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-08-12 22:05:27,355 - INFO - CL=F completamente actualizado hasta 2025-08-05
+2025-08-13 22:05:15,907 - ERROR - 
+1 Failed download:
+2025-08-13 22:05:15,908 - ERROR - ['AMZN']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-08-13 22:05:16,086 - INFO - AMZN completamente actualizado hasta 2025-08-05
+2025-08-13 22:05:18,168 - ERROR - 
+1 Failed download:
+2025-08-13 22:05:18,168 - ERROR - ['NVDA']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-08-13 22:05:18,188 - INFO - NVDA completamente actualizado hasta 2025-08-05
+2025-08-13 22:05:20,265 - ERROR - 
+1 Failed download:
+2025-08-13 22:05:20,265 - ERROR - ['AAPL']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-08-13 22:05:20,286 - INFO - AAPL completamente actualizado hasta 2025-08-05
+2025-08-13 22:05:22,261 - ERROR - 
+1 Failed download:
+2025-08-13 22:05:22,261 - ERROR - ['TSLA']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-08-13 22:05:22,274 - INFO - TSLA completamente actualizado hasta 2025-08-05
+2025-08-13 22:05:24,355 - ERROR - 
+1 Failed download:
+2025-08-13 22:05:24,355 - ERROR - ['MSFT']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-08-13 22:05:24,374 - INFO - MSFT completamente actualizado hasta 2025-08-05
+2025-08-13 22:05:26,742 - ERROR - 
+1 Failed download:
+2025-08-13 22:05:26,742 - ERROR - ['GC=F']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-08-13 22:05:26,757 - INFO - GC=F completamente actualizado hasta 2025-08-05
+2025-08-13 22:05:28,603 - ERROR - 
+1 Failed download:
+2025-08-13 22:05:28,603 - ERROR - ['ETH-USD']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-08-13 22:05:28,615 - INFO - ETH-USD completamente actualizado hasta 2025-08-04
+2025-08-13 22:05:30,607 - ERROR - 
+1 Failed download:
+2025-08-13 22:05:30,607 - ERROR - ['CL=F']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-08-13 22:05:30,623 - INFO - CL=F completamente actualizado hasta 2025-08-05
+2025-08-16 22:05:13,934 - ERROR - 
+1 Failed download:
+2025-08-16 22:05:13,934 - ERROR - ['AMZN']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-08-16 22:05:14,054 - INFO - AMZN completamente actualizado hasta 2025-08-05
+2025-08-16 22:05:16,358 - ERROR - 
+1 Failed download:
+2025-08-16 22:05:16,358 - ERROR - ['NVDA']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-08-16 22:05:16,374 - INFO - NVDA completamente actualizado hasta 2025-08-05
+2025-08-16 22:05:18,457 - ERROR - 
+1 Failed download:
+2025-08-16 22:05:18,457 - ERROR - ['AAPL']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-08-16 22:05:18,480 - INFO - AAPL completamente actualizado hasta 2025-08-05
+2025-08-16 22:05:20,352 - ERROR - 
+1 Failed download:
+2025-08-16 22:05:20,352 - ERROR - ['TSLA']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-08-16 22:05:20,366 - INFO - TSLA completamente actualizado hasta 2025-08-05
+2025-08-16 22:05:22,524 - ERROR - 
+1 Failed download:
+2025-08-16 22:05:22,524 - ERROR - ['MSFT']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-08-16 22:05:22,545 - INFO - MSFT completamente actualizado hasta 2025-08-05
+2025-08-16 22:05:24,625 - ERROR - 
+1 Failed download:
+2025-08-16 22:05:24,625 - ERROR - ['GC=F']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-08-16 22:05:24,646 - INFO - GC=F completamente actualizado hasta 2025-08-05
+2025-08-16 22:05:26,549 - ERROR - 
+1 Failed download:
+2025-08-16 22:05:26,549 - ERROR - ['ETH-USD']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-08-16 22:05:26,561 - INFO - ETH-USD completamente actualizado hasta 2025-08-04
+2025-08-16 22:05:28,656 - ERROR - 
+1 Failed download:
+2025-08-16 22:05:28,656 - ERROR - ['CL=F']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-08-16 22:05:28,672 - INFO - CL=F completamente actualizado hasta 2025-08-05
+2025-08-17 22:05:15,599 - ERROR - 
+1 Failed download:
+2025-08-17 22:05:15,599 - ERROR - ['AMZN']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-08-17 22:05:15,923 - INFO - AMZN completamente actualizado hasta 2025-08-05
+2025-08-17 22:05:17,918 - ERROR - 
+1 Failed download:
+2025-08-17 22:05:17,918 - ERROR - ['NVDA']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-08-17 22:05:17,940 - INFO - NVDA completamente actualizado hasta 2025-08-05
+2025-08-17 22:05:20,433 - ERROR - 
+1 Failed download:
+2025-08-17 22:05:20,433 - ERROR - ['AAPL']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-08-17 22:05:20,599 - INFO - AAPL completamente actualizado hasta 2025-08-05
+2025-08-17 22:05:22,699 - ERROR - 
+1 Failed download:
+2025-08-17 22:05:22,699 - ERROR - ['TSLA']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-08-17 22:05:22,716 - INFO - TSLA completamente actualizado hasta 2025-08-05
+2025-08-17 22:05:24,878 - ERROR - 
+1 Failed download:
+2025-08-17 22:05:24,878 - ERROR - ['MSFT']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-08-17 22:05:24,909 - INFO - MSFT completamente actualizado hasta 2025-08-05
+2025-08-17 22:05:26,984 - ERROR - 
+1 Failed download:
+2025-08-17 22:05:26,984 - ERROR - ['GC=F']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-08-17 23:26:46,197 - INFO - GC=F completamente actualizado hasta 2025-08-05
+2025-08-17 23:26:49,727 - ERROR - 
+1 Failed download:
+2025-08-17 23:26:49,727 - ERROR - ['ETH-USD']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-08-17 23:26:49,761 - INFO - ETH-USD completamente actualizado hasta 2025-08-04
+2025-08-17 23:26:51,850 - ERROR - 
+1 Failed download:
+2025-08-17 23:26:51,850 - ERROR - ['CL=F']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-08-17 23:26:51,867 - INFO - CL=F completamente actualizado hasta 2025-08-05
+2025-08-18 22:05:14,158 - ERROR - 
+1 Failed download:
+2025-08-18 22:05:14,159 - ERROR - ['AMZN']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-08-18 22:05:14,221 - INFO - AMZN completamente actualizado hasta 2025-08-05
+2025-08-18 22:05:16,586 - ERROR - 
+1 Failed download:
+2025-08-18 22:05:16,586 - ERROR - ['NVDA']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-08-18 22:05:16,603 - INFO - NVDA completamente actualizado hasta 2025-08-05
+2025-08-18 22:05:18,946 - ERROR - 
+1 Failed download:
+2025-08-18 22:05:18,946 - ERROR - ['AAPL']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-08-18 22:05:18,970 - INFO - AAPL completamente actualizado hasta 2025-08-05
+2025-08-18 22:05:21,273 - ERROR - 
+1 Failed download:
+2025-08-18 22:05:21,273 - ERROR - ['TSLA']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-08-18 22:05:21,286 - INFO - TSLA completamente actualizado hasta 2025-08-05
+2025-08-18 22:05:23,473 - ERROR - 
+1 Failed download:
+2025-08-18 22:05:23,473 - ERROR - ['MSFT']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-08-18 22:05:23,497 - INFO - MSFT completamente actualizado hasta 2025-08-05
+2025-08-18 22:05:25,604 - ERROR - 
+1 Failed download:
+2025-08-18 22:05:25,604 - ERROR - ['GC=F']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-08-18 22:05:25,620 - INFO - GC=F completamente actualizado hasta 2025-08-05
+2025-08-18 22:05:27,673 - ERROR - 
+1 Failed download:
+2025-08-18 22:05:27,673 - ERROR - ['ETH-USD']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-08-18 22:05:27,686 - INFO - ETH-USD completamente actualizado hasta 2025-08-04
+2025-08-18 22:05:29,506 - ERROR - 
+1 Failed download:
+2025-08-18 22:05:29,506 - ERROR - ['CL=F']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-08-18 22:05:29,523 - INFO - CL=F completamente actualizado hasta 2025-08-05
+2025-08-27 12:05:08,390 - INFO - AMZN actualizado hasta 2025-08-27
+2025-08-27 12:05:21,555 - INFO - AMZN completamente actualizado hasta 2025-08-26
+2025-08-27 12:05:21,856 - INFO - NVDA actualizado hasta 2025-08-27
+2025-08-27 12:05:40,344 - INFO - NVDA completamente actualizado hasta 2025-08-26
+2025-08-27 12:05:40,697 - INFO - AAPL actualizado hasta 2025-08-27
+2025-08-27 12:05:58,329 - INFO - AAPL completamente actualizado hasta 2025-08-26
+2025-08-27 12:05:58,588 - INFO - TSLA actualizado hasta 2025-08-27
+2025-08-27 12:06:10,467 - INFO - TSLA completamente actualizado hasta 2025-08-26
+2025-08-27 12:06:10,815 - INFO - MSFT actualizado hasta 2025-08-27
+2025-08-27 12:06:24,632 - INFO - MSFT completamente actualizado hasta 2025-08-26
+2025-08-27 12:06:24,894 - INFO - GC=F actualizado hasta 2025-08-27
+2025-08-27 12:06:39,073 - INFO - GC=F completamente actualizado hasta 2025-08-26
+2025-08-27 12:06:39,316 - INFO - ETH-USD actualizado hasta 2025-08-27
+2025-08-27 12:06:50,358 - INFO - ETH-USD completamente actualizado hasta 2025-08-26
+2025-08-27 12:06:50,626 - INFO - CL=F actualizado hasta 2025-08-27
+2025-08-27 12:07:02,493 - INFO - CL=F completamente actualizado hasta 2025-08-26
+2025-08-28 16:49:01,533 - INFO - AMZN actualizado hasta 2025-08-28
+2025-08-28 16:49:18,463 - INFO - AMZN completamente actualizado hasta 2025-08-27
+2025-08-28 16:49:19,294 - INFO - NVDA actualizado hasta 2025-08-28
+2025-08-28 16:49:31,116 - INFO - NVDA completamente actualizado hasta 2025-08-27
+2025-08-28 16:49:31,836 - INFO - AAPL actualizado hasta 2025-08-28
+2025-08-28 16:49:48,588 - INFO - AAPL completamente actualizado hasta 2025-08-27
+2025-08-28 16:49:49,194 - INFO - TSLA actualizado hasta 2025-08-28
+2025-08-28 16:50:07,188 - INFO - TSLA completamente actualizado hasta 2025-08-27
+2025-08-28 16:50:08,061 - INFO - MSFT actualizado hasta 2025-08-28
+2025-08-28 16:50:26,509 - INFO - MSFT completamente actualizado hasta 2025-08-27
+2025-08-28 16:50:27,375 - INFO - GC=F actualizado hasta 2025-08-28
+2025-08-28 16:50:45,997 - INFO - GC=F completamente actualizado hasta 2025-08-27
+2025-08-28 16:50:46,628 - INFO - ETH-USD actualizado hasta 2025-08-28
+2025-08-28 16:51:01,781 - INFO - ETH-USD completamente actualizado hasta 2025-08-27
+2025-08-28 16:51:02,670 - INFO - CL=F actualizado hasta 2025-08-28
+2025-08-28 16:51:15,361 - INFO - CL=F completamente actualizado hasta 2025-08-27
