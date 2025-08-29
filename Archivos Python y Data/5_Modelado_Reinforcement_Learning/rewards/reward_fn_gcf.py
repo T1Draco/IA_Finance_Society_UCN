@@ -1,7 +1,7 @@
 import numpy as np
 
 
-def reward_fn_clf(env, action, row, price, capital_gain):
+def reward_fn_gcf(env, action, row, price, capital_gain):
     """
     Función de recompensa específica para trading de oro (GC=F).
 

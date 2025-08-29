@@ -11,7 +11,7 @@ ROOT_DIR = os.path.abspath(os.path.join(CURRENT_DIR, '..'))
 if ROOT_DIR not in sys.path:
     sys.path.insert(0, ROOT_DIR)
 from env.stock_trading_env import StockTradingEnv
-from rewards.reward_fn_clf import reward_fn_clf
+from rewards.reward_fn_gcf import reward_fn_gcf
 
 # === Configuración ===
 TICKER = "GC=F"  # Símbolo de oro (reemplazando = por _ para nombres de archivo)
