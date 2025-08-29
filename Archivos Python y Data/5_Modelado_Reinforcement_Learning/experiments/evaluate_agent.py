@@ -8,8 +8,8 @@ from stable_baselines3 import DQN
 from stable_baselines3.common.vec_env import DummyVecEnv, VecFrameStack
 
 # === CONFIGURACIÓN ===
-TICKER_MODEL = "AAPL"
-TICKER_DATA = "AAPL"
+TICKER_MODEL = "GC=F"
+TICKER_DATA = "GC=F"
 N_STACK = 10
 USE_SMALL_INVESTOR = True
 
