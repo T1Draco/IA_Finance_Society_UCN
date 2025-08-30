@@ -20,7 +20,7 @@ TOTAL_TIMESTEPS = 150_000
 # === Rutas ===
 CURRENT_DIR = os.path.dirname(__file__)
 ROOT_DIR = os.path.abspath(os.path.join(CURRENT_DIR, ".."))
-MODEL_DIR = os.path.join(ROOT_DIR, "results", "models")
+MODEL_DIR = os.path.join(ROOT_DIR, "models")
 LOG_DIR = os.path.join(ROOT_DIR, "results", "tb_logs", f"{TICKER}_tensorboard", "DQN_1")
 DATA_PATH = os.path.join(ROOT_DIR, "data", "rl_input", f"{TICKER}_rl_input.csv")
 os.makedirs(MODEL_DIR, exist_ok=True)

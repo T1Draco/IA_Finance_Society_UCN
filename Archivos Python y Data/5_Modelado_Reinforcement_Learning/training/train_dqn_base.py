@@ -22,7 +22,7 @@ USE_SMALL_INVESTOR = True  # Cambia esto a True para usar el entorno del inverso
 # === Cargar datos ===
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_PATH = os.path.join(ROOT_DIR, "data", "rl_input", f"{TICKER}_rl_input.csv")
-MODEL_PATH = os.path.join(ROOT_DIR, "results", "models", f"{TICKER}_dqn_model")
+MODEL_PATH = os.path.join(ROOT_DIR, "models", f"{TICKER}_dqn_model")
 
 df = pd.read_csv(DATA_PATH, parse_dates=["Date"])
 

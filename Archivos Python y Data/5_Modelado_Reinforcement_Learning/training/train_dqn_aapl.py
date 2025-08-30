@@ -11,16 +11,16 @@ ROOT_DIR = os.path.abspath(os.path.join(CURRENT_DIR, '..'))
 if ROOT_DIR not in sys.path:
     sys.path.insert(0, ROOT_DIR)
 from env.stock_trading_env import StockTradingEnv
-from rewards.reward_fn_gcf import reward_fn_gcf
+from rewards.reward_fn_aapl import reward_fn_aapl
 
 # === Configuración ===
-TICKER = "GC=F"  # Símbolo de oro (reemplazando = por _ para nombres de archivo)
-TOTAL_TIMESTEPS = 200_000
+TICKER = "AAPL"
+TOTAL_TIMESTEPS = 150_000
 
 # === Rutas ===
 CURRENT_DIR = os.path.dirname(__file__)
 ROOT_DIR = os.path.abspath(os.path.join(CURRENT_DIR, ".."))
-MODEL_DIR = os.path.join(ROOT_DIR, "results", "models")
+MODEL_DIR = os.path.join(ROOT_DIR, "models")
 LOG_DIR = os.path.join(ROOT_DIR, "results", "tb_logs", f"{TICKER}_tensorboard", "DQN_1")
 DATA_PATH = os.path.join(ROOT_DIR, "data", "rl_input", f"{TICKER}_rl_input.csv")
 os.makedirs(MODEL_DIR, exist_ok=True)
@@ -31,7 +31,7 @@ df = pd.read_csv(DATA_PATH)
 
 # === Inicializa entorno con función de recompensa ===
 def make_env():
-    env = StockTradingEnv(df, transaction_cost=0.0015, max_shares_per_trade=5, reward_fn=reward_fn_clf)
+    env = StockTradingEnv(df, transaction_cost=0.002, max_shares_per_trade=3, reward_fn=reward_fn_aapl)
     return Monitor(env)
 
 env = DummyVecEnv([make_env])
@@ -40,11 +40,11 @@ env = DummyVecEnv([make_env])
 model = DQN("MlpPolicy", env, verbose=1, device="cuda")
 episode_rewards = []
 model.learn(total_timesteps=TOTAL_TIMESTEPS)
-
 # === Simulación posterior al entrenamiento (no durante) ===
 obs = env.reset()
 done = False
 total_rewards = []
+losses = []
 steps = 0
 
 while not done:
@@ -70,6 +70,7 @@ PLOT_DIR = os.path.join(ROOT_DIR, "results", "plots","rewards", TICKER)
 os.makedirs(PLOT_DIR, exist_ok=True)
 plt.savefig(os.path.join(PLOT_DIR, f"{TICKER}_reward_acumulado.png"))
 plt.close()
+
 
 # === Guardar modelo ===
 model_path = os.path.join(MODEL_DIR, f"{TICKER}_dqn_model.zip")
