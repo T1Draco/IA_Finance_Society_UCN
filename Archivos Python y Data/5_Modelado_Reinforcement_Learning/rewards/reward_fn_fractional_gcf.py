@@ -1,7 +1,7 @@
 import numpy as np
 
 
-def reward_fn_gcf_fractional(env, action_value, row, price, capital_gain):
+def reward_fn_fractional_gcf(env, action_value, row, price, capital_gain):
     """
     Función de recompensa para trading fraccionario de oro (GC=F).
 
