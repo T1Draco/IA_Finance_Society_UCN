@@ -34,12 +34,18 @@ class SimpleTradingEnv(Env):
 
     def reset(self, seed=None, options=None):
         super().reset(seed=seed)
-        self.current_step = self.min_step  # Empezar en 1 para tener observación de 0
+        self.current_step = self.min_step
         self.balance = self.initial_balance
-        self.shares_held = 0
-        self.net_worth = self.initial_balance
-        self.previous_net_worth = self.initial_balance
-        return self._get_observation(), {}
+        # Inicializar shares_held con 10% del balance inicial basado en el precio del primer paso
+        initial_price = self.df.iloc[self.min_step - 1]['Close']
+        if initial_price <= 0:
+            raise ValueError("El precio inicial es inválido (menor o igual a 0)")
+        self.shares_held = (self.initial_balance * 0.1) / initial_price  # 10% del balance en acciones
+        self.net_worth = self.balance + self.shares_held * initial_price
+        self.previous_net_worth = self.net_worth
+        observation = self._get_observation()
+        info = {}  # Diccionario vacío para info adicional
+        return observation, info  # Devolver explícitamente la tupla
 
     def _get_observation(self):
         # Siempre usa datos de t-1 (evita leakage)
@@ -76,7 +82,7 @@ class SimpleTradingEnv(Env):
         self.net_worth = self.balance + self.shares_held * current_price
 
         # Reward simple: cambio incremental en net_worth
-        reward = self.net_worth - self.previous_net_worth
+        reward = (self.net_worth - self.previous_net_worth) / self.initial_balance  # Normalización por balance inicial
         self.previous_net_worth = self.net_worth
 
         # Avanzar paso

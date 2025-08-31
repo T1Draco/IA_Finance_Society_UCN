@@ -16,7 +16,7 @@ import stock_trading_env
 TICKER = "AAPL"  # Cambia al ticker deseado
 DATA_PATH = os.path.join(PROJECT_ROOT, 'Archivos Python y Data', '5_Modelado_Reinforcement_Learning','data', 'rl_input', f'{TICKER}_rl_input.csv')
 INITIAL_BALANCE = 10000
-TOTAL_TIMESTEPS = 100000  # Ajusta según tamaño del dataset
+TOTAL_TIMESTEPS = 50000  # Ajusta según tamaño del dataset
 SAVE_DIR = os.path.join(PROJECT_ROOT, 'Archivos Python y Data', '5_Modelado_Reinforcement_Learning', 'models', f'{TICKER}_sac_simple')
 os.makedirs(SAVE_DIR, exist_ok=True)
 
@@ -35,7 +35,7 @@ eval_callback = EvalCallback(eval_env, best_model_save_path=SAVE_DIR, log_path=S
 
 # Crear modelo SAC con configuración simple
 model = SAC(
-    "MlpPolicy",  # Política MLP (red neuronal simple)
+    "MlpPolicy",
     train_env,
     learning_rate=0.0003,
     buffer_size=100000,
@@ -43,8 +43,10 @@ model = SAC(
     tau=0.005,
     gamma=0.99,
     verbose=1,
-    device="cuda"  # Cambia a "cuda" si tienes GPU
+    device="cuda",
+    ent_coef=0.1  # Valor fijo para más exploración
 )
+
 
 # Entrenar
 model.learn(
