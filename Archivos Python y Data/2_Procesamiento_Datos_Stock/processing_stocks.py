@@ -45,6 +45,13 @@ for archivo in os.listdir(RAW_DATA_DIR):
         # Eliminar la primera fila con NaN (causado por pct_change, RSI, etc.)
         df.dropna(subset=["Close", "retorno_simple"], inplace=True)
 
+        # Eliminar filas con NaN generados por SMA, RSI, MACD, etc.
+        columnas_a_verificar = ["Close", "retorno_simple", "SMA_20", "SMA_50", "RSI_14", "MACD", "MACD_signal"]
+        df.dropna(subset=columnas_a_verificar, inplace=True)
+
+        # Resetear índice después de la limpieza
+        df.reset_index(drop=True, inplace=True)
+
         # Guardar archivo procesado
         ruta_salida = os.path.join(PROCESSED_DATA_DIR, f"{ticker}_processed.csv")
         df.to_csv(ruta_salida, index=False)
